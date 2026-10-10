@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>卡密导航 — 发卡网 · AI账号 · 卡密商城 · 游戏充值 可靠度排行</title>
-<meta name="description" content="卡密导航收录全网发卡平台、AI账号商城、卡密商城、游戏账号与充值代充网站，按可靠度逐项验证打分排序，每日复查更新。提交收录、商务合作请联系。">
+<meta name="description" content="卡密导航收录全网发卡平台、AI账号商城、卡密商城、游戏账号与充值代充网站，按可靠度逐项验证打分排序；热门商品（谷歌邮箱、ChatGPT Plus 代充、Steam 游戏 Key 等）跨站比价，哪家最便宜一目了然。每日复查更新。">
 <meta name="keywords" content="发卡网,卡密,卡密商城,AI账号购买,ChatGPT账号,自动发卡,游戏账号交易,充值代充,导航">
 <meta name="author" content="卡密导航">
 <link rel="canonical" href="https://jxsite.github.io/kami-nav/">
@@ -73,12 +73,33 @@ footer{text-align:center;color:var(--muted);font-size:12px;padding:24px 16px;bor
 footer .warn{max-width:720px;margin:0 auto 10px;color:#92400e}
 .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#1a1d21;color:#fff;font-size:13px;padding:10px 18px;border-radius:9px;opacity:0;transition:opacity .25s;pointer-events:none;z-index:99}
 .toast.show{opacity:1}
+.hotwrap{max-width:1080px;margin:0 auto;padding:14px 12px 0}
+.hot-title{font-size:16px;font-weight:700;margin:2px 4px 10px}
+.hot-title span{font-size:12px;color:var(--muted);font-weight:normal}
+.hot-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+@media(min-width:640px){.hot-grid{grid-template-columns:repeat(5,1fr)}}
+.hot-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 6px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+.hot-card:active{transform:scale(.97)}
+.hot-icon{font-size:22px}
+.hot-name{font-size:13px;font-weight:600}
+.hot-n{font-size:11px;color:var(--muted)}
+.backbtn{border:1px solid var(--line);background:#fff;border-radius:9px;padding:8px 14px;font-size:13.5px;cursor:pointer;margin-bottom:12px}
+.sortbar{display:flex;gap:8px;margin:0 4px 8px}
+.sortbar button{border:1px solid var(--line);background:#fff;border-radius:18px;padding:7px 14px;font-size:13px;cursor:pointer}
+.sortbar button.active{background:var(--acc);color:#fff;border-color:var(--acc)}
+.fxnote{font-size:12px;color:var(--muted);margin:0 4px 12px}
+.price-row{display:flex;align-items:center;justify-content:space-between}
+.price{font-size:22px;font-weight:800;color:#b45309}
+.cheap{font-size:11.5px;background:#fef3c7;color:#92400e;border-radius:10px;padding:2px 8px}
+.spec{color:var(--muted);font-size:12.5px}
+.miniprods{display:flex;flex-wrap:wrap;gap:6px}
+.miniprod{font-size:12px;border:1px solid var(--line);background:#f9fafb;border-radius:14px;padding:4px 10px;cursor:pointer}
 </style>
 </head>
 <body>
 <header class="hero">
   <h1>卡密导航</h1>
-  <p>发卡网 · AI账号 · 卡密商城 · 游戏充值 —— 按可靠度验证排序，每日复查</p>
+  <p>发卡网 · AI账号 · 卡密商城 · 游戏充值 —— 按可靠度验证排序，热门商品跨站比价，每日复查</p>
   <div class="searchbar">
     <input id="q" type="search" placeholder="搜索网站名称 / 简介 / 域名…" aria-label="搜索">
     <button onclick="doSearch()">搜索</button>
@@ -86,6 +107,7 @@ footer .warn{max-width:720px;margin:0 auto 10px;color:#92400e}
   <div class="updated" id="updated"></div>
 </header>
 <nav class="cats" id="catnav" aria-label="分类"></nav>
+<section class="hotwrap" id="hot-products" aria-label="热门商品比价"></section>
 <main id="main"></main>
 
 <section class="panel" style="max-width:1080px;margin:0 auto 24px" id="submit-panel">

@@ -1,7 +1,8 @@
 /* 卡密导航站点数据 — 每日自动验证更新。字段：
    name: 网站名, url: 首页地址, category: faka|kami|ai-account|game-topup,
    desc: 一句话简介, score: 可靠度0-100, signals: 加分依据[], risks: 风险点[],
-   verified: 验证日期, status: ok|down, down_days: 连续无法访问天数 */
+   verified: 验证日期, status: ok|down, down_days: 连续无法访问天数,
+   products: [{pid, name, spec, price, currency, buy_url, stock, pverified}] */
 const UPDATED_AT = "2026-10-11";
 const SITES = [
   {
@@ -24,7 +25,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring（PC Steam Key）",
+        "spec": "标准版",
+        "price": 59.99,
+        "currency": "USD",
+        "buy_url": "https://www.greenmangaming.com/games/elden-ring-pc/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "SEAGM",
@@ -60,7 +73,19 @@ const SITES = [
     "risks": [],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "apple-gift",
+        "name": "iTunes Gift Card JPY 15,000 (JP)",
+        "spec": "15000日元/日区",
+        "price": 16302.09,
+        "currency": "JPY",
+        "buy_url": "https://www.offgamers.com/ID/buynow/15000yen-itunes-gift-card-jp.html",
+        "stock": false,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "G2A",
@@ -80,7 +105,39 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring (PC) - Steam Key - EUROPE",
+        "spec": "标准版/欧区",
+        "price": 55.85,
+        "currency": "USD",
+        "buy_url": "https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "netflix",
+        "name": "Netflix Account Basic 1 Month - GLOBAL",
+        "spec": "Basic 1个月/成品账号直登",
+        "price": 21.06,
+        "currency": "USD",
+        "buy_url": "https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "spotify",
+        "name": "Spotify Premium Subscription Card Individual 12 Months",
+        "spec": "个人版12个月",
+        "price": 24.57,
+        "currency": "USD",
+        "buy_url": "https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "Kinguin",
@@ -100,7 +157,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring EU Steam CD Key",
+        "spec": "标准版/欧区",
+        "price": 47.99,
+        "currency": "EUR",
+        "buy_url": "https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "Eneba",
@@ -120,7 +189,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring (PC) Steam Key NORTH AMERICA",
+        "spec": "标准版/北美区",
+        "price": 57.26,
+        "currency": "USD",
+        "buy_url": "https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "MMOGA",
@@ -141,7 +222,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring（Steam Key）",
+        "spec": "标准版/欧区",
+        "price": 57.42,
+        "currency": "USD",
+        "buy_url": "https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "HRKGame",
@@ -162,7 +255,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "steam-key",
+        "name": "Elden Ring（Steam PC Key）",
+        "spec": "标准版",
+        "price": 184.86,
+        "currency": "USD",
+        "buy_url": "https://www.hrkgame.com/en/games/product/elden-ring/",
+        "stock": false,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "交易猫",
@@ -186,7 +291,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "game-account",
+        "name": "游戏账号（C2C议价）",
+        "spec": "",
+        "price": null,
+        "currency": "CNY",
+        "buy_url": "https://jiaoyimao.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "账号星球（AccountBoy）",
@@ -210,7 +327,79 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "gmail",
+        "name": "谷歌邮箱",
+        "spec": "各地区统一价/成品号",
+        "price": 30.8,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Gmail",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-account",
+        "name": "ChatGPT账号",
+        "spec": "成品号（Free版）",
+        "price": 48.8,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "独享会员账号/月",
+        "price": 198,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro",
+        "spec": "直充/月（188起，Max规格至1880）",
+        "price": 188,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-claude",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "midjourney",
+        "name": "Midjourney（30 Standard高级版）独享会员账号",
+        "spec": "独享/月",
+        "price": 299,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-midjourney",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "netflix",
+        "name": "奈飞Netflix 30天会员（Premium）",
+        "spec": "共享/30天（页面注明实际有效期26天）",
+        "price": 39.8,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Netflix",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "spotify",
+        "name": "Spotify",
+        "spec": "会员账号/12个月",
+        "price": 299,
+        "currency": "CNY",
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Spotify",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "GamsGo",
@@ -232,7 +421,49 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "GPT-6 ChatGPT",
+        "spec": "合租/月",
+        "price": 4.83,
+        "currency": "USD",
+        "buy_url": "https://www.gamsgo.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "spotify",
+        "name": "Spotify",
+        "spec": "合租/月",
+        "price": 3.17,
+        "currency": "USD",
+        "buy_url": "https://www.gamsgo.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "netflix",
+        "name": "Netflix",
+        "spec": "合租起/月",
+        "price": 3.49,
+        "currency": "USD",
+        "buy_url": "https://www.gamsgo.com/accounts/netflix",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "midjourney",
+        "name": "Midjourney Standard",
+        "spec": "共享/1个月（4.9分卖家款$13）",
+        "price": 13.0,
+        "currency": "USD",
+        "buy_url": "https://www.gamsgo.com/accounts/midjourney",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "5173",
@@ -254,7 +485,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "game-account",
+        "name": "游戏账号（C2C议价）",
+        "spec": "",
+        "price": null,
+        "currency": "CNY",
+        "buy_url": "https://www.5173.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "G2G",
@@ -276,7 +519,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "game-account",
+        "name": "游戏账号（C2C议价）",
+        "spec": "",
+        "price": null,
+        "currency": "USD",
+        "buy_url": "https://g2g.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "PlayerAuctions",
@@ -297,7 +552,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "game-account",
+        "name": "游戏账号（C2C议价）",
+        "spec": "",
+        "price": null,
+        "currency": "USD",
+        "buy_url": "https://www.playerauctions.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "DD373（嘟嘟网络游戏交易平台）",
@@ -318,7 +585,19 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "game-account",
+        "name": "游戏账号（C2C议价）",
+        "spec": "",
+        "price": null,
+        "currency": "CNY",
+        "buy_url": "https://www.dd373.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "糖果（Tangguo）",
@@ -341,7 +620,29 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "Plus",
+        "spec": "订单直充/30天（30天质保）",
+        "price": 128,
+        "currency": "CNY",
+        "buy_url": "https://tangguo.app/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro 月卡｜iOS 充值卡",
+        "spec": "iOS充值卡/月",
+        "price": 189,
+        "currency": "CNY",
+        "buy_url": "https://tangguo.app/store/business",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "HuiAI",
@@ -363,7 +664,29 @@ const SITES = [
     ],
     "verified": "2026-10-11",
     "status": "ok",
-    "down_days": 0
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus/Pro",
+        "spec": "人工代充起/月",
+        "price": 138,
+        "currency": "CNY",
+        "buy_url": "https://www.huiai.shop/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro/Max",
+        "spec": "人工代充起/月",
+        "price": 178,
+        "currency": "CNY",
+        "buy_url": "https://www.huiai.shop/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
   },
   {
     "name": "Pockyt Shop",

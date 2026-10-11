@@ -9,6 +9,8 @@ const PRODUCTS = {
 "gmail": { name: "谷歌邮箱", icon: "📧"},
 "gpt-account": { name: "ChatGPT 账号", icon: "🤖"},
 "gpt-plus": { name: "ChatGPT Plus 代充", icon: "💳"},
+"gpt-pro": { name: "ChatGPT Pro 代充", icon: "🚀"},
+"gemini-pro": { name: "Gemini Pro 代充", icon: "✨"},
 "claude": { name: "Claude 代充", icon: "🟠"},
 "midjourney": { name: "Midjourney", icon: "🎨"},
 "netflix": { name: "Netflix 会员", icon: "🎬"},
@@ -71,22 +73,32 @@ if (o.stock!== false) counts[o.pid] = (counts[o.pid] || 0) + 1;
 }));
 return counts;
 }
+function minPriceOf(pid){
+let best = null;
+SITES.forEach(s => (s.products || []).forEach(o => {
+if (o.pid === pid && o.stock !== false && o.price != null){
+const cny = o.price * (RATE[o.currency] || 1);
+if (!best || cny < best.cny) best = {price:o.price, currency:o.currency, cny};
+}}));
+return best;
+}
 function renderHot(){
 const el = document.getElementById("hot-products");
 if (!el) return;
 const counts = productCounts();
 const pids = Object.keys(PRODUCTS).filter(pid => counts[pid] > 0);
 if (!pids.length) { el.innerHTML = ""; return;}
+const softs = ["soft-faka","soft-kami","soft-ai-account","soft-game-topup"];
 el.innerHTML = `<div class="hot-title">🔥 热门商品比价 <span>点商品看哪家在卖、哪家最便宜</span></div>
-<div class="hot-grid">` + pids.map(pid =>
-`<button class="hot-card" onclick="showProduct('${pid}')">
-<span class="hot-icon">${PRODUCTS[pid].icon}</span>
+<div class="hot-grid">` + pids.map((pid, i) => {
+const mp = minPriceOf(pid);
+return `<button class="hot-card" onclick="showProduct('${pid}')">
+<span class="hot-icon ${softs[i % softs.length]}">${PRODUCTS[pid].icon}</span>
 <span class="hot-name">${PRODUCTS[pid].name}</span>
+${mp ? `<span class="hot-min">${fmtPrice(mp.price, mp.currency)}起</span>` : ""}
 <span class="hot-n">${counts[pid]} 家在售</span>
-</button>`).join("") + `</div>`;
+</button>`;}).join("") + `</div>`;
 }
-
-/* ---------- 商品比价视图 ---------- */
 function offersFor(pid){
 const list = [];
 SITES.forEach((s, si) => (s.products || []).forEach((o, oi) => {
@@ -144,8 +156,11 @@ const chips = (s.signals || []).map(x => `<span class="chip">${esc(x)}</span>`).
 const risks = (s.risks || []).map(x => `<div class="risk">⚠️ ${esc(x)}</div>`).join("");
 const prods = (s.products || []).filter(o => o.stock!== false).slice(0, 4)
 .map(o => `<button class="miniprod" onclick="showProduct('${o.pid}')">${PRODUCTS[o.pid]? PRODUCTS[o.pid].icon: "🏷️"} ${esc(PRODUCTS[o.pid]? PRODUCTS[o.pid].name: o.name)}</button>`).join("");
+const cat = CATS[s.category] || {name:"", icon:"🏷️"};
+const liveTxt = s.status === "down" ? "❌ 无法访问" : "🟢 可访问";
 return `<div class="card">
-<div class="top"><span class="rank ${rankCls}">#${idx + 1}</span><h3>${esc(s.name)}</h3><span class="score ${scoreClass(s.score)}">${s.score}分</span></div>
+<div class="chead grad-${s.category}"><span class="c-icon">${cat.icon}</span><div><div style="font-weight:800;font-size:15px">${esc(s.name)}</div><span class="c-cat">${cat.name}</span></div><span class="c-live">${liveTxt}</span></div>
+<div class="top"><span class="rank ${rankCls}">#${idx + 1}</span><span class="score ${scoreClass(s.score)}" style="font-size:15px">可靠度 ${s.score}分</span></div>
 <div class="host">${esc(hostOf(s.url))}</div>
 <div class="desc">${esc(s.desc)}</div>
 ${chips? `<div class="chips">${chips}</div>`: ""}
@@ -170,6 +185,18 @@ return hay.includes(query);
 .sort((a, b) => b.score - a.score);
 }
 
+function featHTML(){
+const top = SITES.map((s, i) => ({...s, _i: i})).sort((a, b) => b.score - a.score).slice(0, 4);
+return `<section class="cat"><h2>⭐ 精选推荐 <span class="count">可靠度最高</span></h2><div class="feat-grid">` +
+top.map(s => {
+const cat = CATS[s.category] || {icon:"🏷️"};
+return `<div class="feat-card grad-${s.category}">
+<div class="f-top"><span class="f-icon">${cat.icon}</span><h3>${esc(s.name)}</h3><span class="f-score">${s.score}分</span></div>
+<div class="f-desc">${esc(s.desc)}</div>
+<a class="f-go" href="${esc(s.url)}" target="_blank" rel="noopener nofollow">去看看 →</a>
+</div>`;}).join("") + `</div></section>`;
+}
+
 function renderCats(){
 const nav = document.getElementById("catnav");
 const cats = [["all", "全部"]].concat(Object.entries(CATS).map(([k, v]) => [k, v.icon + " " + v.name]));
@@ -178,6 +205,7 @@ nav.innerHTML = cats.map(([k, label]) =>
 const main = document.getElementById("main");
 const showCats = activeCat === "all"? Object.keys(CATS): [activeCat];
 let html = "";
+if (activeCat === "all" && !query) html += featHTML();
 showCats.forEach(c => {
 const list = filtered(c);
 if (activeCat!== "all" && list.length === 0) { html += `<div class="empty">没有匹配的结果，换个关键词试试。</div>`; return;}

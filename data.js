@@ -1,8 +1,7 @@
 /* 卡密导航站点数据 — 每日自动验证更新。字段：
    name: 网站名, url: 首页地址, category: faka|kami|ai-account|game-topup,
    desc: 一句话简介, score: 可靠度0-100, signals: 加分依据[], risks: 风险点[],
-   verified: 验证日期, status: ok|down, down_days: 连续无法访问天数,
-   products: [{pid, name, spec, price, currency, buy_url, stock, pverified}] */
+   verified: 验证日期, status: ok|down, down_days: 连续无法访问天数 */
 const UPDATED_AT = "2026-10-11";
 const SITES = [
   {
@@ -752,5 +751,1047 @@ const SITES = [
     "verified": "2026-10-11",
     "status": "ok",
     "down_days": 0
+  },
+  {
+    "name": "Fanatical",
+    "url": "https://www.fanatical.com",
+    "category": "kami",
+    "desc": "英国官方授权游戏 key 商城（前身 Bundle Stars），与约 1000 家发行商直接合作，主营 Steam key 与超值捆绑包。",
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "运营超3年（前身 Bundle Stars 可追溯至 2012）",
+      "官方授权零售商（约1000家发行商直接合作）",
+      "支持 PayPal/主流信用卡等多种支付",
+      "Trustpilot 近期评价多为 4-5 星、客服逐条回复",
+      "Steam 社区确认 100% 正规渠道"
+    ],
+    "risks": [
+      "一家测评站称其无退款政策，退款条款以官网 ToS 为准",
+      "主要面向海外用户，无中文/ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "Loaded（原 CDKeys）",
+    "url": "https://www.cdkeys.com",
+    "category": "kami",
+    "desc": "原 CDKeys（2025 年 9 月更名 Loaded），运营十余年的自营数字游戏密钥零售商，主营游戏 key、礼品卡与订阅。",
+    "score": 75,
+    "signals": [
+      "HTTPS 有效",
+      "运营 10 余年（2014 年前成立）",
+      "支持信用卡/PayPal 等主流支付",
+      "在线客服与帮助中心",
+      "Trustpilot 4.8 分/20 万+评价、Google 4.9 分",
+      "主流媒体（Windows Central/PC Gamer）列为可信渠道",
+      "7 天内未拆码可退"
+    ],
+    "risks": [
+      "自营转售密钥、非官方授权经销商，灰市属性存争议",
+      "无 ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "BitTopup",
+    "url": "https://bittopup.com",
+    "category": "kami",
+    "desc": "数字礼品卡与游戏充值平台，主营 Amazon/PSN/Xbox 礼品卡兑换码即时发货与手游代充，官网公开香港公司地址。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持多种支付（含加密货币）",
+      "宣称 7×24 多语言客服",
+      "官网公开香港公司地址"
+    ],
+    "risks": [
+      "成立年份查不到，运营时长无法验证",
+      "无 ICP 备案",
+      "无第三方独立测评/社区口碑",
+      "退款政策未在公开页面确认"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "银河录像局",
+    "url": "https://nf.video",
+    "category": "ai-account",
+    "desc": "杭州公司运营的流媒体与 AI 订阅账号合租/代充平台（Netflix、ChatGPT Plus、Claude 等），自称 2019 年起运营。",
+    "score": 50,
+    "signals": [
+      "HTTPS 有效",
+      "主体为杭州崇宇信息科技有限公司，自称 2019 年起运营（>3 年）",
+      "自称累计 1000 万+ 笔交易、100 万+ 用户",
+      "第三方介绍文章列出客服渠道与退款承诺"
+    ],
+    "risks": [
+      "账号合租模式违反 Netflix/OpenAI 等官方 ToS，存在封号致售后纠纷的固有风险",
+      "信息主要来自一篇带推广优惠码的软文，独立第三方测评少",
+      "ICP 备案为自称，未独立核验"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "Z2U",
+    "url": "https://www.z2u.com",
+    "category": "game-topup",
+    "desc": "全球数字商品交易市集（游戏账号/游戏币/代充/游戏密钥/礼品卡），自称服务 1800 万+ 用户、2008 年起运营。",
+    "score": 75,
+    "signals": [
+      "HTTPS 有效",
+      "自称 2008 年起运营（>3 年）",
+      "支持 PayPal/Skrill/信用卡",
+      "24/7 在线客服",
+      "多家评测与 YouTube 实测博主提及",
+      "GamerProtect 资金托管与买家保护"
+    ],
+    "risks": [
+      "开放卖家市集模式，商品质量依卖家而异",
+      "有个别卖家提款纠纷报道",
+      "无 ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "GroupbuySEO",
+    "url": "https://groupbuyseo.org",
+    "category": "ai-account",
+    "desc": "拼团共享订阅平台，ChatGPT Plus 共享访问约 $5/月，另含 90+ SEO/AI 工具拼团。",
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "7 种支付路线（含加密货币/UPI）",
+      "24/7 客服",
+      "Trustpilot 5 星评价",
+      "激活失败 14 天内可退"
+    ],
+    "risks": [
+      "共享账号模式违反 OpenAI 等官方 ToS，存在封号风险",
+      "非官方授权渠道",
+      "成立年份无法独立验证"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "aishop.homes",
+    "url": "https://aishop.homes/",
+    "category": "ai-account",
+    "desc": "AI 订阅代充站，覆盖 ChatGPT/Claude/Gemini/Grok/X，售充值卡密与成品号。",
+    "score": 45,
+    "signals": [
+      "HTTPS 有效",
+      "TG 客服 + 微信客服",
+      "V2EX 用户留言推荐",
+      "站内有服务规则与质保条款"
+    ],
+    "risks": [
+      "新站，成立年份不明",
+      "代充需提交账号密码，有隐私风险",
+      "虚拟产品售后限制多（卡密数据仅保留 7 天）",
+      "无 ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "KACN 海外充值",
+    "url": "https://ka-cn.vip",
+    "category": "game-topup",
+    "desc": "面向海外华人的充值/代充平台（抖音/小红书/Q币/游戏点卡等），支持 VISA/Master/PayPal。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持 VISA/MasterCard/PayPal 等国际支付",
+      "宣称 24 小时客服"
+    ],
+    "risks": [
+      "口碑证据多为自营 Medium 软文，第三方独立口碑不足",
+      "运营年份无法独立验证",
+      "落地页模板与 cardmvp.com 高度一致，疑似同一运营方",
+      "无 ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "CARDMVP",
+    "url": "https://www.cardmvp.com",
+    "category": "game-topup",
+    "desc": "海外手游充值代充（原神/明日方舟/阴阳师/和平精英等），白卡直充，宣称 7×24 客服。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持 PayPal/Visa/MasterCard/超商支付",
+      "宣称 7×24 小时客服"
+    ],
+    "risks": [
+      "口碑证据多为自营 Medium 软文，第三方独立口碑不足",
+      "成立年份不明",
+      "与 ka-cn.vip 模板高度一致，疑似同一运营方",
+      "无 ICP 备案"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "环球巴士",
+    "url": "https://universalbus.cn",
+    "category": "ai-account",
+    "desc": "流媒体账号合租平台（\"奈飞站\"：Netflix/Spotify/YouTube/Disney+ 等），宣称自动化交付、售后无忧。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "官网宣称自动化交付与售后保障"
+    ],
+    "risks": [
+      "成立年份不明",
+      "无第三方独立口碑",
+      "无 ICP 备案公示",
+      "账号合租模式违反流媒体官方 ToS，存在封号风险"
+    ],
+    "verified": "2026-10-11",
+    "status": "ok",
+    "down_days": 0
+  },
+  {
+    "name": "William",
+    "url": "https://willam.ka8.ai/",
+    "category": "ai-account",
+    "desc": "AI 代充与账号小店，主营 ChatGPT Plus/Pro 代充、Gemini Pro、Muse 成品号、X Premium 与 X 老号，自动发货、支持游客购买。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持支付宝/微信/USDT-BSC/USDT-Polygon",
+      "Telegram/WhatsApp/在线客服",
+      "自动发货、游客可购"
+    ],
+    "risks": [
+      "运营时长无从考证",
+      "无 ICP 备案公示",
+      "退款政策未在公开页明确",
+      "第三方口碑未独立核验",
+      "该站无 Claude 订阅代充商品，仅有 Muse 成品号"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT-Plus官方充值-自助卡密充值-菲区",
+        "spec": "官方充值·自助卡密充值·菲区",
+        "price": 155.4,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Plus",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-pro",
+        "name": "ChatGPT-Pro 100官方充值-自助卡密充值-智利区",
+        "spec": "官方充值·自助卡密充值·智利区",
+        "price": 882,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-5x",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-pro",
+        "name": "ChatGPT-Pro 200官方充值-自助卡密充值-菲区",
+        "spec": "官方充值·自助卡密充值·菲区",
+        "price": 1313,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-20x",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-pro",
+        "name": "ChatGPT-Pro 500官方充值-自助卡密充值-智利区",
+        "spec": "官方充值·自助卡密充值·智利区",
+        "price": 3065,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-50x",
+        "stock": false,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gemini-pro",
+        "name": "Jio · Gemini Pro 18个月｜官方活动·直充自己账号",
+        "spec": "官方活动·直充自己账号·18个月",
+        "price": 8.4,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/gemini-pro-18m",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Muse 成品号（微软邮箱·验证码登录）",
+        "spec": "微软邮箱·验证码登录",
+        "price": 7.8,
+        "currency": "CNY",
+        "buy_url": "https://willam.ka8.ai/products/muse-account",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "WanWuEXC",
+    "url": "https://shop.moct.cloud",
+    "category": "ai-account",
+    "desc": "综合数字账号小店，主营美区 Apple ID、Gmail/Google Voice、ChatGPT/Gemini 账号、Telegram 账号与 Netflix 等流媒体账号，自动秒发。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "自动发货、游客可购",
+      "站内公告提及在线客服",
+      "商品带库存状态展示"
+    ],
+    "risks": [
+      "运营时长无从考证",
+      "支付方式未在首页确认",
+      "无 ICP 备案公示",
+      "第三方口碑未独立核验"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "dma小店",
+    "url": "https://dmakk.top",
+    "category": "kami",
+    "desc": "游戏 DMA 作弊卡密小店，主营 OW2/CS2/ARC Raiders 等作弊软件月卡与 PUBG 硬件 ID 重置，自动发卡。",
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "自动发货、游客可购"
+    ],
+    "risks": [
+      "作弊软件违反各游戏 ToS，封号风险极高",
+      "运营主体不明",
+      "无客服与退款政策公示"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "木木商店",
+    "url": "https://feifeivip.com",
+    "category": "ai-account",
+    "desc": "Telegram 账号小店，主营各国 TG 账号（尼日利亚/印尼/泰国等）与群组频道僵尸粉，自动发货。",
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "自动发货、游客可购",
+      "有购买须知公告"
+    ],
+    "risks": [
+      "运营主体不明",
+      "支付方式与退款政策未公示",
+      "账号封禁风险"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "GETGPT Pro",
+    "url": "https://getgpt.pro",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus/Pro、Claude、Cursor、Gemini 代充平台，卡密自助充值，支付宝/微信支付，自称服务 2.4 万+用户。",
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "上线一年多（>1年）",
+      "支持支付宝/微信",
+      "真人客服",
+      "GitHub 第三方代充指南引用",
+      "充值失败 100% 全额退款"
+    ],
+    "risks": [
+      "用户数、成功率等为站方自述，未独立验证",
+      "代充需提交账号 Session，有账号安全风险"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus 充值",
+        "spec": "每月·续费制",
+        "price": 179,
+        "currency": "CNY",
+        "buy_url": "https://getgpt.pro/purchase",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "PayAI.Plus",
+    "url": "https://payai.plus",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus（¥179/月起）、Pro、Claude Pro（¥189/月起）代充，美区 Apple iOS 渠道卡密自助激活，自称服务 10000+用户。",
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "支持微信/支付宝",
+      "客服响应",
+      "GitHub 第三方代充指南引用",
+      "充值失败当天全额退款",
+      "可开企业发票"
+    ],
+    "risks": [
+      "运营时长无明确说法",
+      "用户数、成功率为站方自述"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "账号续费·1个月",
+        "price": 179,
+        "currency": "CNY",
+        "buy_url": "https://payai.plus/chatgpt?product=chatgpt-plus",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro 充值",
+        "spec": "账号续费·1个月",
+        "price": 189,
+        "currency": "CNY",
+        "buy_url": "https://payai.plus/claude",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "PlusGO",
+    "url": "https://plusgo.pro",
+    "category": "ai-account",
+    "desc": "ChatGPT Go/Plus/Pro 代充，自称 2025 年起运营、服务 1.5 万+用户，承诺 30 天不掉订阅，支付宝/微信支付。",
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "2025 年起运营（>1年）",
+      "支持支付宝/微信",
+      "7×16 小时真人客服",
+      "GitHub 第三方代充指南引用",
+      "失败 100% 当天原路退款",
+      "30 天不掉订阅承诺"
+    ],
+    "risks": [
+      "用户数为站方自述",
+      "代充需提交一次性登录凭证"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "原账号升级 Plus·按月充值",
+        "price": 169,
+        "currency": "CNY",
+        "buy_url": "https://plusgo.pro/purchase?sku=plus",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "GoPlus",
+    "url": "https://goplus.pro",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus/Pro、Claude Pro/Max、Grok Super 代充，自称累计 8000+订单，微信/支付宝支付，卡密自助或人工交付。",
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "支持微信/支付宝",
+      "微信客服",
+      "GitHub 第三方代充指南引用",
+      "全程质保不掉订阅"
+    ],
+    "risks": [
+      "运营时长无明确说法",
+      "代充需提交 Session/Organization ID 等凭证",
+      "封号不在质保范围",
+      "经第三方小店下单（购买链接跳转至第三方小店）"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus 充值",
+        "spec": "165元起·微信支付宝开通",
+        "price": 165,
+        "currency": "CNY",
+        "buy_url": "https://qfcc99.com/shop/panghu",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro 充值",
+        "spec": "185元/月",
+        "price": 185,
+        "currency": "CNY",
+        "buy_url": "https://qfcc99.com/shop/panghu",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "PayForChat",
+    "url": "https://payforchat.com",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus（¥199/月起）、Pro 代充，微信/支付宝/Stripe 支付，自称服务 10000+用户、可开 PDF Invoice。",
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "支持微信/支付宝/Stripe",
+      "客服跟进",
+      "GitHub 第三方代充指南引用",
+      "充值失败全额退款",
+      "可开 PDF 发票"
+    ],
+    "risks": [
+      "运营时长仅自称 365 天持续服务，未满明确 >1 年口径",
+      "代充需提交 Session 凭证",
+      "套餐页购买按钮需登录后可用"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "自有账号充值·官方订阅同等权益",
+        "price": 199,
+        "currency": "CNY",
+        "buy_url": "https://www.payforchat.com/plans",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "星桥订阅",
+    "url": "https://xingqiaosub.com",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus（¥165 起）、Claude Pro（¥185 起）代充小站，只给本人账号开通，微信/支付宝支付，自称服务 110+位用户。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "支持微信/支付宝",
+      "微信客服",
+      "开通失败全额退款",
+      "可开电子普通发票"
+    ],
+    "risks": [
+      "规模小（自称 110+用户）",
+      "GitHub 指南引用方为利益相关（仓库维护者自营）",
+      "代充需提交 Session"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "165元起·按阶梯时长定价",
+        "price": 165,
+        "currency": "CNY",
+        "buy_url": "https://xingqiaosub.com/services/chatgpt-plus",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro",
+        "spec": "185元起·按阶梯时长定价",
+        "price": 185,
+        "currency": "CNY",
+        "buy_url": "https://xingqiaosub.com/services/claude-pro",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "数字严选",
+    "url": "https://digitalchose.com",
+    "category": "ai-account",
+    "desc": "AI 账号代充与成品号商城，主营 ChatGPT/Claude/Grok 代充、成品账号、API 中转与 Gmail 批发，附带大量使用教程博客。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "博客自 2024-05 持续更新，运营超 1 年",
+      "商品目录完整（代充/成品号/API/邮箱批发）"
+    ],
+    "risks": [
+      "未见 ICP 备案公示",
+      "支付方式/客服/售后政策未在首页公示",
+      "第三方口碑待查"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "2000Fun商城",
+    "url": "https://openshop.com.hk",
+    "category": "game-topup",
+    "desc": "香港老牌游戏点卡商城（2003 年门市、2008 年开网店），主营 Steam/PSN/Xbox/Netflix 等礼品卡与游戏点卡。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "2003 年门市、2008 年网店，运营超 15 年",
+      "支持信用卡/PayPal/支付宝"
+    ],
+    "risks": [
+      "香港公司，无 ICP 备案",
+      "首页客服与售后政策信息未充分公示",
+      "中文第三方口碑待查"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "八马批发商铺",
+    "url": "https://tg999.top",
+    "category": "faka",
+    "desc": "落地页式发卡批发商铺，24 小时自助服务通过 Telegram（@tg999topp）完成，宣称每 12 小时分配安全入口。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "提供 Telegram 客服 @tg999topp"
+    ],
+    "risks": [
+      "仅落地页，实际交易走 Telegram，透明度低",
+      "运营时长/备案/支付方式未知",
+      "频繁更换入口域名的模式需警惕"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "兮颜出海",
+    "url": "https://xiyanchuhai.com",
+    "category": "ai-account",
+    "desc": "TikTok 账号商城，主营白号/千粉号/带作品号，面向跨境电商与社媒运营人群。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "Threads 官方账号 @xiyanhaoshang 宣称 24h 自助发卡"
+    ],
+    "risks": [
+      "运营时长与备案未知",
+      "支付与售后政策未公示",
+      "社媒账号交易本身有封号风险"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "AI账号空投站",
+    "url": "https://ai-airdrop.com",
+    "category": "ai-account",
+    "desc": "AI 账号自助卡密代充站，主营 ChatGPT Plus/Pro、Claude、Grok 代充，支持微信/支付宝/USDT，页面公示销量 3607。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "支持微信/支付宝/USDT",
+      "QQ 售后群 799054957",
+      "页面公示销量 3607、上架 17 件商品"
+    ],
+    "risks": [
+      "运营时长与 ICP 备案未知",
+      "销量为站方自述",
+      "退款政策未明确公示"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus 月卡｜菲区官方正规卡充",
+        "spec": "月卡·菲区官方正规卡充",
+        "price": 125,
+        "currency": "CNY",
+        "buy_url": "https://ai-airdrop.com/products/chatgpt-plus-two",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus 月卡｜iOS 官方正规充值",
+        "spec": "月卡·iOS官方正规充值",
+        "price": 150,
+        "currency": "CNY",
+        "buy_url": "https://ai-airdrop.com/products/4",
+        "stock": true,
+        "pverified": "2026-10-11"
+      },
+      {
+        "pid": "claude",
+        "name": "Claude Pro 月卡｜IOS官方正规充值",
+        "spec": "月卡·IOS官方正规充值",
+        "price": 159,
+        "currency": "CNY",
+        "buy_url": "https://ai-airdrop.com/products/Claudeproka",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "旧Gmail邮箱批发平台",
+    "url": "https://oldgmailbuy.com",
+    "category": "ai-account",
+    "desc": "Gmail 账号批发平台，主营全新号、2010–2024 各年份老号与多国 IP 注册号，明码标价 ¥5–33，库存/已售公示完整。",
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "微信客服",
+      "商品/价格/库存/已售数量公示完整"
+    ],
+    "risks": [
+      "运营时长与备案未知",
+      "支付方式未在站内公示",
+      "售后政策未在站内公示"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "AI杂货铺",
+    "url": "https://store.ai-headshot.net",
+    "category": "ai-account",
+    "desc": "2023 年 12 月成立的 AI 代充杂货铺，主营 ChatGPT/Claude 等代充卡密，7×24 自动发货，带分销返利与分站加盟体系。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "2023-12-02 成立，运营超 1 年",
+      "QQ 1402709211 / 微信 gracereview618 双客服",
+      "7×24 自动发货",
+      "提现支持支付宝/微信"
+    ],
+    "risks": [
+      "ICP 备案未见",
+      "退款售后政策未明确",
+      "第三方口碑待查"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "AI服务代充值服务（littlemagic8）",
+    "url": "https://littlemagic8.github.io/gptplus/",
+    "category": "ai-account",
+    "desc": "个人运营的 AI 代充页，主营 GPT/Claude/Gemini/Perplexity/Grok/X Premium 代充，微信客服一对一服务。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "自 2025 年初运营超 1 年",
+      "微信客服 aicygg888",
+      "配套图文教程站"
+    ],
+    "risks": [
+      "个人运营，无公司主体与备案",
+      "支付与售后政策未公示",
+      "GitHub Pages 托管，域名可随时更换"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "TOPUPlive",
+    "url": "https://www.topuplive.com",
+    "category": "game-topup",
+    "desc": "新加坡公司（SEA WHALE TECHNOLOGY PTE.LTD.）运营的游戏充值与礼品卡平台，主营手游/直播充值、Apple/Google 礼品卡与 CD-KEY，公示退款与配送政策。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "新加坡公司主体",
+      "公示 Refund/Shipping/Transaction Security 政策",
+      "PCI 合规标识"
+    ],
+    "risks": [
+      "面向海外用户，中文支持弱",
+      "运营时长未知",
+      "中文第三方口碑少"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "远方充值",
+    "url": "https://tgcz.cc",
+    "category": "ai-account",
+    "desc": "主营 Telegram 会员/电报成品号、AI 软件与海外社媒代充，自称 5 年老平台，在线秒充 8:00–24:00，TG+QQ 双客服。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "自称 5 年安全稳定运营",
+      "TG @ttsss / QQ 353513246 双客服",
+      "在线秒充时间公示"
+    ],
+    "risks": [
+      "5 年为站方自述",
+      "ICP 备案与支付方式未公示",
+      "售后政策未明确"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "Tibo AI",
+    "url": "https://gptibo.com",
+    "category": "ai-account",
+    "desc": "Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "人民币明码标价（Plus ¥169/月起）",
+      "微信客服（社媒帖子披露）",
+      "社媒宣称带质保"
+    ],
+    "risks": [
+      "个人小店，运营时长/备案未知",
+      "支付方式未公示",
+      "质保承诺仅见于社媒帖子"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "日常之选·自有账号充值·月",
+        "price": 169,
+        "currency": "CNY",
+        "buy_url": "https://gptibo.com/product/chatgpt",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "12GPT",
+    "url": "https://12gpt.com",
+    "category": "ai-account",
+    "desc": "ChatGPT Plus/Pro 代充到自己账号，Plus ¥135/月，微信/支付宝支付",
+    "score": 70,
+    "signals": [
+      "HTTPS有效",
+      "自称专注跨境订阅3年半",
+      "支持微信/支付宝",
+      "微信人工客服",
+      "详细售后规则（失败退款/掉订阅赔付）",
+      "GitHub代充指南推荐"
+    ],
+    "risks": [
+      "运营时长与用户规模为自称未独立验证"
+    ],
+    "verified": "2026-10-11",
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "月付·135元/月·人工充值",
+        "price": 135,
+        "currency": "CNY",
+        "buy_url": "https://12gpt.com/",
+        "stock": true,
+        "pverified": "2026-10-11"
+      }
+    ]
+  },
+  {
+    "name": "CODS.IO",
+    "url": "https://cods.io/",
+    "category": "kami",
+    "desc": "Steam/PSN/Xbox/Apple/Netflix 礼品卡与游戏币，即时邮件发货",
+    "score": 55,
+    "signals": [
+      "HTTPS有效",
+      "支持俄罗斯银行卡/MIR/SBP",
+      "24/7客服",
+      "自称评分4.8",
+      "官方码保证（激活失败替换）"
+    ],
+    "risks": [
+      "纯俄语站，无中文与支付宝/微信",
+      "主要服务俄罗斯用户",
+      "自称数据未独立验证"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "Hablax",
+    "url": "https://www.hablax.com",
+    "category": "game-topup",
+    "desc": "游戏充值/礼品卡/500+运营商话费充值，App 50万+下载",
+    "score": 45,
+    "signals": [
+      "HTTPS有效",
+      "支持Visa/MC/PayPal/Apple Pay/加密货币",
+      "在线聊天+邮件+24/7电话预约客服",
+      "App Store评分4.8"
+    ],
+    "risks": [
+      "英文站为主",
+      "无支付宝/微信",
+      "退款政策未在首页确认"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "ANTNUM 蚂蚁充值",
+    "url": "https://antnum.com",
+    "category": "game-topup",
+    "desc": "海外代充：抖音/Q币/苹果礼品卡/话费充值，24h客服",
+    "score": 45,
+    "signals": [
+      "HTTPS有效",
+      "支持多种支付",
+      "24h客服"
+    ],
+    "risks": [
+      "自称老牌未独立验证"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "Gameflip",
+    "url": "https://gameflip.com/",
+    "category": "game-topup",
+    "desc": "游戏与礼品卡 C2C 交易市场，Gameflip Guarantee 买家保护",
+    "score": 40,
+    "signals": [
+      "HTTPS有效",
+      "客服支持团队",
+      "Gameflip Guarantee 100%现金返还买家保护",
+      "知名老牌C2C市场"
+    ],
+    "risks": [
+      "C2C卖家质量参差",
+      "支付方式未在首页确认",
+      "运营时长本次未独立核验"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "PatewayAI",
+    "url": "https://pateway.ai/?ch=1tsfr51",
+    "category": "ai-account",
+    "desc": "Claude/Codex 大模型 API 中转站，支付宝支付，最低$1起充",
+    "score": 40,
+    "signals": [
+      "HTTPS有效",
+      "支持支付宝跨境支付",
+      "邮箱+微信群/QQ群客服",
+      "GitHub项目README推荐",
+      "注册赠体验额度"
+    ],
+    "risks": [
+      "API中转非官方直充",
+      "运营时长未核验"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "MMOPIXEL",
+    "url": "https://mmopixel.com",
+    "category": "game-topup",
+    "desc": "游戏币/礼品卡/游戏Key，24/7在线客服，自称100万+客户",
+    "score": 30,
+    "signals": [
+      "HTTPS有效",
+      "24/7在线客服",
+      "自称5K+好评"
+    ],
+    "risks": [
+      "运营时长未核验",
+      "支付方式未在首页确认",
+      "自称数据未独立验证"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "Jour Cards",
+    "url": "https://jour-cards.com",
+    "category": "kami",
+    "desc": "加密货币礼品卡商城（5000品牌），英文站",
+    "score": 30,
+    "signals": [
+      "HTTPS有效"
+    ],
+    "risks": [
+      "运营时长未核验",
+      "纯英文站"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "笔墨小铺 BmoPlus",
+    "url": "https://shop.bmoplus.com/",
+    "category": "ai-account",
+    "desc": "GPT/Claude Max/Gemini Pro/Grok 代充，TG客服对接",
+    "score": 30,
+    "signals": [
+      "HTTPS有效",
+      "Telegram客服",
+      "GitHub sub2api项目README推荐"
+    ],
+    "risks": [
+      "个人小店性质",
+      "运营时长未知",
+      "售后政策未明确",
+      "支付方式未在首页明示"
+    ],
+    "verified": "2026-10-11",
+    "products": []
+  },
+  {
+    "name": "AIGoCode",
+    "url": "https://aigocode.com/",
+    "category": "ai-account",
+    "desc": "AI开发者工作台/模型额度订阅，按量或订阅付费",
+    "score": 30,
+    "signals": [
+      "HTTPS有效",
+      "1v1工程师客服",
+      "自称10000+开发者"
+    ],
+    "risks": [
+      "API中转/工作台非官方直充",
+      "运营时长未核验",
+      "自称数据未独立验证"
+    ],
+    "verified": "2026-10-11",
+    "products": []
   }
 ];

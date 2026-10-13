@@ -88,12 +88,11 @@ if (!el) return;
 const counts = productCounts();
 const pids = Object.keys(PRODUCTS).filter(pid => counts[pid] > 0);
 if (!pids.length) { el.innerHTML = ""; return;}
-const softs = ["soft-faka","soft-kami","soft-ai-account","soft-game-topup"];
-el.innerHTML = `<div class="hot-title">🔥 热门商品比价 <span>点商品看哪家在卖、哪家最便宜</span></div>
+el.innerHTML = `<div class="hot-title">热门商品比价 <span>点商品看哪家在卖、哪家最便宜</span></div>
 <div class="hot-grid">` + pids.map((pid, i) => {
 const mp = minPriceOf(pid);
 return `<button class="hot-card" onclick="showProduct('${pid}')">
-<span class="hot-icon ${softs[i % softs.length]}">${PRODUCTS[pid].icon}</span>
+<span class="hot-icon">${PRODUCTS[pid].icon}</span>
 <span class="hot-name">${PRODUCTS[pid].name}</span>
 ${mp ? `<span class="hot-min">${fmtPrice(mp.price, mp.currency)}起</span>` : ""}
 <span class="hot-n">${counts[pid]} 家在售</span>
@@ -151,17 +150,13 @@ main.innerHTML = `
 
 /* ---------- 分类导航视图 ---------- */
 function cardHTML(s, idx){
-const rankCls = idx === 0? "r1": idx === 1? "r2": idx === 2? "r3": "";
 const chips = (s.signals || []).map(x => `<span class="chip">${esc(x)}</span>`).join("");
 const risks = (s.risks || []).map(x => `<div class="risk">⚠️ ${esc(x)}</div>`).join("");
 const prods = (s.products || []).filter(o => o.stock!== false).slice(0, 4)
 .map(o => `<button class="miniprod" onclick="showProduct('${o.pid}')">${PRODUCTS[o.pid]? PRODUCTS[o.pid].icon: "🏷️"} ${esc(PRODUCTS[o.pid]? PRODUCTS[o.pid].name: o.name)}</button>`).join("");
 const cat = CATS[s.category] || {name:"", icon:"🏷️"};
-const liveTxt = s.status === "down" ? "❌ 无法访问" : "🟢 可访问";
 return `<div class="card">
-<div class="chead grad-${s.category}"><span class="c-icon">${cat.icon}</span><div><div style="font-weight:800;font-size:15px">${esc(s.name)}</div><span class="c-cat">${cat.name}</span></div><span class="c-live">${liveTxt}</span></div>
-<div class="top"><span class="rank ${rankCls}">#${idx + 1}</span><span class="score ${scoreClass(s.score)}" style="font-size:15px">可靠度 ${s.score}分</span></div>
-<div class="host">${esc(hostOf(s.url))}</div>
+<div class="chead"><span class="c-icon">${cat.icon}</span><div class="c-names"><div class="c-name">${esc(s.name)}</div><div class="c-sub">${cat.name} · ${esc(hostOf(s.url))}</div></div><span class="rank">#${idx + 1}</span><span class="score ${scoreClass(s.score)}">${s.score}分</span></div>
 <div class="desc">${esc(s.desc)}</div>
 ${chips? `<div class="chips">${chips}</div>`: ""}
 ${risks}
@@ -187,10 +182,10 @@ return hay.includes(query);
 
 function featHTML(){
 const top = SITES.map((s, i) => ({...s, _i: i})).sort((a, b) => b.score - a.score).slice(0, 4);
-return `<section class="cat"><h2>⭐ 精选推荐 <span class="count">可靠度最高</span></h2><div class="feat-grid">` +
+return `<section class="cat"><h2>精选推荐 <span class="count">可靠度最高</span></h2><div class="feat-grid">` +
 top.map(s => {
 const cat = CATS[s.category] || {icon:"🏷️"};
-return `<div class="feat-card grad-${s.category}">
+return `<div class="feat-card">
 <div class="f-top"><span class="f-icon">${cat.icon}</span><h3>${esc(s.name)}</h3><span class="f-score">${s.score}分</span></div>
 <div class="f-desc">${esc(s.desc)}</div>
 <a class="f-go" href="${esc(s.url)}" target="_blank" rel="noopener nofollow">去看看 →</a>

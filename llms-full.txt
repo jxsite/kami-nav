@@ -1,13 +1,13 @@
 # 卡密导航 · 完整收录数据
 
-> 更新于 2026-10-13，共 73 个站点。官网 https://jxsite.github.io/kami-nav/
+> 更新于 2026-10-14，共 77 个站点。官网 https://jxsite.github.io/kami-nav/
 > 评分 0-100：HTTPS、运营时长、ICP 备案、主流支付、客服、第三方口碑、退款售后；排序不构成购买推荐，交易风险自负。
 
 ## 🃏 发卡平台
 - **G2A**（可靠度 65分）https://www.g2a.com — 全球最大数字娱乐品市场之一，游戏激活码、软件、订阅由认证商家上架自动发卡。
-  - Steam 游戏 Key：USD 54.85（标准版/欧区） → https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119
+  - Steam 游戏 Key：USD 55.85（标准版/欧区） → https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119
   - Netflix 会员：USD 21.06（Basic 1个月/成品账号直登） → https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004
-  - Spotify 会员：USD 33.02（个人版12个月） → https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=
+  - Spotify 会员：USD 24.57（个人版12个月） → https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=
   - 风险：灰市属性：曾卷入盗刷key争议（如2016年tinyBuild事件），key来源依赖卖家，存在被撤销风险
 - **Kinguin**（可靠度 65分）https://www.kinguin.net — 总部香港的数字商品市场，游戏key、软件授权、订阅码由审核商家上架销售。
   - Steam 游戏 Key：EUR 47.99（标准版/欧区） → https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key
@@ -17,6 +17,8 @@
   - 风险：市场模式：体验取决于具体卖家，需留意商品区域锁说明
 - **Gamivo**（可靠度 65分）https://www.gamivo.com/ — 游戏CD Key第三方卖家集市，多卖家同品竞价，2017年成立，带返现计划。
   - 风险：第三方卖家模式，个别密钥可能被撤销; 结账页有附加保险/订阅勾选，需注意
+- **K4G.com**（可靠度 30分）https://k4g.com — 欧洲 key 市场平台，Steam/Origin/PSN/Xbox 激活码与礼品卡，主播大使计划与慈善捐赠（累计捐赠 15,712 欧元）。
+  - 风险：灰市属性：第三方转售市场，key 来源依赖卖家; 第三方评测（YouTube 2026）指出部分用户遇到区域锁 key、退款慢、仅退钱包余额; 运营时长未独立核验；结算页支付方式未展示
 - **八马批发商铺**（可靠度 20分）https://tg999.top — 落地页式发卡批发商铺，24 小时自助服务通过 Telegram（@tg999topp）完成，宣称每 12 小时分配安全入口。
   - 风险：仅落地页，实际交易走 Telegram，透明度低; 运营时长/备案/支付方式未知; 频繁更换入口域名的模式需警惕
 
@@ -34,8 +36,11 @@
   - 风险：一家测评站称其无退款政策，退款条款以官网 ToS 为准; 主要面向海外用户，无中文/ICP 备案
 - **DLGamer**（可靠度 65分）https://www.dlgamer.com/ — 法国官方授权数字游戏零售商，2004年成立，PC/主机游戏即时交付。
   - 风险：欧美站点，中文支持弱
+- **RoyalCDKeys**（可靠度 65分）https://royalcdkeys.com/ — 香港直营 key 店（Shopify 自营），主打 Windows/Office 激活码与游戏订阅，低加价模式，付款后自动邮件发货；TrustPilot 累计数千条评价。
+  - Windows 11 Pro Retail CD Key：USD 5.24（Retail 25位激活码/邮件即时发货） → https://royalcdkeys.com/products/windows-11-pro-retail-cd-key
+  - 风险：灰市属性：key 为区域折扣转售，存在被撤销风险; 运营成立年份未独立核验
 - **MMOGA**（可靠度 55分）https://mmoga.com/ — 德国老牌虚拟商品中介平台，游戏key、点卡、游戏币5分钟邮件交付，自称1300万客户。
-  - Steam 游戏 Key：GBP 43.73（标准版/欧区） → https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard
+  - Steam 游戏 Key：USD 57.39（标准版/欧区） → https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard
   - 风险：以德语/英语为主，中文支持弱; 客服响应情况本次未验证
 - **HRKGame**（可靠度 55分）https://hrkgame.com/ — 捷克背景的数字key商店，Steam游戏与软件授权低价即时交付，带站内积分系统。
   - 风险：key来源不明（第三方测评亦指出可能为灰色渠道）; 首页未明确展示全部支付方式
@@ -133,8 +138,6 @@
   - 风险：运营时长无从考证; 无 ICP 备案公示; 退款政策未在公开页明确; 第三方口碑未独立核验; 该站无 Claude 订阅代充商品，仅有 Muse 成品号
 - **AI服务代充值服务（littlemagic8）**（可靠度 30分）https://littlemagic8.github.io/gptplus/ — 个人运营的 AI 代充页，主营 GPT/Claude/Gemini/Perplexity/Grok/X Premium 代充，微信客服一对一服务。
   - 风险：个人运营，无公司主体与备案; 支付与售后政策未公示; GitHub Pages 托管，域名可随时更换
-- **Tibo AI**（可靠度 30分）https://gptibo.com — Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。
-  - 风险：个人小店，运营时长/备案未知; 支付方式未公示; 质保承诺仅见于社媒帖子
 - **笔墨小铺 BmoPlus**（可靠度 30分）https://shop.bmoplus.com/ — GPT/Claude Max/Gemini Pro/Grok 代充，TG客服对接
   - 风险：个人小店性质; 运营时长未知; 售后政策未明确; 支付方式未在首页明示
 - **AIGoCode**（可靠度 30分）https://aigocode.com/ — AI开发者工作台/模型额度订阅，按量或订阅付费
@@ -152,6 +155,8 @@
   - 风险：运营时长与备案未知; 支付与售后政策未公示; 社媒账号交易本身有封号风险
 - **旧Gmail邮箱批发平台**（可靠度 20分）https://oldgmailbuy.com — Gmail 账号批发平台，主营全新号、2010–2024 各年份老号与多国 IP 注册号，明码标价 ¥5–33，库存/已售公示完整。
   - 风险：运营时长与备案未知; 支付方式未在站内公示; 售后政策未在站内公示
+- **Tibo AI**（可靠度 20分）https://gptibo.com — Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。
+  - 风险：个人小店，运营时长/备案未知; 支付方式未公示; 质保承诺仅见于社媒帖子; 连续1天无法访问（全站显示“本站已关停”，确认停业）
 - **木木商店**（可靠度 10分）https://feifeivip.com — Telegram 账号小店，主营各国 TG 账号（尼日利亚/印尼/泰国等）与群组频道僵尸粉，自动发货。
   - 风险：运营主体不明; 支付方式与退款政策未公示; 账号封禁风险
 
@@ -175,6 +180,8 @@
 - **DD373（嘟嘟网络游戏交易平台）**（可靠度 65分）https://dd373.com/ — 老牌综合游戏交易平台（新乡市嘟嘟网络技术有限公司），游戏币、账号、装备、手游充值，寄售/担保/求购多种模式。
   - 游戏账号交易：议价 → https://www.dd373.com/
   - 风险：未公示ICP备案号; 支付方式未在首页确认
+- **VCGamers**（可靠度 60分）https://vcgamers.com — 印尼头部游戏充值/数字商品市场，Mobile Legends、Free Fire 等代充，托管（rekber）交易，24 小时客服，100% 退款承诺。
+  - 风险：主要面向印尼用户（印尼语/印尼支付为主），海外购买便利性一般; 游戏代充受游戏公司封号政策影响
 - **Pockyt Shop**（可靠度 55分）https://shop.pockyt.io/ — 知名电子礼品卡商城，App Store/Google Play/PS/Netflix等各区礼品卡，支付宝小程序可购。
   - 风险：V2EX有用户报告买到黑卡; 客服与退款政策未在公开页确认; 成立年份未单独核验
 - **GVGMall**（可靠度 50分）https://www.gvgmall.com/ — 游戏币/装备/代练与CD Key综合卖场，自称12年运营、100万+注册用户。
@@ -198,5 +205,7 @@
   - 风险：面向海外用户，中文支持弱; 运营时长未知; 中文第三方口碑少
 - **MMOPIXEL**（可靠度 30分）https://mmopixel.com — 游戏币/礼品卡/游戏Key，24/7在线客服，自称100万+客户
   - 风险：运营时长未核验; 支付方式未在首页确认; 自称数据未独立验证
+- **UU898（悠悠游戏服务网）**（可靠度 30分）https://uu898.com/ — 老牌游戏交易平台（2008 年起），游戏账号、装备、金币、点卡与代练担保交易，首创求购交易模式。
+  - 风险：公开页面信息有限，客服/退款/第三方口碑未独立核验
 - **泡泡手游代储**（可靠度 20分）https://ppgame.tw/ — 台湾手游代储值平台，覆盖百款热门手游官方储值，LINE 24小时客服，3~12分钟到账。
   - 风险：代储需提供游戏账号密码，存在账号安全风险; 具体价格需加LINE询客服，页面多为 NT$10 起引流价

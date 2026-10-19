@@ -110,11 +110,11 @@ const SITES = [
         "pid": "steam-key",
         "name": "Elden Ring (PC) - Steam Key - EUROPE",
         "spec": "标准版/欧区",
-        "price": 55.85,
+        "price": 56.54,
         "currency": "USD",
         "buy_url": "https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119",
         "stock": true,
-        "pverified": "2026-10-16"
+        "pverified": "2026-10-19"
       },
       {
         "pid": "netflix",
@@ -1150,7 +1150,7 @@ const SITES = [
         "currency": "CNY",
         "buy_url": "https://getgpt.pro/purchase",
         "stock": true,
-        "pverified": "2026-10-11"
+        "pverified": "2026-10-19"
       }
     ],
     "status": "ok",
@@ -1259,12 +1259,12 @@ const SITES = [
       {
         "pid": "gpt-plus",
         "name": "ChatGPT Plus 充值",
-        "spec": "165元起·微信支付宝开通",
-        "price": 165,
+        "spec": "官方充值·微信支付宝开通（活动特价 ¥163）",
+        "price": 172,
         "currency": "CNY",
         "buy_url": "https://qfcc99.com/shop/panghu",
         "stock": true,
-        "pverified": "2026-10-11"
+        "pverified": "2026-10-19"
       },
       {
         "pid": "claude",
@@ -1274,7 +1274,7 @@ const SITES = [
         "currency": "CNY",
         "buy_url": "https://qfcc99.com/shop/panghu",
         "stock": true,
-        "pverified": "2026-10-11"
+        "pverified": "2026-10-19"
       }
     ],
     "status": "ok",
@@ -1621,7 +1621,7 @@ const SITES = [
       "支付方式未公示",
       "质保承诺仅见于社媒帖子",
       "2026-10-15 V2EX 实名举报：购买的会员几天后失效、网站关停且无售后（t/1248869）",
-      "连续6天无法访问（HTTPError: HTTP Error 503: Service Unavailable）"
+      "连续7天无法访问（HTTPError: HTTP Error 503: Service Unavailable）"
     ],
     "verified": "2026-10-19",
     "products": [
@@ -1637,7 +1637,7 @@ const SITES = [
       }
     ],
     "status": "down",
-    "down_days": 6
+    "down_days": 7
   },
   {
     "name": "12GPT",
@@ -2222,7 +2222,7 @@ const SITES = [
     "url": "https://www.ldshop.gg/",
     "category": "game-topup",
     "desc": "LDPlayer旗下游戏代充站，原神UID直充折扣。",
-    "score": 15,
+    "score": 5,
     "signals": [
       "HTTPS 有效",
       "域名注册2023-12（运营超1年）",
@@ -2235,11 +2235,11 @@ const SITES = [
       "第三方代充非官方渠道，存在封号风险争议",
       "交付后严格无退款政策",
       "Trustpilot 个别联盟佣金与客服投诉",
-      "连续4天无法访问（HTTPError: HTTP Error 403: Forbidden）"
+      "连续5天无法访问（HTTPError: HTTP Error 403: Forbidden）"
     ],
     "status": "down",
     "verified": "2026-10-19",
-    "down_days": 4,
+    "down_days": 5,
     "products": [
       {
         "pid": "genshin-6480",
@@ -3005,6 +3005,141 @@ const SITES = [
     "risks": [
       "官方直充按官方定价，通常无第三方代充折扣",
       "首页 JS 单页渲染，未采集到具体商品价格"
+    ],
+    "verified": "2026-10-19",
+    "status": "ok",
+    "down_days": 0,
+    "products": []
+  },
+  {
+    "name": "AccountBot",
+    "url": "https://accountbot.org/",
+    "category": "ai-account",
+    "desc": "AI 账号小店，主营 ChatGPT Plus 1/3/6/12 个月订阅，$4.99/月起，含 Replacement Warranty。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "ChatGPT Plus 1 个月仅 $4.99（官方 $20/月）",
+      "提供 Replacement Warranty",
+      "支持客服团队联系"
+    ],
+    "risks": [
+      "运营时长未知",
+      "第三方口碑待查",
+      "独立第三方网站，非官方授权（官网自述）",
+      "低价账号存在被 OpenAI 封禁风险"
+    ],
+    "verified": "2026-10-19",
+    "status": "ok",
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "gpt-plus",
+        "name": "ChatGPT Plus",
+        "spec": "1 个月",
+        "price": 4.99,
+        "currency": "USD",
+        "buy_url": "https://accountbot.org/product/chatgpt-plus/",
+        "stock": true,
+        "pverified": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "name": "Treabar",
+    "url": "https://treabar.com/",
+    "category": "game-topup",
+    "desc": "原神/多游戏 UID 直充站，原神 6480 结晶 $86（官方 $99.99），支持信用卡与东南亚电子钱包。",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "UID 直充（无需密码）",
+      "原神 6480 结晶 $86（官方 $99.99）",
+      "主流信用卡与东南亚电子钱包",
+      "24/7 在线客服"
+    ],
+    "risks": [
+      "自称持有互联网经营许可，未独立核实",
+      "第三方代充非官方渠道",
+      "2 年口碑为网站自述，无独立第三方测评"
+    ],
+    "verified": "2026-10-19",
+    "status": "ok",
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "genshin-6480",
+        "name": "原神 6480+1600 创世结晶",
+        "spec": "UID 直充",
+        "price": 86.0,
+        "currency": "USD",
+        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
+        "stock": true,
+        "pverified": "2026-10-19"
+      },
+      {
+        "pid": "welkin-moon",
+        "name": "原神 空月祝福（月卡）",
+        "spec": "UID 直充",
+        "price": 4.39,
+        "currency": "USD",
+        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
+        "stock": true,
+        "pverified": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "name": "EnjoyGM",
+    "url": "https://www.enjoygm.com/",
+    "category": "game-topup",
+    "desc": "原神/多游戏 UID 直充站，原神 6480+1600 结晶 $68.92（约 31% off），60+ 支付方式，24/7 客服。",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "UID 直充（无需密码）",
+      "原神 6480+1600 结晶 $68.92（官方 $99.99，约 31% off）",
+      "60+ 支付方式（含 PayPal/GCash/加密货币）",
+      "24/7 客服（网站自称 2 分钟内响应）"
+    ],
+    "risks": [
+      "网站自称 4.98/5（12,726 条评价），无独立第三方测评",
+      "运营时长未知",
+      "第三方代充非官方渠道"
+    ],
+    "verified": "2026-10-19",
+    "status": "ok",
+    "down_days": 0,
+    "products": [
+      {
+        "pid": "genshin-6480",
+        "name": "原神 6480+1600 创世结晶",
+        "spec": "UID 直充",
+        "price": 68.92,
+        "currency": "USD",
+        "buy_url": "https://www.enjoygm.com/top-up/genshin-impact",
+        "stock": true,
+        "pverified": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "name": "Bitrefill",
+    "url": "https://www.bitrefill.com/",
+    "category": "kami",
+    "desc": "全球加密礼品卡商（2014 年成立），5000+ 礼品卡/eSIM/话费充值，用 BTC/Lightning/USDT 等加密货币支付，Trustpilot 4.6/5。",
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "运营超 3 年（2014 年成立）",
+      "5000+ 礼品卡/eSIM/话费充值",
+      "BTC/Lightning/ETH/USDC/USDT 等加密支付",
+      "客服 Help Center",
+      "Trustpilot 4.6/5"
+    ],
+    "risks": [
+      "仅支持加密货币支付",
+      "数字礼品卡售出后一般不退"
     ],
     "verified": "2026-10-19",
     "status": "ok",

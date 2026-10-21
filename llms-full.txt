@@ -1,18 +1,19 @@
 # 卡密导航 · 完整收录数据
 
-> 更新于 2026-10-21，共 111 个站点。官网 https://jxsite.github.io/kami-nav/
+> 更新于 2026-10-22，共 118 个站点。官网 https://jxsite.github.io/kami-nav/
 > 评分 0-100：HTTPS、运营时长、ICP 备案、主流支付、客服、第三方口碑、退款售后；排序不构成购买推荐，交易风险自负。
 
 ## 🃏 发卡平台
 - **G2A**（可靠度 65分）https://www.g2a.com — 全球最大数字娱乐品市场之一，游戏激活码、软件、订阅由认证商家上架自动发卡。
   - Steam 游戏 Key：USD 56.54（标准版/欧区） → https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119
-  - Netflix 会员：USD 6.59（Basic 1个月/成品账号直登） → https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004
+  - Netflix 会员：USD 21.06（Basic 1个月/成品账号直登） → https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004
+  - Spotify 会员：USD 24.57（个人版12个月） → https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=
   - 风险：灰市属性：曾卷入盗刷key争议（如2016年tinyBuild事件），key来源依赖卖家，存在被撤销风险
 - **Kinguin**（可靠度 65分）https://www.kinguin.net — 总部香港的数字商品市场，游戏key、软件授权、订阅码由审核商家上架销售。
-  - Steam 游戏 Key：USD 49.74（标准版/欧区） → https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key
+  - Steam 游戏 Key：USD 50.75（标准版/欧区） → https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key
   - 风险：灰市属性：key多为区域低价转售，非发行商直接授权，偶有区域锁问题
 - **Eneba**（可靠度 65分）https://www.eneba.com — 立陶宛的高速增长型玩家市场，游戏key、礼品卡、点券即时交付，有官方App。
-  - Steam 游戏 Key：USD 61.9（标准版/北美区） → https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america
+  - Steam 游戏 Key：USD 57.57（标准版/北美区） → https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america
   - 风险：市场模式：体验取决于具体卖家，需留意商品区域锁说明
 - **Gamivo**（可靠度 65分）https://www.gamivo.com/ — 游戏CD Key第三方卖家集市，多卖家同品竞价，2017年成立，带返现计划。
   - 风险：第三方卖家模式，个别密钥可能被撤销; 结账页有附加保险/订阅勾选，需注意
@@ -54,15 +55,20 @@
   - Windows 11 Pro 终身密钥（全球版）：USD 6.6（OEM, Global, 即时交付） → https://www.gamers-outlet.net/en/buy-windows-11-pro-cd-key-oem-microsoft-global-1
   - Steam 游戏 Key：USD 54.27（PC Steam Key, Global） → https://www.gamers-outlet.net/en/phantom-blade-zero-standard-edition-pc-steam-key-global
   - 风险：未经授权的密钥渠道（keyshop 性质，货源非发行商直接授权）; 部分商品为区域版本（如 Middle-East 版），购买前需确认区服
+- **GameBillet**（可靠度 65分）https://www.gamebillet.com/ — 欧洲老牌 PC 游戏授权经销商，官方授权 Steam Key，首页常年全场折扣。
+  - Steam 游戏 Key：USD 27.99（Steam Key） → https://www.gamebillet.com/
+  - Steam 游戏 Key：USD 23.95（Steam Key，-60%） → https://www.gamebillet.com/
+  - Steam 游戏 Key：USD 19.99（Steam Key，-50%） → https://www.gamebillet.com/
+  - 风险：欧洲小众授权商，知名度低于 GMG/Fanatical
 - **MMOGA**（可靠度 55分）https://mmoga.com/ — 德国老牌虚拟商品中介平台，游戏key、点卡、游戏币5分钟邮件交付，自称1300万客户。
-  - Steam 游戏 Key：USD 57.58（标准版/欧区） → https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard
+  - Steam 游戏 Key：USD 57.6（标准版/欧区） → https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard
   - 风险：以德语/英语为主，中文支持弱; 客服响应情况本次未验证
 - **HRKGame**（可靠度 55分）https://hrkgame.com/ — 捷克背景的数字key商店，Steam游戏与软件授权低价即时交付，带站内积分系统。
   - 风险：key来源不明（第三方测评亦指出可能为灰色渠道）; 首页未明确展示全部支付方式
 - **CODS.IO**（可靠度 55分）https://cods.io/ — Steam/PSN/Xbox/Apple/Netflix 礼品卡与游戏币，即时邮件发货
   - 风险：纯俄语站，无中文与支付宝/微信; 主要服务俄罗斯用户; 自称数据未独立验证
 - **GGSel**（可靠度 55分）https://ggsel.net — 数字商品交易市场（俄语区用户为主），卖家入驻制，平台提供交易保护与纠纷处理，Steam 充值、礼品卡、游戏密钥、AI 订阅均有售，支持 PayPal 与加密货币。
-  - Last Epoch 游戏密钥：USD 7.75（Steam 激活（目录页起价）） → https://ggsel.net/en/catalog/last-epoch-keys
+  - Last Epoch 游戏密钥：USD 7.66（Steam 激活（目录页起价）） → https://ggsel.net/en/catalog/last-epoch-keys
   - Sea of Thieves 远古金币 150：USD 16（PSN 充值码） → https://ggsel.net/en/catalog/sea-of-thieves-dlc-ps
   - 风险：第三方独立口碑较少，站内评论为主; 俄语界面为主，英语目录页可用
 - **MTCGAME**（可靠度 55分）https://www.mtcgame.com — 土耳其数字游戏商店，游戏礼品卡/直充/充值卡全球即时邮件发货，700+ 本地支付方式，支持支付宝与微信支付。
@@ -73,6 +79,10 @@
   - 风险：密钥来源非官方授权渠道（灰市批发）; 偶有黑键/区域锁/发货失败投诉; 运营时长与公司主体信息不明
 - **BuySellVouchers**（可靠度 50分）https://buysellvouchers.com/ — 运营超10年的加密货币礼品卡 P2P 市场，支持70余种加密货币买卖 Apple/Steam/PSN 等礼品卡，资金托管+卖家评级。
   - 风险：第三方检测站点结论不一（ScamAdviser/scam-detector 算法标记可疑，另两家给高分）; P2P 市场，需选择高信誉卖家
+- **KAMIKEY**（可靠度 35分）https://kamikey.com/ — 越南正版游戏 Key 商店，主打 Steam 官方激活码与 Steam 离线共享版，越南盾结算。
+  - Steam 游戏 Key：VND 680000（Steam 全球激活码，永久入库） → https://kamikey.com/products/helldivers-2-steam-key/
+  - Steam 游戏 Key：VND 950000（Steam 全球激活码，永久入库） → https://kamikey.com/products/helldivers-2-steam-key/
+  - 风险：2026年1月上线，运营不足1年; 主打 Steam Offline 共享版（灰色模式）; -96% 式夸张折扣展示; 越南语站点，中文用户门槛高
 - **BitTopup**（可靠度 30分）https://bittopup.com — 数字礼品卡与游戏充值平台，主营 Amazon/PSN/Xbox 礼品卡兑换码即时发货与手游代充，官网公开香港公司地址。
   - 风险：成立年份查不到，运营时长无法验证; 无 ICP 备案; 无第三方独立测评/社区口碑; 退款政策未在公开页面确认
 - **Jour Cards**（可靠度 30分）https://jour-cards.com — 加密货币礼品卡商城（5000品牌），英文站
@@ -110,6 +120,10 @@
   - 风险：用户数、成功率等为站方自述，未独立验证; 代充需提交账号 Session，有账号安全风险
 - **PlusGO**（可靠度 65分）https://plusgo.pro — ChatGPT Go/Plus/Pro 代充，自称 2025 年起运营、服务 1.5 万+用户，承诺 30 天不掉订阅，支付宝/微信支付。
   - 风险：用户数为站方自述; 代充需提交一次性登录凭证
+- **瑶瑶 yaoyao.chat**（可靠度 65分）https://yaoyao.chat/ — 中文 AI 会员代充商城（300万粉丝博主运营）：ChatGPT Plus ¥129/月、Claude Pro ¥159/月，充到自己账号。
+  - ChatGPT Plus 代充：¥129（充到自己账号，1–3分钟自助到账） → https://yaoyao.chat/
+  - Claude 代充：¥159（充到自己账号，人工开通） → https://yaoyao.chat/
+  - 风险：代充模式（OpenAI/Anthropic 不支持大陆直接付款）; 个人 IP 运营，非公司主体
 - **糖果（Tangguo）**（可靠度 55分）https://tangguo.app/ — ChatGPT/Claude/Grok订阅代充商城，国内支付、全自动充值，Plus 120元/月起、30天质保。
   - ChatGPT Plus 代充：¥128（订单直充/30天（30天质保）） → https://tangguo.app/
   - Claude 代充：¥189（iOS充值卡/月） → https://tangguo.app/store/business
@@ -122,7 +136,6 @@
   - 风险：共享账号模式违反 OpenAI 等官方 ToS，存在封号风险; 非官方授权渠道; 成立年份无法独立验证
 - **PayAI.Plus**（可靠度 55分）https://payai.plus — ChatGPT Plus（¥179/月起）、Pro、Claude Pro（¥189/月起）代充，美区 Apple iOS 渠道卡密自助激活，自称服务 10000+用户。
   - ChatGPT Plus 代充：¥179（账号续费·1个月） → https://payai.plus/chatgpt?product=chatgpt-plus
-  - Claude 代充：¥189（账号续费·1个月） → https://payai.plus/claude
   - 风险：运营时长无明确说法; 用户数、成功率为站方自述
 - **GoPlus**（可靠度 55分）https://goplus.pro — ChatGPT Plus/Pro、Claude Pro/Max、Grok Super 代充，自称累计 8000+订单，微信/支付宝支付，卡密自助或人工交付。
   - ChatGPT Plus 代充：¥172（官方充值·微信支付宝开通（活动特价 ¥163）） → https://qfcc99.com/shop/panghu
@@ -147,7 +160,6 @@
   - Claude 代充：¥199（185元起·按阶梯时长定价） → https://xingqiaosub.com/services/claude-pro
   - 风险：规模小（自称 110+用户）; GitHub 指南引用方为利益相关（仓库维护者自营）; 代充需提交 Session
 - **AI账号空投站**（可靠度 40分）https://ai-airdrop.com — AI 账号自助卡密代充站，主营 ChatGPT Plus/Pro、Claude、Grok 代充，支持微信/支付宝/USDT，页面公示销量 3607。
-  - ChatGPT Plus 代充：¥125（月卡·菲区官方正规卡充） → https://ai-airdrop.com/products/chatgpt-plus-two
   - ChatGPT Plus 代充：¥150（月卡·iOS官方正规充值） → https://ai-airdrop.com/products/4
   - Claude 代充：¥159（月卡·IOS官方正规充值） → https://ai-airdrop.com/products/Claudeproka
   - 风险：运营时长与 ICP 备案未知; 销量为站方自述; 退款政策未明确公示
@@ -162,6 +174,20 @@
   - Claude Pro 代充：¥179（自有账号，人工开通） → https://chonggrok.com
   - Gemini Pro：¥69（家庭组/自有账号多档，会员权益质保一个月） → https://chonggrok.com
   - 风险：运营时长无公开证据; 第三方代充非官方，账号风控风险需自担
+- **ClaudeMax**（可靠度 40分）https://claudemax.shop/ — 中文 AI 会员代充站：ChatGPT Plus/Pro、Claude Max、SuperGrok 代充与成品号，微信支付。
+  - ChatGPT Plus 代充：¥185（充到自己账号，30天，5–30分钟到账） → https://claudemax.shop/
+  - ChatGPT Plus 代充：¥199（已开通账号，人工发货30分钟–4小时） → https://claudemax.shop/
+  - Claude 代充：¥999（充到自己账号，每月 $100 API 额度） → https://claudemax.shop/
+  - 风险：代充/成品号模式，账号合规风险; 无第三方口碑; 运营时长未知
+- **BabayShop**（可靠度 40分）https://babay.web.id/chatgpt-global — 印尼 ChatGPT Plus 成品号小店，多渠道（印度/巴西/欧洲/ApplePay）低价套餐，WhatsApp 下单。
+  - ChatGPT Plus 代充：USD 3.5（25–28天，24小时质保，含 Codex） → https://babay.web.id/chatgpt-global
+  - ChatGPT Plus 代充：USD 5.2（25–28天，10天质保，Gmail/iCloud 邮箱） → https://babay.web.id/chatgpt-global
+  - 风险：$3.5/月的 Plus 明显低于官方成本，漏洞/拒付单风险高; 质保仅 24 小时~10 天; 多款套餐售罄; 成品号模式，账号非本人注册
+- **Infinity Digital Shop**（可靠度 40分）https://infinitydigitalshop.com/product/chatgpt-plus/ — 孟加拉国数字商品店，主营 ChatGPT 共享/个人可续费账号，塔卡结算，全球即时发货。
+  - ChatGPT Go 个人可续费：BDT 799（同一账号每月续费，30天质保） → https://infinitydigitalshop.com/product/chatgpt-plus/
+  - ChatGPT Plus 代充：BDT 2699（同一账号每月续费，聊天记录保留） → https://infinitydigitalshop.com/product/chatgpt-plus/
+  - ChatGPT Plus 代充：BDT 220（1设备同时在线，聊天记录不保证） → https://infinitydigitalshop.com/product/chatgpt-plus/
+  - 风险：孟加拉国小站，无第三方口碑; "No Ban Issue" 宣传存疑; 共享账号模式
 - **SUKAI（速开AI）**（可靠度 35分）https://sukai.ai/ — ChatGPT/Claude成品账号购买与套餐代充平台，支持菲区/美区/日区多区域选择，订单进度可查。
   - 风险：新站，运营时间短; 仅支持USDT/钱包余额支付; 代充需提交账号资料; 推广含邀请返佣
 - **五五AI（55ai.net）**（可靠度 35分）https://55ai.net/ — Claude/GPT订阅代充小店，微信客服对接，自称合法经营、可看营业执照。
@@ -175,7 +201,7 @@
 - **AIGoCode**（可靠度 30分）https://aigocode.com/ — AI开发者工作台/模型额度订阅，按量或订阅付费
   - 风险：API中转/工作台非官方直充; 运营时长未核验; 自称数据未独立验证
 - **DigitalLicense**（可靠度 30分）https://digitallicense.net/ — 软件密钥与 AI 订阅直营店，主营 ChatGPT Plus 独享账号、Gemini、Adobe 等，全程质保+24/7客服。
-  - ChatGPT Plus 代充：USD 51.47（独享/自动发货） → https://digitallicense.net/product/chatgpt-plus-3-months
+  - ChatGPT Plus 代充：USD 23.99（独享/自动发货） → https://digitallicense.net/product/chatgpt-plus-3-months
   - 风险：2026年新站，运营年限短; 第三方独立评价少
 - **Aifory Pro**（可靠度 30分）https://aifory.pro/ — 俄罗斯 AI 订阅代充服务商，以激活码形式自助开通 ChatGPT Plus，卢布支付，博客持续更新教程与价格。
   - 风险：纯俄语站点，仅支持卢布支付，对中文用户门槛高; 第三方口碑与运营年限无公开证据
@@ -204,7 +230,7 @@
 - **木木商店**（可靠度 10分）https://feifeivip.com — Telegram 账号小店，主营各国 TG 账号（尼日利亚/印尼/泰国等）与群组频道僵尸粉，自动发货。
   - 风险：运营主体不明; 支付方式与退款政策未公示; 账号封禁风险
 - **Tibo AI**（可靠度 0分）https://gptibo.com — Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。
-  - 风险：个人小店，运营时长/备案未知; 支付方式未公示; 质保承诺仅见于社媒帖子; 2026-10-15 V2EX 实名举报：购买的会员几天后失效、网站关停且无售后（t/1248869）; 连续8天无法访问（HTTPError: HTTP Error 503: HTTP Error 503: Service Unavailable）
+  - 风险：个人小店，运营时长/备案未知; 支付方式未公示; 质保承诺仅见于社媒帖子; 2026-10-15 V2EX 实名举报：购买的会员几天后失效、网站关停且无售后（t/1248869）; 连续9天无法访问（HTTPError: HTTP Error 503: HTTP Error 503: Service Unavailable）
 
 ## 🎮 游戏账号 / 充值代充
 - **交易猫**（可靠度 90分）https://jiaoyimao.com/ — 阿里巴巴灵犀互娱旗下游戏交易平台，手游/端游账号、道具、代充全品类，业内唯一全场永久包赔。
@@ -272,6 +298,8 @@
   - 原神 6480+1600 创世结晶：USD 86.0（UID 直充） → https://treabar.com/en/gameZone/genshin-impact-top-up
   - 原神 空月祝福（月卡）：USD 4.39（UID 直充） → https://treabar.com/en/gameZone/genshin-impact-top-up
   - 风险：自称持有互联网经营许可，未独立核实; 第三方代充非官方渠道; 2 年口碑为网站自述，无独立第三方测评
+- **BuffBuff**（可靠度 40分）https://buffbuff.com/ — 面向全球的手游代充平台，覆盖原神/MLBB/PUBG 等 250+ 游戏，号称直充到 UID。
+  - 风险：2025年成立的新平台，运营不足1年; 新闻稿为付费通稿性质; 首页 JS 渲染，商品具体价格未实采
 - **KACN 海外充值**（可靠度 30分）https://ka-cn.vip — 面向海外华人的充值/代充平台（抖音/小红书/Q币/游戏点卡等），支持 VISA/Master/PayPal。
   - 风险：口碑证据多为自营 Medium 软文，第三方独立口碑不足; 运营年份无法独立验证; 落地页模板与 cardmvp.com 高度一致，疑似同一运营方; 无 ICP 备案
 - **CARDMVP**（可靠度 30分）https://www.cardmvp.com — 海外手游充值代充（原神/明日方舟/阴阳师/和平精英等），白卡直充，宣称 7×24 客服。
@@ -292,4 +320,4 @@
 - **LDShop**（可靠度 0分）https://www.ldshop.gg/ — LDPlayer旗下游戏代充站，原神UID直充折扣。
   - 原神 6480+1600 创世结晶：USD 67.99（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
   - 原神 空月祝福（月卡）：USD 1.0（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
-  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续6天无法访问（HTTPError: HTTP Error 403: HTTP Error 403: Forbidden）
+  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续7天无法访问（HTTPError: HTTP Error 403: HTTP Error 403: Forbidden）

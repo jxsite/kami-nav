@@ -12,6 +12,8 @@ const PRODUCTS = {
 "gpt-pro": { name: "ChatGPT Pro 代充", icon: "🚀"},
 "gemini-pro": { name: "Gemini Pro 代充", icon: "✨"},
 "claude": { name: "Claude 代充", icon: "🟠"},
+"claude-pro": { name: "Claude Pro 代充", icon: "🟠"},
+"claude-max": { name: "Claude Max 代充", icon: "🟠"},
 "midjourney": { name: "Midjourney", icon: "🎨"},
 "netflix": { name: "Netflix 会员", icon: "🎬"},
 "spotify": { name: "Spotify 会员", icon: "🎵"},

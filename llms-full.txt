@@ -1,6 +1,6 @@
 # 卡密导航 · 完整收录数据
 
-> 更新于 2026-10-26，共 134 个站点。官网 https://jxsite.github.io/kami-nav/
+> 更新于 2026-10-26，共 177 个站点。官网 https://jxsite.github.io/kami-nav/
 > 评分 0-100：HTTPS、运营时长、ICP 备案、主流支付、客服、第三方口碑、退款售后；排序不构成购买推荐，交易风险自负。
 
 ## 🃏 发卡平台
@@ -125,6 +125,13 @@
   - Netflix 会员：USD 3.49（合租起/月） → https://www.gamsgo.com/accounts/netflix
   - Midjourney：USD 13.0（共享/1个月（4.9分卖家款$13）） → https://www.gamsgo.com/accounts/midjourney
   - 风险：账号合租模式可能违反各平台服务条款; 平台兼营集市模式，卖家质量需自行甄别
+- **SWAPD**（可靠度 75分）https://swapd.co/ — 2012年创立的数字资产交易社区，会员审核制，X账号以论坛帖形式议价交易，含高粉丝与认证号。
+  - X 账号：USD 150000（160k粉丝、可议价） → https://swapd.co/c/social-media/buy-sell-twitter-accounts/37
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 需会员审核才能浏览交易; 价格为卖家议价、无固定标价
+- **FameSwap**（可靠度 75分）https://fameswap.com/ — 老牌社媒账号交易市场，主打带真实粉丝的个人/品牌号，平台托管交易，X账号为其覆盖品类之一。
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 首页抓取以TikTok/YouTube为主，X库存以第三方评测为准; X listing价格需登录后查看
+- **Mexaccs**（可靠度 75分）https://mexaccs.com/buy-twitter-accounts/ — 2019年起自营慢养X账号的卖家，强调真实粉丝与原始邮箱交接，500+已售，交易走PlayerSells等平台托管。
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 无固定标价，需按预算询价
 - **12GPT**（可靠度 70分）https://12gpt.com — ChatGPT Plus/Pro 代充到自己账号，Plus ¥135/月，微信/支付宝支付
   - ChatGPT Plus 代充：¥135（月付·135元/月·人工充值） → https://12gpt.com/
   - 风险：运营时长与用户规模为自称未独立验证
@@ -137,6 +144,12 @@
   - ChatGPT Plus 代充：¥129（充到自己账号，1–3分钟自助到账） → https://yaoyao.chat/
   - Claude 代充：¥159（充到自己账号，人工开通） → https://yaoyao.chat/
   - 风险：代充模式（OpenAI/Anthropic 不支持大陆直接付款）; 个人 IP 运营，非公司主体
+- **AccsZone**（可靠度 65分）https://accszone.com/ — 2023年起的数字账号超市，自营+供应商混合供货，X账号按注册年份、邮箱、2FA、Token分档标价，自动发货。
+  - X 账号：USD 4.0（Hotmail邮箱验证、邮箱含在内、含Token、部分资料填充） → https://accszone.com/ad_details/twitter-accounts-2013-hotmail-sms
+  - X 账号：USD 0.99（Hotmail/Outlook邮箱验证、邮箱含在内、带头像、多国IP注册） → https://accszone.com/ad_details/twitter-accounts-032023-hotmail-multicountry
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 加密货币-only支付，无卡/ PayPal; 首登可能需自备手机号做短信验证
+- **PlayerUp**（可靠度 60分）https://www.middleman.net/ — 运营超10年的数字账号交易论坛（现域名middleman.net），Twitter/X分类有4.6万帖，免费中间人托管是其招牌。
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 第三方评价两极（约2.9-3星，有延迟打款投诉）; 论坛议价式交易、无固定标价
 - **糖果（Tangguo）**（可靠度 55分）https://tangguo.app/ — ChatGPT/Claude/Grok订阅代充商城，国内支付、全自动充值，Plus 120元/月起、30天质保。
   - ChatGPT Plus 代充：¥128（订单直充/30天（30天质保）） → https://tangguo.app/
   - Claude 代充：¥189（iOS充值卡/月） → https://tangguo.app/store/business
@@ -163,6 +176,11 @@
   - 风险：未展示ICP备案信息; Claude 代充本身有风控封号风险，站方声明风险自担; 运营时长不明
 - **银河录像局**（可靠度 50分）https://nf.video — 杭州公司运营的流媒体与 AI 订阅账号合租/代充平台（Netflix、ChatGPT Plus、Claude 等），自称 2019 年起运营。
   - 风险：账号合租模式违反 Netflix/OpenAI 等官方 ToS，存在封号致售后纠纷的固有风险; 信息主要来自一篇带推广优惠码的软文，独立第三方测评少; ICP 备案为自称，未独立核验
+- **AccsBulk**（可靠度 50分）https://accsbulk.com/ — AccsZone的批发姊妹站，同一运营方、同一目录，面向批量采购的X等社媒账号。
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 与AccsZone同源，并非独立供应商; 批发定位，不适合单买; 价格需进目录查看
+- **RankMarket**（可靠度 50分）https://www.rankmarket.org/ — 团购营销工具市场，自称运营10年、5万+客户；Claude Pro/Max 提供共享与独享两种，支持邮件与 Messenger 客服，问题可换可退。
+  - Claude 代充：USD 10（共享或独享，页面标价区间 $10–$147，具体套餐价选规格后显示） → https://www.rankmarket.org/claude-ai/
+  - 风险：团购模式：部分商品需凑单等待，非全部现货; Claude 具体套餐价需选规格后才显示，页面仅给 $10–$147 区间; 共享号存在封号风险；仅保订阅问题，不保违规封号
 - **aishop.homes**（可靠度 45分）https://aishop.homes/ — AI 订阅代充站，覆盖 ChatGPT/Claude/Gemini/Grok/X，售充值卡密与成品号。
   - 风险：新站，成立年份不明; 代充需提交账号密码，有隐私风险; 虚拟产品售后限制多（卡密数据仅保留 7 天）; 无 ICP 备案
 - **明月Plus**（可靠度 45分）https://aicz123.com — 国内 ChatGPT Plus/Pro 订阅充值平台（曾名明月GPT），美区 iOS 订阅通道一卡一充，全程无需提供账号密码。
@@ -208,6 +226,24 @@
   - Claude Max 5x（共享）：EUR 18.95（30 天许可密钥） → https://cheapclaude.online/
   - Claude Max 20x（共享）：EUR 38.95（30 天许可密钥） → https://cheapclaude.online/
   - 风险：域名较新，运营时长未知; 第三方口碑样本未见，介于拼团合租模式
+- **BulkAccounts**（可靠度 40分）https://bulkaccounts.com/product/buy-aged-twitter-accounts — 批量账号商店，X老号50个起购，仪表盘交付，48小时更换保障。
+  - X 账号：USD 2（50个起购，套餐价$100） → https://bulkaccounts.com/product/buy-aged-twitter-accounts
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 仅站内好评、无第三方口碑; 50个起购，不适合单买
+- **FunPay**（可靠度 40分）https://funpay.com/ — 大型玩家对玩家交易市场，Claude Pro/Max 成品号与代充挂单量大，货款由平台托管、买家确认后才放款给卖家。
+  - Claude 代充：EUR 26.07（独享成品号，多卖家挂单最低价） → https://funpay.com/en/lots/3172/
+  - Claude 代充：EUR 160.85（成品号，多卖家挂单最低价） → https://funpay.com/en/lots/3172/
+  - Claude 代充：EUR 310.6（成品号，多卖家挂单最低价） → https://funpay.com/en/lots/3172/
+  - 风险：卖家制，价格与账号质量因卖家而异，下单前需核对卖家评分与年限; 部分为共享/租赁号；Anthropic 不允许账号转售，存在封号风险; 价格为多卖家挂单价，随卖家变动
+- **CDKoffers**（可靠度 40分）https://cdkoffers.com/ — 老牌数字密钥商店，自称十年经验，自动发货；Claude AI Pro 1个月全球代充（Top-Up 到自有账号）在售。
+  - Claude 代充：USD 36.49（Top-Up 到自有账号） → https://kr.cdkoffers.com/claude-ai-pro-1-month-global-account.html
+  - 风险：Claude 商品为代充（Top-Up 到自有账号），不是成品号; 页面价为促销价（原价 $71.84，售价 $36.49）; 注意与此前因诈骗举报被排除的 SCDKey 是两家不同网站
+- **ZarinAcc**（可靠度 40分）https://zarinacc.com/ — 伊朗账号商店，Claude 官方 Pro/Max 代充到自有账号（24小时内激活），另有自营非官方 Zarin AI 面板；自称累计 1 万+成功订单，Telegram 客服 10:00–20:00。
+  - 风险：波斯语站点，主要面向伊朗用户; 实际售价以商品卡片为准，页面文本未显示（仅列官方价 $20/$100/$200）; 非官方 Zarin AI 面板与官方订阅是两种不同商品，无 Claude Code 与官方 App，需区分; 面板套餐激活后不退款
+- **OldGmb**（可靠度 40分）https://oldgmb.com/ — 专卖 6 个月至 15 年 Gmail 老号，按号龄 $1–$6 定价，Telegram 即时交付、48 小时包换。
+  - 谷歌邮箱：USD 1（6个月老号） → https://oldgmb.com/
+  - 谷歌邮箱：USD 2（1-2年老号） → https://oldgmb.com/
+  - 谷歌邮箱：USD 5（9-11年老号（最受欢迎）） → https://oldgmb.com/
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 站内评价为自有宣传，无第三方口碑佐证; 交付走 Telegram，无平台担保
 - **SUKAI（速开AI）**（可靠度 35分）https://sukai.ai/ — ChatGPT/Claude成品账号购买与套餐代充平台，支持菲区/美区/日区多区域选择，订单进度可查。
   - 风险：新站，运营时间短; 仅支持USDT/钱包余额支付; 代充需提交账号资料; 推广含邀请返佣
 - **五五AI（55ai.net）**（可靠度 35分）https://55ai.net/ — Claude/GPT订阅代充小店，微信客服对接，自称合法经营、可看营业执照。
@@ -242,6 +278,27 @@
 - **FastAccess AI**（可靠度 30分）https://fastgptplus.com/ — ChatGPT Plus 订阅开通协助服务，自称 5 分钟自动激活，多语言在线客服，服务流程与条款透明公示。
   - ChatGPT Plus 代充：USD 20（月付/自动激活） → https://fastgptplus.com/
   - 风险：新站，运营时长不明; 第三方口碑未核验; 无 ICP 备案; 其推广文章所称 158 元/月与首页 20 美元/月标价不一致
+- **BuyTwitter**（可靠度 30分）https://buytwitter.com/ — 专卖X账号的商店，按搜索可见性、老号年份（2006-2020）、PVA分档，秒级自动发货，4小时首登更换保障。
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 价格仅在商品卡片上，文本抓取未渲染出具体价; 无公开支付方式与第三方口碑
+- **wasdlab**（可靠度 30分）https://wasdlab.eu/ — Claude 共享号专卖，Pro/Max 三档明码标价，承诺固定席位上限、最闲账号分配与全程保修，站内展示 215 条评价中 210 条五星。
+  - Claude 代充：EUR 11.99（含 Claude Code，全程保修） → https://wasdlab.eu/
+  - Claude 代充：EUR 39.99（含 Claude Code，全程保修） → https://wasdlab.eu/
+  - Claude 代充：EUR 109.99（含 Claude Code，全程保修） → https://wasdlab.eu/
+  - 风险：全部为共享号，非独享，聊天记录不私密、额度共用; 首页宣传“€5.99 起”与实际 Pro 价 €11.99 不一致; 新站背景不明，评价为站内自有展示
+- **Escrozon**（可靠度 30分）https://escrozon.com/ — AI 数字托管交易市场，买卖双方资金由平台托管，48 小时买家验货保护，纠纷由人工调解；今日 Claude 分类暂无现货。
+  - 风险：2026-10-26 实查：Claude 分类显示“No stock right now”，当前无货; 仅支持加密货币支付; Anthropic 不允许账号转让，托管只保交易本身、不保账号长期可用; 新站，卖家与成交记录尚少
+- **NOSAM AI**（可靠度 30分）https://nosamai.com/ — 伊朗 AI 账号商店，卖 Claude Pro/Max 订阅，在线支付与电话、在线聊天、工单客服齐全；页面未显示明码价，需下单或咨询客服确认。
+  - 风险：波斯语站点，主要面向伊朗用户（里亚尔支付）; 商品页未显示明码价，最终价需咨询客服; Claude 订阅不含 API 额度
+- **GetUSASMM**（可靠度 30分）https://getusasmm.com/product/buy-old-gmail-accounts/ — 卖 PVA 与老号 Gmail 账号，提供 1–5 年+号龄与 5–100 个批量套餐，宣称 24/7 客服与包换。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 商品页未明示价格，需选规格/联系卖家确认; 站内评分 5.0/5 为自有宣传，无第三方口碑佐证
+- **BuyVccUsa**（可靠度 30分）https://buyvccusa.com/product/buy-gmail-accounts/ — 卖全新、PVA 与老号 Gmail 账号，宣称即时交付与客服保障。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 商品页未明示价格，需选规格/联系卖家确认; 无第三方口碑佐证
+- **USShopIT**（可靠度 30分）https://usshopit.com/ — 卖 Gmail 等 PVA 账号与银行账号，2024 年上线，宣称登录问题 100% 包换。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 首页未明示 Gmail 单价; 无第三方口碑佐证
+- **XoMails**（可靠度 30分）https://xomails.com/product/buy-gmail-accounts — 卖 PVA 与各月龄 Gmail 账号，批量最高 1000 个，宣称全额退款与 24 小时在线客服。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 商品页未明示价格，需选规格/联系卖家确认; 自认“买卖账号不合法”但仍出售，合规风险高
+- **DigitalShopUSA**（可靠度 30分）https://digitalshopusa.com/ — 卖多国老号 Gmail 账号，2023 年上线，另售谷歌评价与 Facebook 广告账号。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 首页未明示 Gmail 单价; 站内评价为自有宣传，无第三方口碑佐证
 - **GlobalGPT**（可靠度 25分）https://www.glbgpt.com/ — 多模型聚合订阅平台，一个账号可用 GPT/Claude/Gemini/Midjourney 等百余模型与图像视频工具，按积分计费，订阅起价 $5.75/月（年付）。
   - GlobalGPT 订阅：USD 5.75（起步价，年付） → https://www.glbgpt.com/
   - 风险：新兴聚合平台，运营时长不明; 退款/客服政策页面未明示; 是服务聚合而非官方账号转售，模型可用性依平台而定
@@ -256,12 +313,75 @@
   - 风险：运营时长与备案未知; 支付与售后政策未公示; 社媒账号交易本身有封号风险
 - **旧Gmail邮箱批发平台**（可靠度 20分）https://oldgmailbuy.com — Gmail 账号批发平台，主营全新号、2010–2024 各年份老号与多国 IP 注册号，明码标价 ¥5–33，库存/已售公示完整。
   - 风险：运营时长与备案未知; 支付方式未在站内公示; 售后政策未在站内公示
+- **AccountProvide**（可靠度 20分）https://www.accountprovide.com/x-pva-accounts — 专卖X PVA账号的单页店，新号与1个月-5年老号按批量套餐标价，需经WhatsApp/Telegram/邮件下单。
+  - X 账号：USD 75（100个装，合$0.75/个） → https://www.accountprovide.com/x-pva-accounts
+  - X 账号：USD 10（10个装，合$1.00/个） → https://www.accountprovide.com/x-pva-accounts
+  - X 账号：USD 35（10个装，合$3.50/个） → https://www.accountprovide.com/x-pva-accounts
+  - 风险：买卖X账号违反X服务条款，账号有被封禁风险; 需经WhatsApp/Telegram/邮件下单，无公开支付与售后条款; 单页站、无第三方口碑
+- **GetPVATop**（可靠度 20分）https://getpvatop.com/product/buy-old-gmail-accounts/ — 卖老号 Gmail 账号，JSON-LD 标价 $2 起，支持 1–1000 个批量规格，24/7 客服。
+  - 谷歌邮箱：USD 2（老号 PVA） → https://getpvatop.com/product/buy-old-gmail-accounts/
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 支付方式页面未明示; 无第三方口碑佐证
+- **USABuyService**（可靠度 20分）https://usabuyservice.com/product/buy-old-gmail-accounts/ — 卖全新与老号 Gmail 账号，分 5/10/50 个批量规格，即时交付。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 商品页未明示价格，需选规格/联系卖家确认; 无第三方口碑佐证
+- **TrustSmmBiz**（可靠度 20分）https://trustsmmbiz.com/ — 数字账号综合服务商，含邮箱账号类目，2026 年 6 月上线，另售银行/加密/社媒账号。
+  - 风险：买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回; 未见 Gmail 单品页与单价，邮箱类目较泛; 2026-06 才上线，运营不足 1 年; 无第三方口碑佐证
 - **环球巴士**（可靠度 10分）https://universalbus.cn — 流媒体账号合租平台（"奈飞站"：Netflix/Spotify/YouTube/Disney+ 等），宣称自动化交付、售后无忧。
   - 风险：成立年份不明; 无第三方独立口碑; 无 ICP 备案公示; 账号合租模式违反流媒体官方 ToS，存在封号风险; V2EX 用户反馈其"借个号"业务体验差（账号可用性/退款条款/客服响应慢）
 - **木木商店**（可靠度 10分）https://feifeivip.com — Telegram 账号小店，主营各国 TG 账号（尼日利亚/印尼/泰国等）与群组频道僵尸粉，自动发货。
   - 风险：运营主体不明; 支付方式与退款政策未公示; 账号封禁风险
 - **Tibo AI**（可靠度 0分）https://gptibo.com — Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。
   - 风险：个人小店，运营时长/备案未知; 支付方式未公示; 质保承诺仅见于社媒帖子; 2026-10-15 V2EX 实名举报：购买的会员几天后失效、网站关停且无售后（t/1248869）
+
+## 📱 接码平台
+- **TextVerified**（可靠度 65分）https://www.textverified.com/ — 接码平台：美国非VoIP实体SIM号收码，2019年起运营，起价$0.10/次验证。
+  - 短信接码：USD 0.1（按次计费，美国非VoIP号） → https://www.textverified.com/
+  - 接码租号：USD 1.4（1-14天租期，不限次收码） → https://www.textverified.com/
+  - 风险：仅美国号码; 价格高于纯虚拟号平台
+- **5SIM**（可靠度 55分）https://5sim.net/ — 接码平台：180+国家50万+虚拟号，按次收短信验证码，起价$0.008/次。
+  - 短信接码：USD 0.008（按次计费） → https://5sim.net/
+  - 风险：支付方式需注册后确认; 虚拟号可能被部分平台风控
+- **SMS-MAN**（可靠度 45分）https://sms-man.com/ — 接码平台：200+国家、1000+服务的一次性与租赁号码收码服务，起价$0.05/次。
+  - 短信接码：USD 0.05（按次计费，20分钟有效） → https://sms-man.com/
+  - 风险：退款政策首页未明示; 虚拟号可能被部分平台风控
+- **RCVSMS**（可靠度 40分）https://rcvsms.com/ — 接码平台：美国非VoIP实体SIM号按条收码，$0.09/条，另有日租/周租。
+  - 短信接码：USD 0.09（按条计费，美国非VoIP号） → https://rcvsms.com/
+  - 接码日租：USD 1.0（24小时租期，不限次收码） → https://rcvsms.com/
+  - 接码周租：USD 5.0（7天租期，不限次收码） → https://rcvsms.com/
+  - 风险：运营时长未公开; 自称99%成功率未经第三方验证
+- **SMS-BUS**（可靠度 30分）https://sms-bus.com/ — 接码平台：30+国家、100万+号码的中英文接码站，Telegram收码$0.33/次起。
+  - 短信接码：USD 0.33（按次计费） → https://sms-bus.com/
+  - 短信接码：USD 0.14（按次计费） → https://sms-bus.com/
+  - 短信接码：USD 0.48（按次计费） → https://sms-bus.com/
+  - 风险：运营时长与主体未公开
+- **SNSVirtual**（可靠度 30分）https://snsvirtual.com/en — 接码平台：204国家、56应用的一次性与租赁号码收码，价格库存实时透明。
+  - 短信接码：USD 0.51（按次计费） → https://snsvirtual.com/en
+  - 短信接码：USD 0.201（按次计费） → https://snsvirtual.com/en
+  - 短信接码：USD 0.045（按次计费） → https://snsvirtual.com/en
+  - 风险：最低充值$20; 运营时长未公开; 客服仅限已充值用户
+- **LongSMS**（可靠度 25分）https://longsms.net/ — 接码平台：100+国家虚拟号收码，支持最长360天长期租赁，中文界面。
+  - 风险：价格需登录查看; 运营时长未公开
+- **HeroSMS**（可靠度 25分）https://hero-sms.com/ — 接码平台：180+国家、700+服务的接码站，基于SMS-Activate技术架构。
+  - 风险：新平台（SMS-Activate停运后出现）; 第三方实测接码率偏低（约30%）; 价格需登录查看
+- **7SIM**（可靠度 25分）https://7sim.net/ — 接码平台：50+地区免费公共临时号收码，无需注册，每日更新号码。
+  - 风险：免费公共号、短信公开; 大平台可能屏蔽虚拟号段
+- **TempSMSS**（可靠度 20分）https://tempsmss.com/ — 接码平台：13+国家免费公共临时号收码，无需注册，2024年起运营。
+  - 风险：免费公共号、短信内容公开可见; 不适合重要账号与金融验证
+- **超级云短信**（可靠度 20分）https://www.supercloudsms.com/ — 接码平台：128国家免费号收码（含+86），支持ChatGPT/OpenAI注册收码。
+  - 风险：免费公共号、短信公开; 与云短信同模板姐妹站
+- **云短信**（可靠度 20分）https://www.yunduanxin.xyz/ — 接码平台：128国家免费号收码（含+86实时号码），多语言界面。
+  - 风险：免费公共号、短信公开; 与超级云短信同模板姐妹站
+- **D1接码**（可靠度 20分）https://www.uoomsg.com/ — 接码平台：国内付费接码，多端客户端（Windows/安卓/iOS/Mac）+API。
+  - 风险：价格需登录/下载后查看; 首页信息单薄、无明确退款政策
+- **E码云**（可靠度 20分）https://eomsg.com/ — 接码平台：国内付费接码，多端客户端，与D1接码同网络。
+  - 风险：价格需登录/下载后查看; 首页为关键词堆砌、无明确退款政策; 与D1接码同模板/同网络
+- **白鲸接码**（可靠度 20分）https://www.qc86.shop/ — 接码平台：临时号收码（现站名白鲸UltraThink），24/7服务，充值有活动价。
+  - 风险：品牌名与推荐文章中的“千川接码”不一致（现站名白鲸）; 价格需登录查看
+- **Receive-SMS-Online**（可靠度 10分）https://receive-sms-online.info/ — 接码平台：真实SIM免费公共号收码（瑞典/芬兰/荷兰等），无需注册。
+  - 风险：第三方实测免费号对Google/TG/WhatsApp基本收不到码; 短信公开; 仅适合低门槛场景
+- **云接码**（可靠度 10分）https://yunjiema.top/ — 接码平台：全球免费临时号收码，承诺永久免费，短信24小时内删除。
+  - 风险：免费公共号、短信公开; 主体与运营时长不明
+- **免费接码**（可靠度 10分）https://mianfeijiema.com/ — 接码平台：英国/荷兰/芬兰等免费号收码，5-15秒刷新出码。
+  - 风险：免费公共号、短信公开; 主体与运营时长不明
 
 ## 🎮 游戏账号 / 充值代充
 - **交易猫**（可靠度 90分）https://jiaoyimao.com/ — 阿里巴巴灵犀互娱旗下游戏交易平台，手游/端游账号、道具、代充全品类，业内唯一全场永久包赔。

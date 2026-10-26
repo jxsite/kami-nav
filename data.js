@@ -1,5 +1,5 @@
 /* 卡密导航站点数据 — 每日自动验证更新。字段：
-   name: 网站名, url: 首页地址, category: faka|kami|ai-account|game-topup,
+   name: 网站名, url: 首页地址, category: faka|kami|ai-account|jiemao|game-topup,
    desc: 一句话简介, score: 可靠度0-100, signals: 加分依据[], risks: 风险点[],
    verified: 验证日期, status: ok|down, down_days: 连续无法访问天数 */
 const UPDATED_AT = "2026-10-26";
@@ -3993,6 +3993,1268 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://fastgptplus.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "2023年起的数字账号超市，自营+供应商混合供货，X账号按注册年份、邮箱、2FA、Token分档标价，自动发货。",
+    "down_days": 0,
+    "name": "AccsZone",
+    "products": [
+      {
+        "buy_url": "https://accszone.com/ad_details/twitter-accounts-2013-hotmail-sms",
+        "currency": "USD",
+        "name": "X账号 2013年注册老号",
+        "pid": "x-account",
+        "price": 4.0,
+        "pverified": "2026-10-26",
+        "spec": "Hotmail邮箱验证、邮箱含在内、含Token、部分资料填充",
+        "stock": true
+      },
+      {
+        "buy_url": "https://accszone.com/ad_details/twitter-accounts-032023-hotmail-multicountry",
+        "currency": "USD",
+        "name": "X账号 2023年3月注册",
+        "pid": "x-account",
+        "price": 0.99,
+        "pverified": "2026-10-26",
+        "spec": "Hotmail/Outlook邮箱验证、邮箱含在内、带头像、多国IP注册",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "加密货币-only支付，无卡/ PayPal",
+      "首登可能需自备手机号做短信验证"
+    ],
+    "score": 65,
+    "signals": [
+      "HTTPS",
+      "运营自2023年（>1年）",
+      "加密货币支付（Cryptomus）",
+      "24/7在线客服",
+      "多家第三方评测收录",
+      "首登前更换保障"
+    ],
+    "status": "ok",
+    "url": "https://accszone.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "2012年创立的数字资产交易社区，会员审核制，X账号以论坛帖形式议价交易，含高粉丝与认证号。",
+    "down_days": 0,
+    "name": "SWAPD",
+    "products": [
+      {
+        "buy_url": "https://swapd.co/c/social-media/buy-sell-twitter-accounts/37",
+        "currency": "USD",
+        "name": "X账号 160k粉丝",
+        "pid": "x-account",
+        "price": 150000,
+        "pverified": "2026-10-26",
+        "spec": "160k粉丝、可议价",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "需会员审核才能浏览交易",
+      "价格为卖家议价、无固定标价"
+    ],
+    "score": 75,
+    "signals": [
+      "HTTPS",
+      "运营自2012年（>3年）",
+      "中间人托管交易",
+      "会员审核制",
+      "多家第三方评测高口碑"
+    ],
+    "status": "ok",
+    "url": "https://swapd.co/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "老牌社媒账号交易市场，主打带真实粉丝的个人/品牌号，平台托管交易，X账号为其覆盖品类之一。",
+    "down_days": 0,
+    "name": "FameSwap",
+    "products": [],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "首页抓取以TikTok/YouTube为主，X库存以第三方评测为准",
+      "X listing价格需登录后查看"
+    ],
+    "score": 75,
+    "signals": [
+      "HTTPS",
+      "老牌市场（>3年）",
+      "平台托管交易",
+      "站内买卖双方消息系统",
+      "多家第三方评测收录"
+    ],
+    "status": "ok",
+    "url": "https://fameswap.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "运营超10年的数字账号交易论坛（现域名middleman.net），Twitter/X分类有4.6万帖，免费中间人托管是其招牌。",
+    "down_days": 0,
+    "name": "PlayerUp",
+    "products": [],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "第三方评价两极（约2.9-3星，有延迟打款投诉）",
+      "论坛议价式交易、无固定标价"
+    ],
+    "score": 60,
+    "signals": [
+      "HTTPS",
+      "运营超10年（>3年）",
+      "免费中间人托管",
+      "纠纷处理机制",
+      "Twitter/X分类46000+帖"
+    ],
+    "status": "ok",
+    "url": "https://www.middleman.net/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "2019年起自营慢养X账号的卖家，强调真实粉丝与原始邮箱交接，500+已售，交易走PlayerSells等平台托管。",
+    "down_days": 0,
+    "name": "Mexaccs",
+    "products": [],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "无固定标价，需按预算询价"
+    ],
+    "score": 75,
+    "signals": [
+      "HTTPS",
+      "运营自2019年（>3年）",
+      "500+账号已售",
+      "EpicNPC/Fameswap/PlayerSells KYC认证卖家",
+      "PlayerSells托管交易",
+      "原始邮箱交接+售后指导"
+    ],
+    "status": "ok",
+    "url": "https://mexaccs.com/buy-twitter-accounts/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "AccsZone的批发姊妹站，同一运营方、同一目录，面向批量采购的X等社媒账号。",
+    "down_days": 0,
+    "name": "AccsBulk",
+    "products": [],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "与AccsZone同源，并非独立供应商",
+      "批发定位，不适合单买",
+      "价格需进目录查看"
+    ],
+    "score": 50,
+    "signals": [
+      "HTTPS",
+      "与AccsZone同一运营方（2023年起，>1年）",
+      "加密货币支付",
+      "客服支持"
+    ],
+    "status": "ok",
+    "url": "https://accsbulk.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "专卖X PVA账号的单页店，新号与1个月-5年老号按批量套餐标价，需经WhatsApp/Telegram/邮件下单。",
+    "down_days": 0,
+    "name": "AccountProvide",
+    "products": [
+      {
+        "buy_url": "https://www.accountprovide.com/x-pva-accounts",
+        "currency": "USD",
+        "name": "X PVA新号 100个装",
+        "pid": "x-account",
+        "price": 75,
+        "pverified": "2026-10-26",
+        "spec": "100个装，合$0.75/个",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountprovide.com/x-pva-accounts",
+        "currency": "USD",
+        "name": "X老号PVA 10个装",
+        "pid": "x-account",
+        "price": 10,
+        "pverified": "2026-10-26",
+        "spec": "10个装，合$1.00/个",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountprovide.com/x-pva-accounts",
+        "currency": "USD",
+        "name": "X老号PVA 10个装（高档）",
+        "pid": "x-account",
+        "price": 35,
+        "pverified": "2026-10-26",
+        "spec": "10个装，合$3.50/个",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "需经WhatsApp/Telegram/邮件下单，无公开支付与售后条款",
+      "单页站、无第三方口碑"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS",
+      "直连客服下单",
+      "新号与老号分档标价"
+    ],
+    "status": "ok",
+    "url": "https://www.accountprovide.com/x-pva-accounts",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "批量账号商店，X老号50个起购，仪表盘交付，48小时更换保障。",
+    "down_days": 0,
+    "name": "BulkAccounts",
+    "products": [
+      {
+        "buy_url": "https://bulkaccounts.com/product/buy-aged-twitter-accounts",
+        "currency": "USD",
+        "name": "X老号",
+        "pid": "x-account",
+        "price": 2,
+        "pverified": "2026-10-26",
+        "spec": "50个起购，套餐价$100",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "仅站内好评、无第三方口碑",
+      "50个起购，不适合单买"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS",
+      "安全支付",
+      "24/7客服",
+      "48小时更换保障"
+    ],
+    "status": "ok",
+    "url": "https://bulkaccounts.com/product/buy-aged-twitter-accounts",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "专卖X账号的商店，按搜索可见性、老号年份（2006-2020）、PVA分档，秒级自动发货，4小时首登更换保障。",
+    "down_days": 0,
+    "name": "BuyTwitter",
+    "products": [],
+    "risks": [
+      "买卖X账号违反X服务条款，账号有被封禁风险",
+      "价格仅在商品卡片上，文本抓取未渲染出具体价",
+      "无公开支付方式与第三方口碑"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "4小时首登更换保障",
+      "秒级自动发货",
+      "分档详细（年份/2FA/Token/搜索可见性）"
+    ],
+    "status": "ok",
+    "url": "https://buytwitter.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "大型玩家对玩家交易市场，Claude Pro/Max 成品号与代充挂单量大，货款由平台托管、买家确认后才放款给卖家。",
+    "down_days": 0,
+    "name": "FunPay",
+    "products": [
+      {
+        "buy_url": "https://funpay.com/en/lots/3172/",
+        "currency": "EUR",
+        "name": "Claude Pro 1个月",
+        "pid": "claude",
+        "price": 26.07,
+        "pverified": "2026-10-26",
+        "spec": "独享成品号，多卖家挂单最低价",
+        "stock": true
+      },
+      {
+        "buy_url": "https://funpay.com/en/lots/3172/",
+        "currency": "EUR",
+        "name": "Claude Max 5x 1个月",
+        "pid": "claude",
+        "price": 160.85,
+        "pverified": "2026-10-26",
+        "spec": "成品号，多卖家挂单最低价",
+        "stock": true
+      },
+      {
+        "buy_url": "https://funpay.com/en/lots/3172/",
+        "currency": "EUR",
+        "name": "Claude Max 20x 1个月",
+        "pid": "claude",
+        "price": 310.6,
+        "pverified": "2026-10-26",
+        "spec": "成品号，多卖家挂单最低价",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "卖家制，价格与账号质量因卖家而异，下单前需核对卖家评分与年限",
+      "部分为共享/租赁号；Anthropic 不允许账号转售，存在封号风险",
+      "价格为多卖家挂单价，随卖家变动"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS",
+      "运营超3年（平台规模大，卖家账号年限最高7年）",
+      "货款托管、买家确认后放款"
+    ],
+    "status": "ok",
+    "url": "https://funpay.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "团购营销工具市场，自称运营10年、5万+客户；Claude Pro/Max 提供共享与独享两种，支持邮件与 Messenger 客服，问题可换可退。",
+    "down_days": 0,
+    "name": "RankMarket",
+    "products": [
+      {
+        "buy_url": "https://www.rankmarket.org/claude-ai/",
+        "currency": "USD",
+        "name": "Claude Pro/Max",
+        "pid": "claude",
+        "price": 10,
+        "pverified": "2026-10-26",
+        "spec": "共享或独享，页面标价区间 $10–$147，具体套餐价选规格后显示",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "团购模式：部分商品需凑单等待，非全部现货",
+      "Claude 具体套餐价需选规格后才显示，页面仅给 $10–$147 区间",
+      "共享号存在封号风险；仅保订阅问题，不保违规封号"
+    ],
+    "score": 50,
+    "signals": [
+      "HTTPS",
+      "自称运营10年（站内素材可追溯至2018年）",
+      "邮件+Messenger客服（工作日9:00-18:00）",
+      "问题换货或退款政策"
+    ],
+    "status": "ok",
+    "url": "https://www.rankmarket.org/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "老牌数字密钥商店，自称十年经验，自动发货；Claude AI Pro 1个月全球代充（Top-Up 到自有账号）在售。",
+    "down_days": 0,
+    "name": "CDKoffers",
+    "products": [
+      {
+        "buy_url": "https://kr.cdkoffers.com/claude-ai-pro-1-month-global-account.html",
+        "currency": "USD",
+        "name": "Claude AI Pro 1个月全球代充",
+        "pid": "claude",
+        "price": 36.49,
+        "pverified": "2026-10-26",
+        "spec": "Top-Up 到自有账号",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "Claude 商品为代充（Top-Up 到自有账号），不是成品号",
+      "页面价为促销价（原价 $71.84，售价 $36.49）",
+      "注意与此前因诈骗举报被排除的 SCDKey 是两家不同网站"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS",
+      "自称十年经验",
+      "自动发货、客服优先"
+    ],
+    "status": "ok",
+    "url": "https://cdkoffers.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "Claude 共享号专卖，Pro/Max 三档明码标价，承诺固定席位上限、最闲账号分配与全程保修，站内展示 215 条评价中 210 条五星。",
+    "down_days": 0,
+    "name": "wasdlab",
+    "products": [
+      {
+        "buy_url": "https://wasdlab.eu/",
+        "currency": "EUR",
+        "name": "Claude Pro 共享号 30天",
+        "pid": "claude",
+        "price": 11.99,
+        "pverified": "2026-10-26",
+        "spec": "含 Claude Code，全程保修",
+        "stock": true
+      },
+      {
+        "buy_url": "https://wasdlab.eu/",
+        "currency": "EUR",
+        "name": "Claude Max 5x 共享号 30天",
+        "pid": "claude",
+        "price": 39.99,
+        "pverified": "2026-10-26",
+        "spec": "含 Claude Code，全程保修",
+        "stock": true
+      },
+      {
+        "buy_url": "https://wasdlab.eu/",
+        "currency": "EUR",
+        "name": "Claude Max 20x 共享号 30天",
+        "pid": "claude",
+        "price": 109.99,
+        "pverified": "2026-10-26",
+        "spec": "含 Claude Code，全程保修",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "全部为共享号，非独享，聊天记录不私密、额度共用",
+      "首页宣传“€5.99 起”与实际 Pro 价 €11.99 不一致",
+      "新站背景不明，评价为站内自有展示"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "全程保修、账号过载可要求迁移",
+      "客服响应（站内评价称售后响应快）"
+    ],
+    "status": "ok",
+    "url": "https://wasdlab.eu/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "AI 数字托管交易市场，买卖双方资金由平台托管，48 小时买家验货保护，纠纷由人工调解；今日 Claude 分类暂无现货。",
+    "down_days": 0,
+    "name": "Escrozon",
+    "products": [],
+    "risks": [
+      "2026-10-26 实查：Claude 分类显示“No stock right now”，当前无货",
+      "仅支持加密货币支付",
+      "Anthropic 不允许账号转让，托管只保交易本身、不保账号长期可用",
+      "新站，卖家与成交记录尚少"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "资金托管+48小时验货保护",
+      "24/7 AI 聊天监控+人工纠纷调解"
+    ],
+    "status": "ok",
+    "url": "https://escrozon.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "伊朗 AI 账号商店，卖 Claude Pro/Max 订阅，在线支付与电话、在线聊天、工单客服齐全；页面未显示明码价，需下单或咨询客服确认。",
+    "down_days": 0,
+    "name": "NOSAM AI",
+    "products": [],
+    "risks": [
+      "波斯语站点，主要面向伊朗用户（里亚尔支付）",
+      "商品页未显示明码价，最终价需咨询客服",
+      "Claude 订阅不含 API 额度"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "站内在线支付",
+      "售前售后客服（在线聊天/工单/电话）"
+    ],
+    "status": "ok",
+    "url": "https://nosamai.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "伊朗账号商店，Claude 官方 Pro/Max 代充到自有账号（24小时内激活），另有自营非官方 Zarin AI 面板；自称累计 1 万+成功订单，Telegram 客服 10:00–20:00。",
+    "down_days": 0,
+    "name": "ZarinAcc",
+    "products": [],
+    "risks": [
+      "波斯语站点，主要面向伊朗用户",
+      "实际售价以商品卡片为准，页面文本未显示（仅列官方价 $20/$100/$200）",
+      "非官方 Zarin AI 面板与官方订阅是两种不同商品，无 Claude Code 与官方 App，需区分",
+      "面板套餐激活后不退款"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS",
+      "银行网关/钱包/卡对卡支付",
+      "Telegram 客服（10:00–20:00）",
+      "激活失败免费修正或退款"
+    ],
+    "status": "ok",
+    "url": "https://zarinacc.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "专卖 6 个月至 15 年 Gmail 老号，按号龄 $1–$6 定价，Telegram 即时交付、48 小时包换。",
+    "down_days": 0,
+    "name": "OldGmb",
+    "products": [
+      {
+        "buy_url": "https://oldgmb.com/",
+        "currency": "USD",
+        "name": "Gmail 老号（6个月）",
+        "pid": "gmail",
+        "price": 1,
+        "pverified": "2026-10-26",
+        "spec": "6个月老号",
+        "stock": true
+      },
+      {
+        "buy_url": "https://oldgmb.com/",
+        "currency": "USD",
+        "name": "Gmail 老号（1-2年）",
+        "pid": "gmail",
+        "price": 2,
+        "pverified": "2026-10-26",
+        "spec": "1-2年老号",
+        "stock": true
+      },
+      {
+        "buy_url": "https://oldgmb.com/",
+        "currency": "USD",
+        "name": "Gmail 老号（9-11年）",
+        "pid": "gmail",
+        "price": 5,
+        "pverified": "2026-10-26",
+        "spec": "9-11年老号（最受欢迎）",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "站内评价为自有宣传，无第三方口碑佐证",
+      "交付走 Telegram，无平台担保"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS",
+      "PayPal/加密货币支付",
+      "24/7 客服",
+      "48小时包换"
+    ],
+    "status": "ok",
+    "url": "https://oldgmb.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖老号 Gmail 账号，JSON-LD 标价 $2 起，支持 1–1000 个批量规格，24/7 客服。",
+    "down_days": 0,
+    "name": "GetPVATop",
+    "products": [
+      {
+        "buy_url": "https://getpvatop.com/product/buy-old-gmail-accounts/",
+        "currency": "USD",
+        "name": "Gmail 老号",
+        "pid": "gmail",
+        "price": 2,
+        "pverified": "2026-10-26",
+        "spec": "老号 PVA",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "支付方式页面未明示",
+      "无第三方口碑佐证"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS",
+      "24/7 客服",
+      "批量规格 1–1000 个"
+    ],
+    "status": "ok",
+    "url": "https://getpvatop.com/product/buy-old-gmail-accounts/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖 PVA 与老号 Gmail 账号，提供 1–5 年+号龄与 5–100 个批量套餐，宣称 24/7 客服与包换。",
+    "down_days": 0,
+    "name": "GetUSASMM",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "商品页未明示价格，需选规格/联系卖家确认",
+      "站内评分 5.0/5 为自有宣传，无第三方口碑佐证"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "24/7 客服",
+      "包换承诺"
+    ],
+    "status": "ok",
+    "url": "https://getusasmm.com/product/buy-old-gmail-accounts/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖全新与老号 Gmail 账号，分 5/10/50 个批量规格，即时交付。",
+    "down_days": 0,
+    "name": "USABuyService",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "商品页未明示价格，需选规格/联系卖家确认",
+      "无第三方口碑佐证"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS",
+      "即时交付"
+    ],
+    "status": "ok",
+    "url": "https://usabuyservice.com/product/buy-old-gmail-accounts/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖全新、PVA 与老号 Gmail 账号，宣称即时交付与客服保障。",
+    "down_days": 0,
+    "name": "BuyVccUsa",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "商品页未明示价格，需选规格/联系卖家确认",
+      "无第三方口碑佐证"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "即时交付",
+      "客服保障承诺"
+    ],
+    "status": "ok",
+    "url": "https://buyvccusa.com/product/buy-gmail-accounts/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖 Gmail 等 PVA 账号与银行账号，2024 年上线，宣称登录问题 100% 包换。",
+    "down_days": 0,
+    "name": "USShopIT",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "首页未明示 Gmail 单价",
+      "无第三方口碑佐证"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "运营>1年（2024-09 上线）",
+      "100%包换承诺"
+    ],
+    "status": "ok",
+    "url": "https://usshopit.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖 PVA 与各月龄 Gmail 账号，批量最高 1000 个，宣称全额退款与 24 小时在线客服。",
+    "down_days": 0,
+    "name": "XoMails",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "商品页未明示价格，需选规格/联系卖家确认",
+      "自认“买卖账号不合法”但仍出售，合规风险高"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "24小时在线客服",
+      "全额退款承诺"
+    ],
+    "status": "ok",
+    "url": "https://xomails.com/product/buy-gmail-accounts",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "卖多国老号 Gmail 账号，2023 年上线，另售谷歌评价与 Facebook 广告账号。",
+    "down_days": 0,
+    "name": "DigitalShopUSA",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "首页未明示 Gmail 单价",
+      "站内评价为自有宣传，无第三方口碑佐证"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS",
+      "运营>3年（2023-01 上线）"
+    ],
+    "status": "ok",
+    "url": "https://digitalshopusa.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "ai-account",
+    "desc": "数字账号综合服务商，含邮箱账号类目，2026 年 6 月上线，另售银行/加密/社媒账号。",
+    "down_days": 0,
+    "name": "TrustSmmBiz",
+    "products": [],
+    "risks": [
+      "买卖 Gmail 账号违反 Google 服务条款，账号可能被封禁或找回",
+      "未见 Gmail 单品页与单价，邮箱类目较泛",
+      "2026-06 才上线，运营不足 1 年",
+      "无第三方口碑佐证"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS",
+      "专属客服支持"
+    ],
+    "status": "ok",
+    "url": "https://trustsmmbiz.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：180+国家50万+虚拟号，按次收短信验证码，起价$0.008/次。",
+    "down_days": 0,
+    "name": "5SIM",
+    "products": [
+      {
+        "buy_url": "https://5sim.net/",
+        "currency": "USD",
+        "name": "一次性短信接码",
+        "pid": "sms-verify",
+        "price": 0.008,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "支付方式需注册后确认",
+      "虚拟号可能被部分平台风控"
+    ],
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "180+国家、50万+号码",
+      "24/7客服",
+      "多家第三方测评推荐",
+      "未收到码自动退款",
+      "起价$0.008/次"
+    ],
+    "status": "ok",
+    "url": "https://5sim.net/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：200+国家、1000+服务的一次性与租赁号码收码服务，起价$0.05/次。",
+    "down_days": 0,
+    "name": "SMS-MAN",
+    "products": [
+      {
+        "buy_url": "https://sms-man.com/",
+        "currency": "USD",
+        "name": "一次性短信接码",
+        "pid": "sms-verify",
+        "price": 0.05,
+        "pverified": "2026-10-26",
+        "spec": "按次计费，20分钟有效",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "退款政策首页未明示",
+      "虚拟号可能被部分平台风控"
+    ],
+    "score": 45,
+    "signals": [
+      "HTTPS 有效",
+      "200+国家、1000+服务",
+      "24/7客服",
+      "多家测评推荐",
+      "支持次租与最长90天租号"
+    ],
+    "status": "ok",
+    "url": "https://sms-man.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：美国非VoIP实体SIM号收码，2019年起运营，起价$0.10/次验证。",
+    "down_days": 0,
+    "name": "TextVerified",
+    "products": [
+      {
+        "buy_url": "https://www.textverified.com/",
+        "currency": "USD",
+        "name": "短信验证",
+        "pid": "sms-verify",
+        "price": 0.1,
+        "pverified": "2026-10-26",
+        "spec": "按次计费，美国非VoIP号",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.textverified.com/",
+        "currency": "USD",
+        "name": "短期租号",
+        "pid": "sms-rent",
+        "price": 1.4,
+        "pverified": "2026-10-26",
+        "spec": "1-14天租期，不限次收码",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "仅美国号码",
+      "价格高于纯虚拟号平台"
+    ],
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "自2019年运营",
+      "美国非VoIP实体SIM号",
+      "银行卡（Stripe）+加密货币支付",
+      "客服团队",
+      "多家测评推荐"
+    ],
+    "status": "ok",
+    "url": "https://www.textverified.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：美国非VoIP实体SIM号按条收码，$0.09/条，另有日租/周租。",
+    "down_days": 0,
+    "name": "RCVSMS",
+    "products": [
+      {
+        "buy_url": "https://rcvsms.com/",
+        "currency": "USD",
+        "name": "按条收码",
+        "pid": "sms-verify",
+        "price": 0.09,
+        "pverified": "2026-10-26",
+        "spec": "按条计费，美国非VoIP号",
+        "stock": true
+      },
+      {
+        "buy_url": "https://rcvsms.com/",
+        "currency": "USD",
+        "name": "日租号码",
+        "pid": "sms-rent-day",
+        "price": 1.0,
+        "pverified": "2026-10-26",
+        "spec": "24小时租期，不限次收码",
+        "stock": true
+      },
+      {
+        "buy_url": "https://rcvsms.com/",
+        "currency": "USD",
+        "name": "周租号码",
+        "pid": "sms-rent-week",
+        "price": 5.0,
+        "pverified": "2026-10-26",
+        "spec": "7天租期，不限次收码",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长未公开",
+      "自称99%成功率未经第三方验证"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "美国非VoIP实体SIM号",
+      "银行卡/PayPal/加密货币支付",
+      "24/7客服",
+      "20分钟未收到自动退款、余额可退"
+    ],
+    "status": "ok",
+    "url": "https://rcvsms.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：30+国家、100万+号码的中英文接码站，Telegram收码$0.33/次起。",
+    "down_days": 0,
+    "name": "SMS-BUS",
+    "products": [
+      {
+        "buy_url": "https://sms-bus.com/",
+        "currency": "USD",
+        "name": "Telegram短信接码",
+        "pid": "sms-verify",
+        "price": 0.33,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      },
+      {
+        "buy_url": "https://sms-bus.com/",
+        "currency": "USD",
+        "name": "TikTok短信接码",
+        "pid": "sms-verify",
+        "price": 0.14,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      },
+      {
+        "buy_url": "https://sms-bus.com/",
+        "currency": "USD",
+        "name": "WhatsApp短信接码",
+        "pid": "sms-verify",
+        "price": 0.48,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长与主体未公开"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "30+国家、100万+号码",
+      "中英文界面",
+      "电子钱包/银行卡/加密货币充值",
+      "未收到不收费"
+    ],
+    "status": "ok",
+    "url": "https://sms-bus.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：204国家、56应用的一次性与租赁号码收码，价格库存实时透明。",
+    "down_days": 0,
+    "name": "SNSVirtual",
+    "products": [
+      {
+        "buy_url": "https://snsvirtual.com/en",
+        "currency": "USD",
+        "name": "WhatsApp短信接码（美国）",
+        "pid": "sms-verify",
+        "price": 0.51,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      },
+      {
+        "buy_url": "https://snsvirtual.com/en",
+        "currency": "USD",
+        "name": "Telegram短信接码（美国）",
+        "pid": "sms-verify",
+        "price": 0.201,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      },
+      {
+        "buy_url": "https://snsvirtual.com/en",
+        "currency": "USD",
+        "name": "Google短信接码（美国）",
+        "pid": "sms-verify",
+        "price": 0.045,
+        "pverified": "2026-10-26",
+        "spec": "按次计费",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "最低充值$20",
+      "运营时长未公开",
+      "客服仅限已充值用户"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "204国家、56应用",
+      "实时库存与价格透明",
+      "30分钟未收到自动退款",
+      "API支持"
+    ],
+    "status": "ok",
+    "url": "https://snsvirtual.com/en",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：100+国家虚拟号收码，支持最长360天长期租赁，中文界面。",
+    "down_days": 0,
+    "name": "LongSMS",
+    "products": [],
+    "risks": [
+      "价格需登录查看",
+      "运营时长未公开"
+    ],
+    "score": 25,
+    "signals": [
+      "HTTPS 有效",
+      "100+国家虚拟号",
+      "支持长期租赁（最长360天）",
+      "中文界面",
+      "第三方实测推荐（长期号接码率90%+）"
+    ],
+    "status": "ok",
+    "url": "https://longsms.net/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：180+国家、700+服务的接码站，基于SMS-Activate技术架构。",
+    "down_days": 0,
+    "name": "HeroSMS",
+    "products": [],
+    "risks": [
+      "新平台（SMS-Activate停运后出现）",
+      "第三方实测接码率偏低（约30%）",
+      "价格需登录查看"
+    ],
+    "score": 25,
+    "signals": [
+      "HTTPS 有效",
+      "180+国家、700+服务",
+      "基于SMS-Activate技术架构",
+      "API支持"
+    ],
+    "status": "ok",
+    "url": "https://hero-sms.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：13+国家免费公共临时号收码，无需注册，2024年起运营。",
+    "down_days": 0,
+    "name": "TempSMSS",
+    "products": [],
+    "risks": [
+      "免费公共号、短信内容公开可见",
+      "不适合重要账号与金融验证"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "13+国家免费公共号",
+      "无需注册",
+      "2024年起运营"
+    ],
+    "status": "ok",
+    "url": "https://tempsmss.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：50+地区免费公共临时号收码，无需注册，每日更新号码。",
+    "down_days": 0,
+    "name": "7SIM",
+    "products": [],
+    "risks": [
+      "免费公共号、短信公开",
+      "大平台可能屏蔽虚拟号段"
+    ],
+    "score": 25,
+    "signals": [
+      "HTTPS 有效",
+      "50+地区免费公共号",
+      "无需注册",
+      "第三方测评推荐",
+      "每日更新号码"
+    ],
+    "status": "ok",
+    "url": "https://7sim.net/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：真实SIM免费公共号收码（瑞典/芬兰/荷兰等），无需注册。",
+    "down_days": 0,
+    "name": "Receive-SMS-Online",
+    "products": [],
+    "risks": [
+      "第三方实测免费号对Google/TG/WhatsApp基本收不到码",
+      "短信公开",
+      "仅适合低门槛场景"
+    ],
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "真实SIM免费公共号"
+    ],
+    "status": "ok",
+    "url": "https://receive-sms-online.info/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：全球免费临时号收码，承诺永久免费，短信24小时内删除。",
+    "down_days": 0,
+    "name": "云接码",
+    "products": [],
+    "risks": [
+      "免费公共号、短信公开",
+      "主体与运营时长不明"
+    ],
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "免费临时号",
+      "短信24小时内删除、不收集个人数据"
+    ],
+    "status": "ok",
+    "url": "https://yunjiema.top/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：128国家免费号收码（含+86），支持ChatGPT/OpenAI注册收码。",
+    "down_days": 0,
+    "name": "超级云短信",
+    "products": [],
+    "risks": [
+      "免费公共号、短信公开",
+      "与云短信同模板姐妹站"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "128国家免费号（含+86）",
+      "支持ChatGPT/OpenAI注册收码",
+      "2024年起有更新"
+    ],
+    "status": "ok",
+    "url": "https://www.supercloudsms.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：128国家免费号收码（含+86实时号码），多语言界面。",
+    "down_days": 0,
+    "name": "云短信",
+    "products": [],
+    "risks": [
+      "免费公共号、短信公开",
+      "与超级云短信同模板姐妹站"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "128国家免费号（含+86实时号码）",
+      "多语言界面"
+    ],
+    "status": "ok",
+    "url": "https://www.yunduanxin.xyz/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：英国/荷兰/芬兰等免费号收码，5-15秒刷新出码。",
+    "down_days": 0,
+    "name": "免费接码",
+    "products": [],
+    "risks": [
+      "免费公共号、短信公开",
+      "主体与运营时长不明"
+    ],
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "免费号（英国/荷兰/芬兰等）",
+      "5-15秒刷新出码"
+    ],
+    "status": "ok",
+    "url": "https://mianfeijiema.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：国内付费接码，多端客户端（Windows/安卓/iOS/Mac）+API。",
+    "down_days": 0,
+    "name": "D1接码",
+    "products": [],
+    "risks": [
+      "价格需登录/下载后查看",
+      "首页信息单薄、无明确退款政策"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "国内付费接码",
+      "多端客户端与API文档"
+    ],
+    "status": "ok",
+    "url": "https://www.uoomsg.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：国内付费接码，多端客户端，与D1接码同网络。",
+    "down_days": 0,
+    "name": "E码云",
+    "products": [],
+    "risks": [
+      "价格需登录/下载后查看",
+      "首页为关键词堆砌、无明确退款政策",
+      "与D1接码同模板/同网络"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "国内付费接码",
+      "多端客户端"
+    ],
+    "status": "ok",
+    "url": "https://eomsg.com/",
+    "verified": "2026-10-26"
+  },
+  {
+    "category": "jiemao",
+    "desc": "接码平台：临时号收码（现站名白鲸UltraThink），24/7服务，充值有活动价。",
+    "down_days": 0,
+    "name": "白鲸接码",
+    "products": [],
+    "risks": [
+      "品牌名与推荐文章中的“千川接码”不一致（现站名白鲸）",
+      "价格需登录查看"
+    ],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "临时号收码",
+      "24/7服务"
+    ],
+    "status": "ok",
+    "url": "https://www.qc86.shop/",
     "verified": "2026-10-26"
   }
 ];

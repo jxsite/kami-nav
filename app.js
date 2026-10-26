@@ -2,6 +2,7 @@ const CATS = {
 "faka": { name: "发卡平台", icon: "🃏"},
 "kami": { name: "卡密商城", icon: "🎫"},
 "ai-account": { name: "AI账号", icon: "🤖"},
+"jiemao": { name: "接码平台", icon: "📱"},
 "game-topup": { name: "游戏账号 / 充值代充", icon: "🎮"}
 };
 /* 热门商品 taxonomy：pid -> 展示名/图标 */
@@ -19,7 +20,12 @@ const PRODUCTS = {
 "spotify": { name: "Spotify 会员", icon: "🎵"},
 "apple-gift": { name: "Apple 礼品卡", icon: "🍎"},
 "steam-key": { name: "Steam 游戏 Key", icon: "🎮"},
-"game-account":{ name: "游戏账号交易", icon: "🕹️"}
+"game-account":{ name: "游戏账号交易", icon: "🕹️"},
+"x-account": { name: "X 账号", icon: "𝕏"},
+"sms-verify": { name: "短信接码", icon: "📱"},
+"sms-rent": { name: "接码租号", icon: "📱"},
+"sms-rent-day": { name: "接码日租", icon: "📱"},
+"sms-rent-week": { name: "接码周租", icon: "📱"}
 };
 /* 跨币种比价折算（约算，仅用于排序） */
 const RATE = { "CNY": 1, "USD": 7.2, "EUR": 7.8, "JPY": 0.048, "MYR": 1.55, "SGD": 5.35 };

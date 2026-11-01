@@ -1,6 +1,6 @@
 # 卡密导航 · 完整收录数据
 
-> 更新于 2026-11-01，共 213 个站点。官网 https://jxsite.github.io/kami-nav/
+> 更新于 2026-11-02，共 215 个站点。官网 https://jxsite.github.io/kami-nav/
 > 评分 0-100：HTTPS、运营时长、ICP 备案、主流支付、客服、第三方口碑、退款售后；排序不构成购买推荐，交易风险自负。
 
 ## 🃏 发卡平台
@@ -13,7 +13,7 @@
   - Steam 游戏 Key：USD 47.53（标准版/欧区） → https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key
   - 风险：灰市属性：key多为区域低价转售，非发行商直接授权，偶有区域锁问题
 - **Eneba**（可靠度 65分）https://www.eneba.com — 立陶宛的高速增长型玩家市场，游戏key、礼品卡、点券即时交付，有官方App。
-  - Steam 游戏 Key：USD 57.11（标准版/北美区） → https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america
+  - Steam 游戏 Key：USD 57.07（标准版/北美区） → https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america
   - 风险：市场模式：体验取决于具体卖家，需留意商品区域锁说明
 - **Gamivo**（可靠度 65分）https://www.gamivo.com/ — 游戏CD Key第三方卖家集市，多卖家同品竞价，2017年成立，带返现计划。
   - 风险：第三方卖家模式，个别密钥可能被撤销; 结账页有附加保险/订阅勾选，需注意
@@ -66,6 +66,8 @@
 - **Keys-Shop**（可靠度 65分）https://keys-shop.in/ — 印度数字商品商店（2022 年起运营），卖 Windows / Office 激活码、VPN 与 ChatGPT Plus / Claude Pro 等 AI 订阅，邮件即时发货。
 - **Gamesplanet**（可靠度 65分）https://www.gamesplanet.com — 德国老牌官方授权游戏 key 零售商（多家 2026 指南列为官方授权渠道），主营 Steam/Origin/Ubisoft/GOG 密钥与折扣，首页实时报价可查。
   - 风险：无 ICP 备案; 支付方式与退款条款未在本轮首页核验
+- **CoinGate**（可靠度 65分）https://coingate.com/ — 欧盟 MiCA 持牌加密支付服务商（2014年起运营），旗下礼品卡商店可用加密货币或银行卡购买 Steam 等礼品卡，邮件秒发。
+  - 风险：礼品卡由关联实体销售，售出后一般不退; 加密支付受币价波动影响
 - **MMOGA**（可靠度 55分）https://mmoga.com/ — 德国老牌虚拟商品中介平台，游戏key、点卡、游戏币5分钟邮件交付，自称1300万客户。
   - Steam 游戏 Key：USD 57.42（标准版/欧区） → https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard
   - 风险：以德语/英语为主，中文支持弱; 客服响应情况本次未验证
@@ -143,7 +145,7 @@
   - ChatGPT Plus 代充：USD 4.83（合租/月） → https://www.gamsgo.com/
   - Spotify 会员：USD 3.17（合租/月） → https://www.gamsgo.com/
   - Netflix 会员：USD 3.49（合租起/月） → https://www.gamsgo.com/accounts/netflix
-  - Midjourney：USD 13.0（共享/1个月（4.9分卖家款$13）） → https://www.gamsgo.com/accounts/midjourney
+  - Midjourney：USD 12.0（共享/1个月（4.9分卖家款$13）） → https://www.gamsgo.com/accounts/midjourney
   - 风险：账号合租模式可能违反各平台服务条款; 平台兼营集市模式，卖家质量需自行甄别
 - **SWAPD**（可靠度 75分）https://swapd.co/ — 2012年创立的数字资产交易社区，会员审核制，X账号以论坛帖形式议价交易，含高粉丝与认证号。
   - X 账号：USD 150000（160k粉丝、可议价） → https://swapd.co/c/social-media/buy-sell-twitter-accounts/37
@@ -175,7 +177,7 @@
   - Claude 代充：¥189（iOS充值卡/月） → https://tangguo.app/store/business
   - 风险：新站，运营主体不明; 代充需提交AuthSession/sessionKey登录凭据，有账号安全风险; 无ICP备案公示
 - **HuiAI**（可靠度 55分）https://www.huiai.shop/ — ChatGPT Plus/Pro、Claude Pro/Max国内订阅代充，微信/支付宝付款，承诺失败全额退款。
-  - ChatGPT Plus 代充：¥138（人工代充起/月） → https://www.huiai.shop/
+  - ChatGPT Plus 代充：¥126（人工代充起/月） → https://www.huiai.shop/
   - Claude 代充：¥179（人工代充起/月） → https://www.huiai.shop/
   - 风险：新站，运营主体不明; 人工代充需账号配合; 无ICP备案公示
 - **GroupbuySEO**（可靠度 55分）https://groupbuyseo.org — 拼团共享订阅平台，ChatGPT Plus 共享访问约 $5/月，另含 90+ SEO/AI 工具拼团。
@@ -491,6 +493,8 @@
   - 风险：论坛而非托管集市，直接付给卖家风险高; 付费中介不保账号找回与拒付; 账号交易违反游戏厂商条款，有封号风险
 - **Odealo**（可靠度 55分）https://odealo.com/ — 2017 年上线的玩家对玩家 MMO 集市，覆盖流放之路、暗黑、魔兽等游戏币与装备，中介担保、买不到全额退款。
   - 风险：账号/游戏币交易违反游戏厂商条款，有封号风险; 首页价格未标注币种，本轮未录入商品价格; 客服渠道与支付方式本轮页面未核实
+- **氪金兽**（可靠度 55分）https://www.kejinshou.com/ — 国内游戏账号交易平台，提供账号选购、担保中介、鉴定估值、极速回收与账号转移服务。
+  - 风险：账号买卖违反游戏厂商服务条款，存在封号与原号主找回风险
 - **GVGMall**（可靠度 50分）https://www.gvgmall.com/ — 游戏币/装备/代练与CD Key综合卖场，自称12年运营、100万+注册用户。
   - Google AI Gemini Pro：GBP 14.88（18个月激活） → https://uk.gvgmall.com/pc-games-cdkey/google-ai-gemini-pro-18-months.html
   - 风险：第三方独立口碑少，多为站方自述; 部分商品为预售，发货时效波动
@@ -576,4 +580,4 @@
 - **LDShop**（可靠度 0分）https://www.ldshop.gg/ — LDPlayer旗下游戏代充站，原神UID直充折扣。
   - 原神 6480+1600 创世结晶：USD 67.99（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
   - 原神 空月祝福（月卡）：USD 1.0（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
-  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续17天无法访问（VPS HTTP 403 + browser.open 不可用）
+  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续18天无法访问（VPS HTTP 403；2026-11-01 浏览器复核亦不可用）

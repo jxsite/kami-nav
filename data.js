@@ -2,13 +2,28 @@
    name: 网站名, url: 首页地址, category: faka|kami|ai-account|game-topup,
    desc: 一句话简介, score: 可靠度0-100, signals: 加分依据[], risks: 风险点[],
    verified: 验证日期, status: ok|down, down_days: 连续无法访问天数 */
-const UPDATED_AT = "2026-11-01";
+const UPDATED_AT = "2026-11-02";
 const SITES = [
   {
-    "name": "Green Man Gaming",
-    "url": "https://greenmangaming.com/",
     "category": "kami",
     "desc": "英国官方授权数字游戏零售商，直接从1500多家发行商拿货，游戏激活码即时交付。",
+    "down_days": 0,
+    "name": "Green Man Gaming",
+    "products": [
+      {
+        "buy_url": "https://www.greenmangaming.com/games/elden-ring-pc/",
+        "currency": "USD",
+        "name": "Elden Ring（PC Steam Key）",
+        "pid": "steam-key",
+        "price": 59.99,
+        "pverified": "2026-11-02",
+        "spec": "标准版",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "退款政策较严格（预购/已激活不退）"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -19,30 +34,16 @@ const SITES = [
       "Trustpilot 企业认证页面与大量测评",
       "7天未激活退款政策"
     ],
-    "risks": [
-      "退款政策较严格（预购/已激活不退）"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring（PC Steam Key）",
-        "spec": "标准版",
-        "price": 59.99,
-        "currency": "USD",
-        "buy_url": "https://www.greenmangaming.com/games/elden-ring-pc/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://greenmangaming.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "SEAGM",
-    "url": "https://seagm.com/",
     "category": "kami",
     "desc": "马来西亚老牌数字商品商城，主营游戏点卡、礼品卡与手游直充，卡密秒发。",
+    "down_days": 0,
+    "name": "SEAGM",
+    "risks": [],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -51,16 +52,28 @@ const SITES = [
       "24/7 在线客服",
       "站内商品评价量巨大（如Apple礼品卡17.8万条评价4.99分）"
     ],
-    "risks": [],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://seagm.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "OffGamers",
-    "url": "https://offgamers.com/",
     "category": "kami",
     "desc": "新加坡背景的全球数字游戏商店，礼品卡/游戏点卡/CDKey 即时交付，官网自称20年以上运营记录。",
+    "down_days": 0,
+    "name": "OffGamers",
+    "products": [
+      {
+        "buy_url": "https://www.offgamers.com/ID/buynow/15000yen-itunes-gift-card-jp.html",
+        "currency": "JPY",
+        "name": "iTunes Gift Card JPY 15,000 (JP)",
+        "pid": "apple-gift",
+        "price": 16302.09,
+        "pverified": "2026-11-02",
+        "spec": "15000日元/日区",
+        "stock": true
+      }
+    ],
+    "risks": [],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -69,28 +82,50 @@ const SITES = [
       "24/7 客服",
       "第三方公司档案与行业媒体多次提及"
     ],
-    "risks": [],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "apple-gift",
-        "name": "iTunes Gift Card JPY 15,000 (JP)",
-        "spec": "15000日元/日区",
-        "price": 16302.09,
-        "currency": "JPY",
-        "buy_url": "https://www.offgamers.com/ID/buynow/15000yen-itunes-gift-card-jp.html",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://offgamers.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "G2A",
-    "url": "https://www.g2a.com",
     "category": "faka",
     "desc": "全球最大数字娱乐品市场之一，游戏激活码、软件、订阅由认证商家上架自动发卡。",
+    "down_days": 0,
+    "name": "G2A",
+    "products": [
+      {
+        "buy_url": "https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119",
+        "currency": "USD",
+        "name": "Elden Ring (PC) - Steam Key - EUROPE",
+        "pid": "steam-key",
+        "price": 59.39,
+        "pverified": "2026-11-02",
+        "spec": "标准版/欧区",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004",
+        "currency": "USD",
+        "name": "Netflix Account Basic 1 Month - GLOBAL",
+        "pid": "netflix",
+        "price": 21.3,
+        "pverified": "2026-10-31",
+        "spec": "Basic 1个月/成品账号直登",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=",
+        "currency": "USD",
+        "name": "Spotify Premium Subscription Card Individual 12 Months",
+        "pid": "spotify",
+        "price": 29.17,
+        "pverified": "2026-11-02",
+        "spec": "个人版12个月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "灰市属性：曾卷入盗刷key争议（如2016年tinyBuild事件），key来源依赖卖家，存在被撤销风险"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -99,50 +134,30 @@ const SITES = [
       "客服与买家保护（G2A Shield）",
       "Trustpilot 4.0+ 大量评价，多家科技媒体测评"
     ],
-    "risks": [
-      "灰市属性：曾卷入盗刷key争议（如2016年tinyBuild事件），key来源依赖卖家，存在被撤销风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring (PC) - Steam Key - EUROPE",
-        "spec": "标准版/欧区",
-        "price": 59.39,
-        "currency": "USD",
-        "buy_url": "https://www.g2a.com/elden-ring-pc-steam-key-europe-i10000273674006?adid=news_gaming.guides_119208_read.more.button&id=119",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "netflix",
-        "name": "Netflix Account Basic 1 Month - GLOBAL",
-        "spec": "Basic 1个月/成品账号直登",
-        "price": 21.3,
-        "currency": "USD",
-        "buy_url": "https://www.g2a.com/netflix-account-basic-1-month-netflix-account-global-i10000337248004",
-        "stock": true,
-        "pverified": "2026-10-31"
-      },
-      {
-        "pid": "spotify",
-        "name": "Spotify Premium Subscription Card Individual 12 Months",
-        "spec": "个人版12个月",
-        "price": 29.17,
-        "currency": "USD",
-        "buy_url": "https://www.g2a.com/spotify-premium-subscription-card-individual-12-months-spotify-account-account-global-i10000000243117?mosaic2=",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.g2a.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Kinguin",
-    "url": "https://www.kinguin.net",
     "category": "faka",
     "desc": "总部香港的数字商品市场，游戏key、软件授权、订阅码由审核商家上架销售。",
+    "down_days": 0,
+    "name": "Kinguin",
+    "products": [
+      {
+        "buy_url": "https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key",
+        "currency": "USD",
+        "name": "Elden Ring EU Steam CD Key",
+        "pid": "steam-key",
+        "price": 47.53,
+        "pverified": "2026-11-02",
+        "spec": "标准版/欧区",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "灰市属性：key多为区域低价转售，非发行商直接授权，偶有区域锁问题"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -151,30 +166,30 @@ const SITES = [
       "卖家多级审核与买家保护",
       "Trustpilot 4万+评价，多家比价站介绍"
     ],
-    "risks": [
-      "灰市属性：key多为区域低价转售，非发行商直接授权，偶有区域锁问题"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring EU Steam CD Key",
-        "spec": "标准版/欧区",
-        "price": 47.53,
-        "currency": "USD",
-        "buy_url": "https://www.kinguin.net/category/111448/elden-ring-eu-steam-cd-key",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.kinguin.net",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Eneba",
-    "url": "https://www.eneba.com",
     "category": "faka",
     "desc": "立陶宛的高速增长型玩家市场，游戏key、礼品卡、点券即时交付，有官方App。",
+    "down_days": 0,
+    "name": "Eneba",
+    "products": [
+      {
+        "buy_url": "https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america",
+        "currency": "USD",
+        "name": "Elden Ring (PC) Steam Key NORTH AMERICA",
+        "pid": "steam-key",
+        "price": 57.07,
+        "pverified": "2026-11-02",
+        "spec": "标准版/北美区",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "市场模式：体验取决于具体卖家，需留意商品区域锁说明"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -183,30 +198,31 @@ const SITES = [
       "客服与纠纷处理机制",
       "Google Play官方App上架，多家媒体测评"
     ],
-    "risks": [
-      "市场模式：体验取决于具体卖家，需留意商品区域锁说明"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring (PC) Steam Key NORTH AMERICA",
-        "spec": "标准版/北美区",
-        "price": 57.11,
-        "currency": "USD",
-        "buy_url": "https://www.eneba.com/ms-my/steam-elden-ring-pc-steam-key-north-america",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.eneba.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MMOGA",
-    "url": "https://mmoga.com/",
     "category": "kami",
     "desc": "德国老牌虚拟商品中介平台，游戏key、点卡、游戏币5分钟邮件交付，自称1300万客户。",
+    "down_days": 0,
+    "name": "MMOGA",
+    "products": [
+      {
+        "buy_url": "https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard",
+        "currency": "USD",
+        "name": "Elden Ring（Steam Key）",
+        "pid": "steam-key",
+        "price": 57.42,
+        "pverified": "2026-11-02",
+        "spec": "标准版/欧区",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "以德语/英语为主，中文支持弱",
+      "客服响应情况本次未验证"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -215,31 +231,31 @@ const SITES = [
       "第三方比价站（saashub等）正面测评",
       "老客户忠诚折扣体系"
     ],
-    "risks": [
-      "以德语/英语为主，中文支持弱",
-      "客服响应情况本次未验证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring（Steam Key）",
-        "spec": "标准版/欧区",
-        "price": 57.42,
-        "currency": "USD",
-        "buy_url": "https://www.mmoga.com/Steam-Games/Elden-Ring.html?ref=59257&Partner=thebadbeard",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://mmoga.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "HRKGame",
-    "url": "https://hrkgame.com/",
     "category": "kami",
     "desc": "捷克背景的数字key商店，Steam游戏与软件授权低价即时交付，带站内积分系统。",
+    "down_days": 0,
+    "name": "HRKGame",
+    "products": [
+      {
+        "buy_url": "https://www.hrkgame.com/en/games/product/elden-ring/",
+        "currency": "USD",
+        "name": "Elden Ring（Steam PC Key）",
+        "pid": "steam-key",
+        "price": 184.86,
+        "pverified": "2026-11-02",
+        "spec": "标准版",
+        "stock": false
+      }
+    ],
+    "risks": [
+      "key来源不明（第三方测评亦指出可能为灰色渠道）",
+      "首页未明确展示全部支付方式"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -248,31 +264,31 @@ const SITES = [
       "第三方测评称运营以来无重大负面反馈",
       "卡密即时交付"
     ],
-    "risks": [
-      "key来源不明（第三方测评亦指出可能为灰色渠道）",
-      "首页未明确展示全部支付方式"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Elden Ring（Steam PC Key）",
-        "spec": "标准版",
-        "price": 184.86,
-        "currency": "USD",
-        "buy_url": "https://www.hrkgame.com/en/games/product/elden-ring/",
-        "stock": false,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://hrkgame.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "交易猫",
-    "url": "https://jiaoyimao.com/",
     "category": "game-topup",
     "desc": "阿里巴巴灵犀互娱旗下游戏交易平台，手游/端游账号、道具、代充全品类，业内唯一全场永久包赔。",
+    "down_days": 0,
+    "name": "交易猫",
+    "products": [
+      {
+        "buy_url": "https://jiaoyimao.com/",
+        "currency": "CNY",
+        "name": "游戏账号（C2C议价）",
+        "pid": "game-account",
+        "price": null,
+        "pverified": "2026-11-02",
+        "spec": "",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "游戏账号找回是品类固有风险",
+      "平台以个人卖家/商家为主，需自行甄别商品描述"
+    ],
     "score": 90,
     "signals": [
       "HTTPS有效",
@@ -284,31 +300,92 @@ const SITES = [
       "中关村在线等媒体横向测评推荐",
       "全场永久包赔售后"
     ],
-    "risks": [
-      "游戏账号找回是品类固有风险",
-      "平台以个人卖家/商家为主，需自行甄别商品描述"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "游戏账号（C2C议价）",
-        "spec": "",
-        "price": null,
-        "currency": "CNY",
-        "buy_url": "https://jiaoyimao.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://jiaoyimao.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "账号星球（AccountBoy）",
-    "url": "https://accountboy.com/",
     "category": "ai-account",
     "desc": "海外数字账号一站式商城，含ChatGPT/Claude/Midjourney等AI工具账号、代充与合租，自称2019年成立。",
+    "down_days": 0,
+    "name": "账号星球（AccountBoy）",
+    "products": [
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Gmail",
+        "currency": "CNY",
+        "name": "谷歌邮箱",
+        "pid": "gmail",
+        "price": 30.8,
+        "pverified": "2026-10-23",
+        "spec": "各地区统一价/成品号",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
+        "currency": "CNY",
+        "name": "ChatGPT账号",
+        "pid": "gpt-account",
+        "price": 48.8,
+        "pverified": "2026-10-23",
+        "spec": "成品号（Free版）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 198,
+        "pverified": "2026-10-22",
+        "spec": "独享会员账号/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-claude",
+        "currency": "CNY",
+        "name": "Claude Pro",
+        "pid": "claude",
+        "price": 188,
+        "pverified": "2026-10-23",
+        "spec": "直充/月（188起，Max规格至1880）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-midjourney",
+        "currency": "CNY",
+        "name": "Midjourney（30 Standard高级版）独享会员账号",
+        "pid": "midjourney",
+        "price": 299,
+        "pverified": "2026-10-23",
+        "spec": "独享/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Netflix",
+        "currency": "CNY",
+        "name": "奈飞Netflix 30天会员（Premium）",
+        "pid": "netflix",
+        "price": 39.8,
+        "pverified": "2026-10-23",
+        "spec": "共享/30天（页面注明实际有效期26天）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Spotify",
+        "currency": "CNY",
+        "name": "Spotify",
+        "pid": "spotify",
+        "price": 299,
+        "pverified": "2026-10-23",
+        "spec": "会员账号/12个月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "站内提示警惕仿冒网站，谨防钓鱼",
+      "合租/成品账号模式可能违反各平台ToS",
+      "未见ICP备案公示"
+    ],
     "score": 75,
     "signals": [
       "HTTPS有效",
@@ -319,92 +396,61 @@ const SITES = [
       "站内提及退换货政策",
       "自称全球超一百万用户"
     ],
-    "risks": [
-      "站内提示警惕仿冒网站，谨防钓鱼",
-      "合租/成品账号模式可能违反各平台ToS",
-      "未见ICP备案公示"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gmail",
-        "name": "谷歌邮箱",
-        "spec": "各地区统一价/成品号",
-        "price": 30.8,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Gmail",
-        "stock": true,
-        "pverified": "2026-10-23"
-      },
-      {
-        "pid": "gpt-account",
-        "name": "ChatGPT账号",
-        "spec": "成品号（Free版）",
-        "price": 48.8,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
-        "stock": true,
-        "pverified": "2026-10-23"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "独享会员账号/月",
-        "price": 198,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-chatai",
-        "stock": true,
-        "pverified": "2026-10-22"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro",
-        "spec": "直充/月（188起，Max规格至1880）",
-        "price": 188,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-claude",
-        "stock": true,
-        "pverified": "2026-10-23"
-      },
-      {
-        "pid": "midjourney",
-        "name": "Midjourney（30 Standard高级版）独享会员账号",
-        "spec": "独享/月",
-        "price": 299,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-midjourney",
-        "stock": true,
-        "pverified": "2026-10-23"
-      },
-      {
-        "pid": "netflix",
-        "name": "奈飞Netflix 30天会员（Premium）",
-        "spec": "共享/30天（页面注明实际有效期26天）",
-        "price": 39.8,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Netflix",
-        "stock": true,
-        "pverified": "2026-10-23"
-      },
-      {
-        "pid": "spotify",
-        "name": "Spotify",
-        "spec": "会员账号/12个月",
-        "price": 299,
-        "currency": "CNY",
-        "buy_url": "https://www.accountboy.com/zh-cn-cny/buy-Spotify",
-        "stock": true,
-        "pverified": "2026-10-23"
-      }
-    ]
+    "url": "https://accountboy.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GamsGo",
-    "url": "https://www.gamsgo.com/",
     "category": "ai-account",
     "desc": "英国伦敦的全球数字订阅合租平台，AI工具、流媒体、游戏代充一站式，自称运营7年、1000万用户。",
+    "down_days": 0,
+    "name": "GamsGo",
+    "products": [
+      {
+        "buy_url": "https://www.gamsgo.com/",
+        "currency": "USD",
+        "name": "GPT-6 ChatGPT",
+        "pid": "gpt-plus",
+        "price": 4.83,
+        "pverified": "2026-11-02",
+        "spec": "合租/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamsgo.com/",
+        "currency": "USD",
+        "name": "Spotify",
+        "pid": "spotify",
+        "price": 3.17,
+        "pverified": "2026-11-02",
+        "spec": "合租/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamsgo.com/accounts/netflix",
+        "currency": "USD",
+        "name": "Netflix",
+        "pid": "netflix",
+        "price": 3.49,
+        "pverified": "2026-10-22",
+        "spec": "合租起/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamsgo.com/accounts/midjourney",
+        "currency": "USD",
+        "name": "Midjourney Standard",
+        "pid": "midjourney",
+        "price": 12.0,
+        "pverified": "2026-11-02",
+        "spec": "共享/1个月（4.9分卖家款$13）",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "账号合租模式可能违反各平台服务条款",
+      "平台兼营集市模式，卖家质量需自行甄别"
+    ],
     "score": 75,
     "signals": [
       "HTTPS有效",
@@ -414,61 +460,31 @@ const SITES = [
       "第三方评测与媒体报道多",
       "DealShield买家保护：1-24小时退款"
     ],
-    "risks": [
-      "账号合租模式可能违反各平台服务条款",
-      "平台兼营集市模式，卖家质量需自行甄别"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "GPT-6 ChatGPT",
-        "spec": "合租/月",
-        "price": 4.83,
-        "currency": "USD",
-        "buy_url": "https://www.gamsgo.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "spotify",
-        "name": "Spotify",
-        "spec": "合租/月",
-        "price": 3.17,
-        "currency": "USD",
-        "buy_url": "https://www.gamsgo.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "netflix",
-        "name": "Netflix",
-        "spec": "合租起/月",
-        "price": 3.49,
-        "currency": "USD",
-        "buy_url": "https://www.gamsgo.com/accounts/netflix",
-        "stock": true,
-        "pverified": "2026-10-22"
-      },
-      {
-        "pid": "midjourney",
-        "name": "Midjourney Standard",
-        "spec": "共享/1个月（4.9分卖家款$13）",
-        "price": 13.0,
-        "currency": "USD",
-        "buy_url": "https://www.gamsgo.com/accounts/midjourney",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.gamsgo.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "5173",
-    "url": "https://5173.com/",
     "category": "game-topup",
     "desc": "国内老牌游戏交易平台，游戏账号、装备、游戏币全品类交易，实名认证+资金担保。",
+    "down_days": 0,
+    "name": "5173",
+    "products": [
+      {
+        "buy_url": "https://www.5173.com/",
+        "currency": "CNY",
+        "name": "游戏账号（C2C议价）",
+        "pid": "game-account",
+        "price": null,
+        "pverified": "2026-11-02",
+        "spec": "",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "成立年份各方说法不一（2001/2002/2005）",
+      "未在站内显著位置查到ICP备案公示"
+    ],
     "score": 75,
     "signals": [
       "HTTPS有效",
@@ -478,31 +494,31 @@ const SITES = [
       "老牌头部平台、多家媒体提及",
       "实名认证+资金担保+纠纷仲裁"
     ],
-    "risks": [
-      "成立年份各方说法不一（2001/2002/2005）",
-      "未在站内显著位置查到ICP备案公示"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "游戏账号（C2C议价）",
-        "spec": "",
-        "price": null,
-        "currency": "CNY",
-        "buy_url": "https://www.5173.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://5173.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "G2G",
-    "url": "https://g2g.com/",
     "category": "game-topup",
     "desc": "国际知名数字商品交易市场，游戏账号、游戏币、道具、代练，escrow资金托管。",
+    "down_days": 0,
+    "name": "G2G",
+    "products": [
+      {
+        "buy_url": "https://g2g.com/",
+        "currency": "USD",
+        "name": "游戏账号（C2C议价）",
+        "pid": "game-account",
+        "price": null,
+        "pverified": "2026-11-02",
+        "spec": "",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "C2C集市，卖家质量参差，需看卖家评分",
+      "英文站为主"
+    ],
     "score": 75,
     "signals": [
       "HTTPS有效",
@@ -512,31 +528,30 @@ const SITES = [
       "多家第三方游戏指南提及",
       "escrow资金托管、买家确认后放款"
     ],
-    "risks": [
-      "C2C集市，卖家质量参差，需看卖家评分",
-      "英文站为主"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "游戏账号（C2C议价）",
-        "spec": "",
-        "price": null,
-        "currency": "USD",
-        "buy_url": "https://g2g.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://g2g.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "PlayerAuctions",
-    "url": "https://www.playerauctions.com/",
     "category": "game-topup",
     "desc": "1999年开始运营的国际玩家对玩家游戏资产交易平台，300+游戏，PlayerGuardian交易保护。",
+    "down_days": 0,
+    "name": "PlayerAuctions",
+    "products": [
+      {
+        "buy_url": "https://www.playerauctions.com/",
+        "currency": "USD",
+        "name": "游戏账号（C2C议价）",
+        "pid": "game-account",
+        "price": null,
+        "pverified": "2026-11-02",
+        "spec": "",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "英文站，无中文客服"
+    ],
     "score": 75,
     "signals": [
       "HTTPS有效",
@@ -546,30 +561,31 @@ const SITES = [
       "210万用户、多家媒体曝光",
       "PlayerGuardian未交付全额退款"
     ],
-    "risks": [
-      "英文站，无中文客服"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "游戏账号（C2C议价）",
-        "spec": "",
-        "price": null,
-        "currency": "USD",
-        "buy_url": "https://www.playerauctions.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.playerauctions.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "DD373（嘟嘟网络游戏交易平台）",
-    "url": "https://dd373.com/",
     "category": "game-topup",
     "desc": "老牌综合游戏交易平台（新乡市嘟嘟网络技术有限公司），游戏币、账号、装备、手游充值，寄售/担保/求购多种模式。",
+    "down_days": 0,
+    "name": "DD373（嘟嘟网络游戏交易平台）",
+    "products": [
+      {
+        "buy_url": "https://www.dd373.com/",
+        "currency": "CNY",
+        "name": "游戏账号（C2C议价）",
+        "pid": "game-account",
+        "price": null,
+        "pverified": "2026-11-02",
+        "spec": "",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "未公示ICP备案号",
+      "支付方式未在首页确认"
+    ],
     "score": 65,
     "signals": [
       "HTTPS有效",
@@ -578,31 +594,42 @@ const SITES = [
       "中关村在线横向测评提及",
       "站内公示赔付案例"
     ],
-    "risks": [
-      "未公示ICP备案号",
-      "支付方式未在首页确认"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "游戏账号（C2C议价）",
-        "spec": "",
-        "price": null,
-        "currency": "CNY",
-        "buy_url": "https://www.dd373.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://dd373.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "糖果（Tangguo）",
-    "url": "https://tangguo.app/",
     "category": "ai-account",
     "desc": "ChatGPT/Claude/Grok订阅代充商城，国内支付、全自动充值，Plus 120元/月起、30天质保。",
+    "down_days": 0,
+    "name": "糖果（Tangguo）",
+    "products": [
+      {
+        "buy_url": "https://tangguo.app/",
+        "currency": "CNY",
+        "name": "Plus",
+        "pid": "gpt-plus",
+        "price": 128,
+        "pverified": "2026-11-02",
+        "spec": "订单直充/30天（30天质保）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://tangguo.app/store/business",
+        "currency": "CNY",
+        "name": "Claude Pro 月卡｜iOS 充值卡",
+        "pid": "claude",
+        "price": 189,
+        "pverified": "2026-11-02",
+        "spec": "iOS充值卡/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "新站，运营主体不明",
+      "代充需提交AuthSession/sessionKey登录凭据，有账号安全风险",
+      "无ICP备案公示"
+    ],
     "score": 55,
     "signals": [
       "HTTPS有效",
@@ -612,42 +639,42 @@ const SITES = [
       "站内有售后/退款政策说明",
       "Plus 30天质保"
     ],
-    "risks": [
-      "新站，运营主体不明",
-      "代充需提交AuthSession/sessionKey登录凭据，有账号安全风险",
-      "无ICP备案公示"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "Plus",
-        "spec": "订单直充/30天（30天质保）",
-        "price": 128,
-        "currency": "CNY",
-        "buy_url": "https://tangguo.app/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 月卡｜iOS 充值卡",
-        "spec": "iOS充值卡/月",
-        "price": 189,
-        "currency": "CNY",
-        "buy_url": "https://tangguo.app/store/business",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://tangguo.app/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "HuiAI",
-    "url": "https://www.huiai.shop/",
     "category": "ai-account",
     "desc": "ChatGPT Plus/Pro、Claude Pro/Max国内订阅代充，微信/支付宝付款，承诺失败全额退款。",
+    "down_days": 0,
+    "name": "HuiAI",
+    "products": [
+      {
+        "buy_url": "https://www.huiai.shop/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus/Pro",
+        "pid": "gpt-plus",
+        "price": 126,
+        "pverified": "2026-11-02",
+        "spec": "人工代充起/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.huiai.shop/",
+        "currency": "CNY",
+        "name": "Claude Pro/Max",
+        "pid": "claude",
+        "price": 179,
+        "pverified": "2026-11-02",
+        "spec": "人工代充起/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "新站，运营主体不明",
+      "人工代充需账号配合",
+      "无ICP备案公示"
+    ],
     "score": 55,
     "signals": [
       "HTTPS有效",
@@ -656,42 +683,20 @@ const SITES = [
       "V2EX社区提及",
       "失败全额退款承诺"
     ],
-    "risks": [
-      "新站，运营主体不明",
-      "人工代充需账号配合",
-      "无ICP备案公示"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus/Pro",
-        "spec": "人工代充起/月",
-        "price": 138,
-        "currency": "CNY",
-        "buy_url": "https://www.huiai.shop/",
-        "stock": true,
-        "pverified": "2026-10-30"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro/Max",
-        "spec": "人工代充起/月",
-        "price": 179,
-        "currency": "CNY",
-        "buy_url": "https://www.huiai.shop/",
-        "stock": true,
-        "pverified": "2026-10-30"
-      }
-    ]
+    "url": "https://www.huiai.shop/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Pockyt Shop",
-    "url": "https://shop.pockyt.io/",
     "category": "game-topup",
     "desc": "知名电子礼品卡商城，App Store/Google Play/PS/Netflix等各区礼品卡，支付宝小程序可购。",
+    "down_days": 0,
+    "name": "Pockyt Shop",
+    "risks": [
+      "V2EX有用户报告买到黑卡",
+      "客服与退款政策未在公开页确认",
+      "成立年份未单独核验"
+    ],
     "score": 55,
     "signals": [
       "HTTPS有效",
@@ -699,26 +704,46 @@ const SITES = [
       "支付宝小程序/官网支持支付宝、银联",
       "V2EX/GitHub教程多推荐为礼品卡正规渠道"
     ],
-    "risks": [
-      "V2EX有用户报告买到黑卡",
-      "客服与退款政策未在公开页确认",
-      "成立年份未单独核验"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://shop.pockyt.io/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "SUKAI（速开AI）",
-    "url": "https://sukai.ai/",
     "category": "ai-account",
     "desc": "ChatGPT/Claude成品账号购买与套餐代充平台，支持菲区/美区/日区多区域选择，订单进度可查。",
-    "score": 35,
-    "signals": [
-      "HTTPS有效",
-      "ChatGPT/Claude成品号+代充",
-      "订单进度可查",
-      "YouTube科技博主实测推荐"
+    "down_days": 0,
+    "name": "SUKAI（速开AI）",
+    "products": [
+      {
+        "buy_url": "https://sukai.ai/account",
+        "currency": "USD",
+        "name": "GPT Plus 成品号（菲区）",
+        "pid": "gpt-plus",
+        "price": 20.0,
+        "pverified": "2026-11-02",
+        "spec": "成品号",
+        "stock": false
+      },
+      {
+        "buy_url": "https://sukai.ai/account",
+        "currency": "USD",
+        "name": "GPT Pro 100（5x）成品号（菲区）",
+        "pid": "gpt-pro100",
+        "price": 108.0,
+        "pverified": "2026-11-02",
+        "spec": "成品号",
+        "stock": false
+      },
+      {
+        "buy_url": "https://sukai.ai/account",
+        "currency": "USD",
+        "name": "GPT Pro 200（20x）成品号（菲区）",
+        "pid": "gpt-pro",
+        "price": 155.0,
+        "pverified": "2026-11-02",
+        "spec": "成品号",
+        "stock": false
+      }
     ],
     "risks": [
       "新站，运营时间短",
@@ -726,15 +751,28 @@ const SITES = [
       "代充需提交账号资料",
       "推广含邀请返佣"
     ],
-    "verified": "2026-11-01",
+    "score": 35,
+    "signals": [
+      "HTTPS有效",
+      "ChatGPT/Claude成品号+代充",
+      "订单进度可查",
+      "YouTube科技博主实测推荐"
+    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://sukai.ai/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "五五AI（55ai.net）",
-    "url": "https://55ai.net/",
     "category": "ai-account",
     "desc": "Claude/GPT订阅代充小店，微信客服对接，自称合法经营、可看营业执照。",
+    "down_days": 0,
+    "name": "五五AI（55ai.net）",
+    "risks": [
+      "疑似个人/小团队运营（微信客服即V2EX发帖人）",
+      "'可开正规企业发票'与营业执照自称未核验",
+      "无ICP备案公示",
+      "支付方式未在公开页确认"
+    ],
     "score": 35,
     "signals": [
       "HTTPS有效",
@@ -742,21 +780,19 @@ const SITES = [
       "V2EX多帖提及",
       "站内公示营业执照链接"
     ],
-    "risks": [
-      "疑似个人/小团队运营（微信客服即V2EX发帖人）",
-      "'可开正规企业发票'与营业执照自称未核验",
-      "无ICP备案公示",
-      "支付方式未在公开页确认"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://55ai.net/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Fanatical",
-    "url": "https://www.fanatical.com",
     "category": "kami",
     "desc": "英国官方授权游戏 key 商城（前身 Bundle Stars），与约 1000 家发行商直接合作，主营 Steam key 与超值捆绑包。",
+    "down_days": 0,
+    "name": "Fanatical",
+    "risks": [
+      "一家测评站称其无退款政策，退款条款以官网 ToS 为准",
+      "主要面向海外用户，无中文/ICP 备案"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -766,19 +802,19 @@ const SITES = [
       "Trustpilot 近期评价多为 4-5 星、客服逐条回复",
       "Steam 社区确认 100% 正规渠道"
     ],
-    "risks": [
-      "一家测评站称其无退款政策，退款条款以官网 ToS 为准",
-      "主要面向海外用户，无中文/ICP 备案"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.fanatical.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Loaded（原 CDKeys）",
-    "url": "https://www.cdkeys.com",
     "category": "kami",
     "desc": "原 CDKeys（2025 年 9 月更名 Loaded），运营十余年的自营数字游戏密钥零售商，主营游戏 key、礼品卡与订阅。",
+    "down_days": 0,
+    "name": "Loaded（原 CDKeys）",
+    "risks": [
+      "自营转售密钥、非官方授权经销商，灰市属性存争议",
+      "无 ICP 备案"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -789,19 +825,21 @@ const SITES = [
       "主流媒体（Windows Central/PC Gamer）列为可信渠道",
       "7 天内未拆码可退"
     ],
-    "risks": [
-      "自营转售密钥、非官方授权经销商，灰市属性存争议",
-      "无 ICP 备案"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.cdkeys.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "BitTopup",
-    "url": "https://bittopup.com",
     "category": "kami",
     "desc": "数字礼品卡与游戏充值平台，主营 Amazon/PSN/Xbox 礼品卡兑换码即时发货与手游代充，官网公开香港公司地址。",
+    "down_days": 0,
+    "name": "BitTopup",
+    "risks": [
+      "成立年份查不到，运营时长无法验证",
+      "无 ICP 备案",
+      "无第三方独立测评/社区口碑",
+      "退款政策未在公开页面确认"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
@@ -809,21 +847,20 @@ const SITES = [
       "宣称 7×24 多语言客服",
       "官网公开香港公司地址"
     ],
-    "risks": [
-      "成立年份查不到，运营时长无法验证",
-      "无 ICP 备案",
-      "无第三方独立测评/社区口碑",
-      "退款政策未在公开页面确认"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://bittopup.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "银河录像局",
-    "url": "https://nf.video",
     "category": "ai-account",
     "desc": "杭州公司运营的流媒体与 AI 订阅账号合租/代充平台（Netflix、ChatGPT Plus、Claude 等），自称 2019 年起运营。",
+    "down_days": 0,
+    "name": "银河录像局",
+    "risks": [
+      "账号合租模式违反 Netflix/OpenAI 等官方 ToS，存在封号致售后纠纷的固有风险",
+      "信息主要来自一篇带推广优惠码的软文，独立第三方测评少",
+      "ICP 备案为自称，未独立核验"
+    ],
     "score": 50,
     "signals": [
       "HTTPS 有效",
@@ -831,20 +868,20 @@ const SITES = [
       "自称累计 1000 万+ 笔交易、100 万+ 用户",
       "第三方介绍文章列出客服渠道与退款承诺"
     ],
-    "risks": [
-      "账号合租模式违反 Netflix/OpenAI 等官方 ToS，存在封号致售后纠纷的固有风险",
-      "信息主要来自一篇带推广优惠码的软文，独立第三方测评少",
-      "ICP 备案为自称，未独立核验"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://nf.video",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Z2U",
-    "url": "https://www.z2u.com",
     "category": "game-topup",
     "desc": "全球数字商品交易市集（游戏账号/游戏币/代充/游戏密钥/礼品卡），自称服务 1800 万+ 用户、2008 年起运营。",
+    "down_days": 0,
+    "name": "Z2U",
+    "risks": [
+      "开放卖家市集模式，商品质量依卖家而异",
+      "有个别卖家提款纠纷报道",
+      "无 ICP 备案"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -854,20 +891,20 @@ const SITES = [
       "多家评测与 YouTube 实测博主提及",
       "GamerProtect 资金托管与买家保护"
     ],
-    "risks": [
-      "开放卖家市集模式，商品质量依卖家而异",
-      "有个别卖家提款纠纷报道",
-      "无 ICP 备案"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.z2u.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GroupbuySEO",
-    "url": "https://groupbuyseo.org",
     "category": "ai-account",
     "desc": "拼团共享订阅平台，ChatGPT Plus 共享访问约 $5/月，另含 90+ SEO/AI 工具拼团。",
+    "down_days": 0,
+    "name": "GroupbuySEO",
+    "risks": [
+      "共享账号模式违反 OpenAI 等官方 ToS，存在封号风险",
+      "非官方授权渠道",
+      "成立年份无法独立验证"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -876,20 +913,21 @@ const SITES = [
       "Trustpilot 5 星评价",
       "激活失败 14 天内可退"
     ],
-    "risks": [
-      "共享账号模式违反 OpenAI 等官方 ToS，存在封号风险",
-      "非官方授权渠道",
-      "成立年份无法独立验证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://groupbuyseo.org",
+    "verified": "2026-11-02"
   },
   {
-    "name": "aishop.homes",
-    "url": "https://aishop.homes/",
     "category": "ai-account",
     "desc": "AI 订阅代充站，覆盖 ChatGPT/Claude/Gemini/Grok/X，售充值卡密与成品号。",
+    "down_days": 0,
+    "name": "aishop.homes",
+    "risks": [
+      "新站，成立年份不明",
+      "代充需提交账号密码，有隐私风险",
+      "虚拟产品售后限制多（卡密数据仅保留 7 天）",
+      "无 ICP 备案"
+    ],
     "score": 45,
     "signals": [
       "HTTPS 有效",
@@ -897,68 +935,57 @@ const SITES = [
       "V2EX 用户留言推荐",
       "站内有服务规则与质保条款"
     ],
-    "risks": [
-      "新站，成立年份不明",
-      "代充需提交账号密码，有隐私风险",
-      "虚拟产品售后限制多（卡密数据仅保留 7 天）",
-      "无 ICP 备案"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://aishop.homes/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "KACN 海外充值",
-    "url": "https://ka-cn.vip",
     "category": "game-topup",
     "desc": "面向海外华人的充值/代充平台（抖音/小红书/Q币/游戏点卡等），支持 VISA/Master/PayPal。",
-    "score": 30,
-    "signals": [
-      "HTTPS 有效",
-      "支持 VISA/MasterCard/PayPal 等国际支付",
-      "宣称 24 小时客服"
-    ],
+    "down_days": 0,
+    "name": "KACN 海外充值",
     "risks": [
       "口碑证据多为自营 Medium 软文，第三方独立口碑不足",
       "运营年份无法独立验证",
       "落地页模板与 cardmvp.com 高度一致，疑似同一运营方",
       "无 ICP 备案"
     ],
-    "verified": "2026-11-01",
-    "status": "ok",
-    "down_days": 0
-  },
-  {
-    "name": "CARDMVP",
-    "url": "https://www.cardmvp.com",
-    "category": "game-topup",
-    "desc": "海外手游充值代充（原神/明日方舟/阴阳师/和平精英等），白卡直充，宣称 7×24 客服。",
     "score": 30,
     "signals": [
       "HTTPS 有效",
-      "支持 PayPal/Visa/MasterCard/超商支付",
-      "宣称 7×24 小时客服"
+      "支持 VISA/MasterCard/PayPal 等国际支付",
+      "宣称 24 小时客服"
     ],
+    "status": "ok",
+    "url": "https://ka-cn.vip",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "game-topup",
+    "desc": "海外手游充值代充（原神/明日方舟/阴阳师/和平精英等），白卡直充，宣称 7×24 客服。",
+    "down_days": 0,
+    "name": "CARDMVP",
     "risks": [
       "口碑证据多为自营 Medium 软文，第三方独立口碑不足",
       "成立年份不明",
       "与 ka-cn.vip 模板高度一致，疑似同一运营方",
       "无 ICP 备案"
     ],
-    "verified": "2026-11-01",
-    "status": "ok",
-    "down_days": 0
-  },
-  {
-    "name": "环球巴士",
-    "url": "https://universalbus.cn",
-    "category": "ai-account",
-    "desc": "流媒体账号合租平台（\"奈飞站\"：Netflix/Spotify/YouTube/Disney+ 等），宣称自动化交付、售后无忧。",
-    "score": 10,
+    "score": 30,
     "signals": [
       "HTTPS 有效",
-      "官网宣称自动化交付与售后保障"
+      "支持 PayPal/Visa/MasterCard/超商支付",
+      "宣称 7×24 小时客服"
     ],
+    "status": "ok",
+    "url": "https://www.cardmvp.com",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "ai-account",
+    "desc": "流媒体账号合租平台（\"奈飞站\"：Netflix/Spotify/YouTube/Disney+ 等），宣称自动化交付、售后无忧。",
+    "down_days": 0,
+    "name": "环球巴士",
     "risks": [
       "成立年份不明",
       "无第三方独立口碑",
@@ -966,21 +993,81 @@ const SITES = [
       "账号合租模式违反流媒体官方 ToS，存在封号风险",
       "V2EX 用户反馈其\"借个号\"业务体验差（账号可用性/退款条款/客服响应慢）"
     ],
-    "verified": "2026-11-01",
-    "status": "ok",
-    "down_days": 0
-  },
-  {
-    "name": "William",
-    "url": "https://willam.ka8.ai/",
-    "category": "ai-account",
-    "desc": "AI 代充与账号小店，主营 ChatGPT Plus/Pro 代充、Gemini Pro、Muse 成品号、X Premium 与 X 老号，自动发货、支持游客购买。",
-    "score": 30,
+    "score": 10,
     "signals": [
       "HTTPS 有效",
-      "支持支付宝/微信/USDT-BSC/USDT-Polygon",
-      "Telegram/WhatsApp/在线客服",
-      "自动发货、游客可购"
+      "官网宣称自动化交付与售后保障"
+    ],
+    "status": "ok",
+    "url": "https://universalbus.cn",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "ai-account",
+    "desc": "AI 代充与账号小店，主营 ChatGPT Plus/Pro 代充、Gemini Pro、Muse 成品号、X Premium 与 X 老号，自动发货、支持游客购买。",
+    "down_days": 0,
+    "name": "William",
+    "products": [
+      {
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Plus",
+        "currency": "CNY",
+        "name": "ChatGPT-Plus官方充值-自助卡密充值-菲区",
+        "pid": "gpt-plus",
+        "price": 155.4,
+        "pverified": "2026-10-29",
+        "spec": "官方充值·自助卡密充值·菲区",
+        "stock": false
+      },
+      {
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-5x",
+        "currency": "CNY",
+        "name": "ChatGPT-Pro 100官方充值-自助卡密充值-智利区",
+        "pid": "gpt-pro",
+        "price": 882,
+        "pverified": "2026-10-29",
+        "spec": "官方充值·自助卡密充值·智利区",
+        "stock": false
+      },
+      {
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-20x",
+        "currency": "CNY",
+        "name": "ChatGPT-Pro 200官方充值-自助卡密充值-菲区",
+        "pid": "gpt-pro",
+        "price": 1313,
+        "pverified": "2026-10-29",
+        "spec": "官方充值·自助卡密充值·菲区",
+        "stock": false
+      },
+      {
+        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-50x",
+        "currency": "CNY",
+        "name": "ChatGPT-Pro 500官方充值-自助卡密充值-智利区（购买联系客服）",
+        "pid": "gpt-pro",
+        "price": 3075,
+        "pverified": "2026-10-29",
+        "spec": "官方充值·自助卡密充值·智利区",
+        "stock": false
+      },
+      {
+        "buy_url": "https://willam.ka8.ai/products/gemini-pro-18m",
+        "currency": "CNY",
+        "name": "Jio · Gemini Pro 18个月｜官方活动·直充自己账号",
+        "pid": "gemini-pro",
+        "price": 8.4,
+        "pverified": "2026-10-29",
+        "spec": "官方活动·直充自己账号·18个月",
+        "stock": false
+      },
+      {
+        "buy_url": "https://willam.ka8.ai/products/muse-account",
+        "currency": "CNY",
+        "name": "Muse 成品号（微软邮箱·验证码登录）",
+        "pid": "claude",
+        "price": 7.8,
+        "pverified": "2026-10-29",
+        "spec": "微软邮箱·验证码登录",
+        "stock": false
+      }
     ],
     "risks": [
       "运营时长无从考证",
@@ -991,77 +1078,29 @@ const SITES = [
       "2026-10-12 起全站暂停销售（站方公告），所有商品已下架；站方称 10 月底前发布恢复/清仓公告（浏览器实地核验）",
       "部分商品页下线（ChatGPT Plus/Pro 系列、Gemini Pro、Muse 成品号），2026-10-19 起无货"
     ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT-Plus官方充值-自助卡密充值-菲区",
-        "spec": "官方充值·自助卡密充值·菲区",
-        "price": 155.4,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Plus",
-        "stock": false,
-        "pverified": "2026-10-29"
-      },
-      {
-        "pid": "gpt-pro",
-        "name": "ChatGPT-Pro 100官方充值-自助卡密充值-智利区",
-        "spec": "官方充值·自助卡密充值·智利区",
-        "price": 882,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-5x",
-        "stock": false,
-        "pverified": "2026-10-29"
-      },
-      {
-        "pid": "gpt-pro",
-        "name": "ChatGPT-Pro 200官方充值-自助卡密充值-菲区",
-        "spec": "官方充值·自助卡密充值·菲区",
-        "price": 1313,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-20x",
-        "stock": false,
-        "pverified": "2026-10-29"
-      },
-      {
-        "pid": "gpt-pro",
-        "name": "ChatGPT-Pro 500官方充值-自助卡密充值-智利区（购买联系客服）",
-        "spec": "官方充值·自助卡密充值·智利区",
-        "price": 3075,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/ChatGPT-Pro-50x",
-        "stock": false,
-        "pverified": "2026-10-29"
-      },
-      {
-        "pid": "gemini-pro",
-        "name": "Jio · Gemini Pro 18个月｜官方活动·直充自己账号",
-        "spec": "官方活动·直充自己账号·18个月",
-        "price": 8.4,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/gemini-pro-18m",
-        "stock": false,
-        "pverified": "2026-10-29"
-      },
-      {
-        "pid": "claude",
-        "name": "Muse 成品号（微软邮箱·验证码登录）",
-        "spec": "微软邮箱·验证码登录",
-        "price": 7.8,
-        "currency": "CNY",
-        "buy_url": "https://willam.ka8.ai/products/muse-account",
-        "stock": false,
-        "pverified": "2026-10-29"
-      }
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持支付宝/微信/USDT-BSC/USDT-Polygon",
+      "Telegram/WhatsApp/在线客服",
+      "自动发货、游客可购"
     ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://willam.ka8.ai/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "WanWuEXC",
-    "url": "https://shop.moct.cloud",
     "category": "ai-account",
     "desc": "综合数字账号小店，主营美区 Apple ID、Gmail/Google Voice、ChatGPT/Gemini 账号、Telegram 账号与 Netflix 等流媒体账号，自动秒发。",
+    "down_days": 0,
+    "name": "WanWuEXC",
+    "products": [],
+    "risks": [
+      "运营时长无从考证",
+      "支付方式未在首页确认",
+      "无 ICP 备案公示",
+      "第三方口碑未独立核验"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
@@ -1069,64 +1108,73 @@ const SITES = [
       "站内公告提及在线客服",
       "商品带库存状态展示"
     ],
-    "risks": [
-      "运营时长无从考证",
-      "支付方式未在首页确认",
-      "无 ICP 备案公示",
-      "第三方口碑未独立核验"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://shop.moct.cloud",
+    "verified": "2026-11-02"
   },
   {
-    "name": "dma小店",
-    "url": "https://dmakk.top",
     "category": "kami",
     "desc": "游戏 DMA 作弊卡密小店，主营 OW2/CS2/ARC Raiders 等作弊软件月卡与 PUBG 硬件 ID 重置，自动发卡。",
-    "score": 10,
-    "signals": [
-      "HTTPS 有效",
-      "自动发货、游客可购"
-    ],
+    "down_days": 0,
+    "name": "dma小店",
+    "products": [],
     "risks": [
       "作弊软件违反各游戏 ToS，封号风险极高",
       "运营主体不明",
       "无客服与退款政策公示",
       "SSL 证书已过期（2026-09-11），访问时浏览器会显示安全警告"
     ],
-    "verified": "2026-11-01",
-    "products": [],
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "自动发货、游客可购"
+    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://dmakk.top",
+    "verified": "2026-11-02"
   },
   {
-    "name": "木木商店",
-    "url": "https://feifeivip.com",
     "category": "ai-account",
     "desc": "Telegram 账号小店，主营各国 TG 账号（尼日利亚/印尼/泰国等）与群组频道僵尸粉，自动发货。",
+    "down_days": 0,
+    "name": "木木商店",
+    "products": [],
+    "risks": [
+      "运营主体不明",
+      "支付方式与退款政策未公示",
+      "账号封禁风险"
+    ],
     "score": 10,
     "signals": [
       "HTTPS 有效",
       "自动发货、游客可购",
       "有购买须知公告"
     ],
-    "risks": [
-      "运营主体不明",
-      "支付方式与退款政策未公示",
-      "账号封禁风险"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://feifeivip.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GETGPT Pro",
-    "url": "https://getgpt.pro",
     "category": "ai-account",
     "desc": "ChatGPT Plus/Pro、Claude、Cursor、Gemini 代充平台，卡密自助充值，支付宝/微信支付，自称服务 2.4 万+用户。",
+    "down_days": 0,
+    "name": "GETGPT Pro",
+    "products": [
+      {
+        "buy_url": "https://getgpt.pro/purchase",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 充值",
+        "pid": "gpt-plus",
+        "price": 179,
+        "pverified": "2026-10-21",
+        "spec": "每月·续费制",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "用户数、成功率等为站方自述，未独立验证",
+      "代充需提交账号 Session，有账号安全风险"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -1136,31 +1184,41 @@ const SITES = [
       "GitHub 第三方代充指南引用",
       "充值失败 100% 全额退款"
     ],
-    "risks": [
-      "用户数、成功率等为站方自述，未独立验证",
-      "代充需提交账号 Session，有账号安全风险"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 充值",
-        "spec": "每月·续费制",
-        "price": 179,
-        "currency": "CNY",
-        "buy_url": "https://getgpt.pro/purchase",
-        "stock": true,
-        "pverified": "2026-10-21"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://getgpt.pro",
+    "verified": "2026-11-02"
   },
   {
-    "name": "PayAI.Plus",
-    "url": "https://payai.plus",
     "category": "ai-account",
     "desc": "ChatGPT Plus（¥179/月起）、Pro、Claude Pro（¥189/月起）代充，美区 Apple iOS 渠道卡密自助激活，自称服务 10000+用户。",
+    "down_days": 0,
+    "name": "PayAI.Plus",
+    "products": [
+      {
+        "buy_url": "https://payai.plus/chatgpt?product=chatgpt-plus",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 169,
+        "pverified": "2026-11-02",
+        "spec": "账号续费·1个月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://payai.plus/claude",
+        "currency": "CNY",
+        "name": "Claude Pro 充值",
+        "pid": "claude",
+        "price": 189,
+        "pverified": "2026-11-02",
+        "spec": "账号续费·1个月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长无明确说法",
+      "用户数、成功率为站方自述"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -1170,41 +1228,31 @@ const SITES = [
       "充值失败当天全额退款",
       "可开企业发票"
     ],
-    "risks": [
-      "运营时长无明确说法",
-      "用户数、成功率为站方自述"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "账号续费·1个月",
-        "price": 169,
-        "currency": "CNY",
-        "buy_url": "https://payai.plus/chatgpt?product=chatgpt-plus",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 充值",
-        "spec": "账号续费·1个月",
-        "price": 189,
-        "currency": "CNY",
-        "buy_url": "https://payai.plus/claude",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://payai.plus",
+    "verified": "2026-11-02"
   },
   {
-    "name": "PlusGO",
-    "url": "https://plusgo.pro",
     "category": "ai-account",
     "desc": "ChatGPT Go/Plus/Pro 代充，自称 2025 年起运营、服务 1.5 万+用户，承诺 30 天不掉订阅，支付宝/微信支付。",
+    "down_days": 0,
+    "name": "PlusGO",
+    "products": [
+      {
+        "buy_url": "https://plusgo.pro/purchase?sku=plus",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 169,
+        "pverified": "2026-10-21",
+        "spec": "原账号升级 Plus·按月充值",
+        "stock": false
+      }
+    ],
+    "risks": [
+      "用户数为站方自述",
+      "代充需提交一次性登录凭证"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -1215,31 +1263,43 @@ const SITES = [
       "失败 100% 当天原路退款",
       "30 天不掉订阅承诺"
     ],
-    "risks": [
-      "用户数为站方自述",
-      "代充需提交一次性登录凭证"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "原账号升级 Plus·按月充值",
-        "price": 169,
-        "currency": "CNY",
-        "buy_url": "https://plusgo.pro/purchase?sku=plus",
-        "stock": false,
-        "pverified": "2026-10-21"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://plusgo.pro",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GoPlus",
-    "url": "https://goplus.pro",
     "category": "ai-account",
     "desc": "ChatGPT Plus/Pro、Claude Pro/Max、Grok Super 代充，自称累计 8000+订单，微信/支付宝支付，卡密自助或人工交付。",
+    "down_days": 0,
+    "name": "GoPlus",
+    "products": [
+      {
+        "buy_url": "https://qfcc99.com/shop/panghu",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 充值",
+        "pid": "gpt-plus",
+        "price": 172,
+        "pverified": "2026-10-21",
+        "spec": "官方充值·微信支付宝开通（活动特价 ¥163）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://qfcc99.com/shop/panghu",
+        "currency": "CNY",
+        "name": "Claude Pro 充值",
+        "pid": "claude",
+        "price": 185,
+        "pverified": "2026-10-21",
+        "spec": "185元/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长无明确说法",
+      "代充需提交 Session/Organization ID 等凭证",
+      "封号不在质保范围",
+      "经第三方小店下单（购买链接跳转至第三方小店）"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -1248,43 +1308,32 @@ const SITES = [
       "GitHub 第三方代充指南引用",
       "全程质保不掉订阅"
     ],
-    "risks": [
-      "运营时长无明确说法",
-      "代充需提交 Session/Organization ID 等凭证",
-      "封号不在质保范围",
-      "经第三方小店下单（购买链接跳转至第三方小店）"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 充值",
-        "spec": "官方充值·微信支付宝开通（活动特价 ¥163）",
-        "price": 172,
-        "currency": "CNY",
-        "buy_url": "https://qfcc99.com/shop/panghu",
-        "stock": true,
-        "pverified": "2026-10-21"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 充值",
-        "spec": "185元/月",
-        "price": 185,
-        "currency": "CNY",
-        "buy_url": "https://qfcc99.com/shop/panghu",
-        "stock": true,
-        "pverified": "2026-10-21"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://goplus.pro",
+    "verified": "2026-11-02"
   },
   {
-    "name": "PayForChat",
-    "url": "https://payforchat.com",
     "category": "ai-account",
     "desc": "ChatGPT Plus（¥199/月起）、Pro 代充，微信/支付宝/Stripe 支付，自称服务 10000+用户、可开 PDF Invoice。",
+    "down_days": 0,
+    "name": "PayForChat",
+    "products": [
+      {
+        "buy_url": "https://www.payforchat.com/plans",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 189,
+        "pverified": "2026-11-02",
+        "spec": "自有账号充值·官方订阅同等权益",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长仅自称 365 天持续服务，未满明确 >1 年口径",
+      "代充需提交 Session 凭证",
+      "套餐页购买按钮需登录后可用"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -1294,32 +1343,42 @@ const SITES = [
       "充值失败全额退款",
       "可开 PDF 发票"
     ],
-    "risks": [
-      "运营时长仅自称 365 天持续服务，未满明确 >1 年口径",
-      "代充需提交 Session 凭证",
-      "套餐页购买按钮需登录后可用"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "自有账号充值·官方订阅同等权益",
-        "price": 189,
-        "currency": "CNY",
-        "buy_url": "https://www.payforchat.com/plans",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://payforchat.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "星桥订阅",
-    "url": "https://xingqiaosub.com",
     "category": "ai-account",
     "desc": "ChatGPT Plus（¥165 起）、Claude Pro（¥185 起）代充小站，只给本人账号开通，微信/支付宝支付，自称服务 110+位用户。",
+    "down_days": 0,
+    "name": "星桥订阅",
+    "products": [
+      {
+        "buy_url": "https://xingqiaosub.com/services/chatgpt-plus",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 165,
+        "pverified": "2026-11-02",
+        "spec": "165元起·按阶梯时长定价",
+        "stock": true
+      },
+      {
+        "buy_url": "https://xingqiaosub.com/services/claude-pro",
+        "currency": "CNY",
+        "name": "Claude Pro",
+        "pid": "claude",
+        "price": 199,
+        "pverified": "2026-11-02",
+        "spec": "185元起·按阶梯时长定价",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "规模小（自称 110+用户）",
+      "GitHub 指南引用方为利益相关（仓库维护者自营）",
+      "代充需提交 Session"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -1328,124 +1387,134 @@ const SITES = [
       "开通失败全额退款",
       "可开电子普通发票"
     ],
-    "risks": [
-      "规模小（自称 110+用户）",
-      "GitHub 指南引用方为利益相关（仓库维护者自营）",
-      "代充需提交 Session"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "165元起·按阶梯时长定价",
-        "price": 165,
-        "currency": "CNY",
-        "buy_url": "https://xingqiaosub.com/services/chatgpt-plus",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro",
-        "spec": "185元起·按阶梯时长定价",
-        "price": 199,
-        "currency": "CNY",
-        "buy_url": "https://xingqiaosub.com/services/claude-pro",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://xingqiaosub.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "数字严选",
-    "url": "https://digitalchose.com",
     "category": "ai-account",
     "desc": "AI 账号代充与成品号商城，主营 ChatGPT/Claude/Grok 代充、成品账号、API 中转与 Gmail 批发，附带大量使用教程博客。",
+    "down_days": 0,
+    "name": "数字严选",
+    "products": [],
+    "risks": [
+      "未见 ICP 备案公示",
+      "支付方式/客服/售后政策未在首页公示",
+      "第三方口碑待查"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
       "博客自 2024-05 持续更新，运营超 1 年",
       "商品目录完整（代充/成品号/API/邮箱批发）"
     ],
-    "risks": [
-      "未见 ICP 备案公示",
-      "支付方式/客服/售后政策未在首页公示",
-      "第三方口碑待查"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://digitalchose.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "2000Fun商城",
-    "url": "https://openshop.com.hk",
     "category": "game-topup",
     "desc": "香港老牌游戏点卡商城（2003 年门市、2008 年开网店），主营 Steam/PSN/Xbox/Netflix 等礼品卡与游戏点卡。",
+    "down_days": 0,
+    "name": "2000Fun商城",
+    "products": [],
+    "risks": [
+      "香港公司，无 ICP 备案",
+      "首页客服与售后政策信息未充分公示",
+      "中文第三方口碑待查"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
       "2003 年门市、2008 年网店，运营超 15 年",
       "支持信用卡/PayPal/支付宝"
     ],
-    "risks": [
-      "香港公司，无 ICP 备案",
-      "首页客服与售后政策信息未充分公示",
-      "中文第三方口碑待查"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://openshop.com.hk",
+    "verified": "2026-11-02"
   },
   {
-    "name": "八马批发商铺",
-    "url": "https://tg999.top",
     "category": "faka",
     "desc": "落地页式发卡批发商铺，24 小时自助服务通过 Telegram（@tg999topp）完成，宣称每 12 小时分配安全入口。",
-    "score": 20,
-    "signals": [
-      "HTTPS 有效",
-      "提供 Telegram 客服 @tg999topp"
-    ],
+    "down_days": 0,
+    "name": "八马批发商铺",
+    "products": [],
     "risks": [
       "仅落地页，实际交易走 Telegram，透明度低",
       "运营时长/备案/支付方式未知",
       "频繁更换入口域名的模式需警惕"
     ],
-    "verified": "2026-11-01",
-    "products": [],
-    "status": "ok",
-    "down_days": 0
-  },
-  {
-    "name": "兮颜出海",
-    "url": "https://xiyanchuhai.com",
-    "category": "ai-account",
-    "desc": "TikTok 账号商城，主营白号/千粉号/带作品号，面向跨境电商与社媒运营人群。",
     "score": 20,
     "signals": [
       "HTTPS 有效",
-      "Threads 官方账号 @xiyanhaoshang 宣称 24h 自助发卡"
+      "提供 Telegram 客服 @tg999topp"
     ],
+    "status": "ok",
+    "url": "https://tg999.top",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "ai-account",
+    "desc": "TikTok 账号商城，主营白号/千粉号/带作品号，面向跨境电商与社媒运营人群。",
+    "down_days": 0,
+    "name": "兮颜出海",
+    "products": [],
     "risks": [
       "运营时长与备案未知",
       "支付与售后政策未公示",
       "社媒账号交易本身有封号风险"
     ],
-    "verified": "2026-11-01",
-    "products": [],
+    "score": 20,
+    "signals": [
+      "HTTPS 有效",
+      "Threads 官方账号 @xiyanhaoshang 宣称 24h 自助发卡"
+    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://xiyanchuhai.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AI账号空投站",
-    "url": "https://ai-airdrop.com",
     "category": "ai-account",
     "desc": "AI 账号自助卡密代充站，主营 ChatGPT Plus/Pro、Claude、Grok 代充，支持微信/支付宝/USDT，页面公示销量 3607。",
+    "down_days": 0,
+    "name": "AI账号空投站",
+    "products": [
+      {
+        "buy_url": "https://ai-airdrop.com/products/chatgpt-plus-two",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 月卡｜菲区官方正规卡充",
+        "pid": "gpt-plus",
+        "price": 125,
+        "pverified": "2026-11-02",
+        "spec": "月卡·菲区官方正规卡充",
+        "stock": true
+      },
+      {
+        "buy_url": "https://ai-airdrop.com/products/4",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 月卡｜iOS 官方正规充值",
+        "pid": "gpt-plus",
+        "price": 150,
+        "pverified": "2026-11-02",
+        "spec": "月卡·iOS官方正规充值",
+        "stock": true
+      },
+      {
+        "buy_url": "https://ai-airdrop.com/products/Claudeproka",
+        "currency": "CNY",
+        "name": "Claude Pro 月卡｜IOS官方正规充值",
+        "pid": "claude",
+        "price": 159,
+        "pverified": "2026-11-02",
+        "spec": "月卡·IOS官方正规充值",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长与 ICP 备案未知",
+      "销量为站方自述",
+      "退款政策未明确公示"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -1453,73 +1522,42 @@ const SITES = [
       "QQ 售后群 799054957",
       "页面公示销量 3607、上架 17 件商品"
     ],
-    "risks": [
-      "运营时长与 ICP 备案未知",
-      "销量为站方自述",
-      "退款政策未明确公示"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 月卡｜菲区官方正规卡充",
-        "spec": "月卡·菲区官方正规卡充",
-        "price": 125,
-        "currency": "CNY",
-        "buy_url": "https://ai-airdrop.com/products/chatgpt-plus-two",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 月卡｜iOS 官方正规充值",
-        "spec": "月卡·iOS官方正规充值",
-        "price": 150,
-        "currency": "CNY",
-        "buy_url": "https://ai-airdrop.com/products/4",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 月卡｜IOS官方正规充值",
-        "spec": "月卡·IOS官方正规充值",
-        "price": 159,
-        "currency": "CNY",
-        "buy_url": "https://ai-airdrop.com/products/Claudeproka",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://ai-airdrop.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "旧Gmail邮箱批发平台",
-    "url": "https://oldgmailbuy.com",
     "category": "ai-account",
     "desc": "Gmail 账号批发平台，主营全新号、2010–2024 各年份老号与多国 IP 注册号，明码标价 ¥5–33，库存/已售公示完整。",
+    "down_days": 0,
+    "name": "旧Gmail邮箱批发平台",
+    "products": [],
+    "risks": [
+      "运营时长与备案未知",
+      "支付方式未在站内公示",
+      "售后政策未在站内公示"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
       "微信客服",
       "商品/价格/库存/已售数量公示完整"
     ],
-    "risks": [
-      "运营时长与备案未知",
-      "支付方式未在站内公示",
-      "售后政策未在站内公示"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://oldgmailbuy.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AI杂货铺",
-    "url": "https://store.ai-headshot.net",
     "category": "ai-account",
     "desc": "2023 年 12 月成立的 AI 代充杂货铺，主营 ChatGPT/Claude 等代充卡密，7×24 自动发货，带分销返利与分站加盟体系。",
+    "down_days": 0,
+    "name": "AI杂货铺",
+    "products": [],
+    "risks": [
+      "ICP 备案未见",
+      "退款售后政策未明确",
+      "第三方口碑待查"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -1528,21 +1566,21 @@ const SITES = [
       "7×24 自动发货",
       "提现支持支付宝/微信"
     ],
-    "risks": [
-      "ICP 备案未见",
-      "退款售后政策未明确",
-      "第三方口碑待查"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://store.ai-headshot.net",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AI服务代充值服务（littlemagic8）",
-    "url": "https://littlemagic8.github.io/gptplus/",
     "category": "ai-account",
     "desc": "个人运营的 AI 代充页，主营 GPT/Claude/Gemini/Perplexity/Grok/X Premium 代充，微信客服一对一服务。",
+    "down_days": 0,
+    "name": "AI服务代充值服务（littlemagic8）",
+    "products": [],
+    "risks": [
+      "个人运营，无公司主体与备案",
+      "支付与售后政策未公示",
+      "GitHub Pages 托管，域名可随时更换"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
@@ -1550,21 +1588,21 @@ const SITES = [
       "微信客服 aicygg888",
       "配套图文教程站"
     ],
-    "risks": [
-      "个人运营，无公司主体与备案",
-      "支付与售后政策未公示",
-      "GitHub Pages 托管，域名可随时更换"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://littlemagic8.github.io/gptplus/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "TOPUPlive",
-    "url": "https://www.topuplive.com",
     "category": "game-topup",
     "desc": "新加坡公司（SEA WHALE TECHNOLOGY PTE.LTD.）运营的游戏充值与礼品卡平台，主营手游/直播充值、Apple/Google 礼品卡与 CD-KEY，公示退款与配送政策。",
+    "down_days": 0,
+    "name": "TOPUPlive",
+    "products": [],
+    "risks": [
+      "面向海外用户，中文支持弱",
+      "运营时长未知",
+      "中文第三方口碑少"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
@@ -1572,21 +1610,21 @@ const SITES = [
       "公示 Refund/Shipping/Transaction Security 政策",
       "PCI 合规标识"
     ],
-    "risks": [
-      "面向海外用户，中文支持弱",
-      "运营时长未知",
-      "中文第三方口碑少"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.topuplive.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "远方充值",
-    "url": "https://tgcz.cc",
     "category": "ai-account",
     "desc": "主营 Telegram 会员/电报成品号、AI 软件与海外社媒代充，自称 5 年老平台，在线秒充 8:00–24:00，TG+QQ 双客服。",
+    "down_days": 0,
+    "name": "远方充值",
+    "products": [],
+    "risks": [
+      "5 年为站方自述",
+      "ICP 备案与支付方式未公示",
+      "售后政策未明确"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -1594,27 +1632,26 @@ const SITES = [
       "TG @ttsss / QQ 353513246 双客服",
       "在线秒充时间公示"
     ],
-    "risks": [
-      "5 年为站方自述",
-      "ICP 备案与支付方式未公示",
-      "售后政策未明确"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://tgcz.cc",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Tibo AI",
-    "url": "https://gptibo.com",
     "category": "ai-account",
     "desc": "Threads 中文卖家直链的 AI 订阅小店，主营 ChatGPT Plus/Pro、Gemini、Duolingo、X Premium 代充与 Gmail 账号，人民币明码标价。",
-    "score": 0,
-    "signals": [
-      "HTTPS 有效",
-      "人民币明码标价（Plus ¥169/月起）",
-      "微信客服（社媒帖子披露）",
-      "社媒宣称带质保"
+    "down_days": 0,
+    "name": "Tibo AI",
+    "products": [
+      {
+        "buy_url": "https://gptibo.com/product/chatgpt",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 169,
+        "pverified": "2026-10-29",
+        "spec": "日常之选·自有账号充值·月",
+        "stock": false
+      }
     ],
     "risks": [
       "个人小店，运营时长/备案未知",
@@ -1622,27 +1659,37 @@ const SITES = [
       "质保承诺仅见于社媒帖子",
       "2026-10-15 V2EX 实名举报：购买的会员几天后失效、网站关停且无售后（t/1248869）"
     ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "日常之选·自有账号充值·月",
-        "price": 169,
-        "currency": "CNY",
-        "buy_url": "https://gptibo.com/product/chatgpt",
-        "stock": false,
-        "pverified": "2026-10-29"
-      }
+    "score": 0,
+    "signals": [
+      "HTTPS 有效",
+      "人民币明码标价（Plus ¥169/月起）",
+      "微信客服（社媒帖子披露）",
+      "社媒宣称带质保"
     ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://gptibo.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "12GPT",
-    "url": "https://12gpt.com",
     "category": "ai-account",
     "desc": "ChatGPT Plus/Pro 代充到自己账号，Plus ¥135/月，微信/支付宝支付",
+    "down_days": 0,
+    "name": "12GPT",
+    "products": [
+      {
+        "buy_url": "https://12gpt.com/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 135,
+        "pverified": "2026-11-02",
+        "spec": "月付·135元/月·人工充值",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长与用户规模为自称未独立验证"
+    ],
     "score": 70,
     "signals": [
       "HTTPS有效",
@@ -1652,30 +1699,21 @@ const SITES = [
       "详细售后规则（失败退款/掉订阅赔付）",
       "GitHub代充指南推荐"
     ],
-    "risks": [
-      "运营时长与用户规模为自称未独立验证"
-    ],
-    "verified": "2026-11-01",
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "月付·135元/月·人工充值",
-        "price": 135,
-        "currency": "CNY",
-        "buy_url": "https://12gpt.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://12gpt.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "CODS.IO",
-    "url": "https://cods.io/",
     "category": "kami",
     "desc": "Steam/PSN/Xbox/Apple/Netflix 礼品卡与游戏币，即时邮件发货",
+    "down_days": 0,
+    "name": "CODS.IO",
+    "products": [],
+    "risks": [
+      "纯俄语站，无中文与支付宝/微信",
+      "主要服务俄罗斯用户",
+      "自称数据未独立验证"
+    ],
     "score": 55,
     "signals": [
       "HTTPS有效",
@@ -1684,21 +1722,21 @@ const SITES = [
       "自称评分4.8",
       "官方码保证（激活失败替换）"
     ],
-    "risks": [
-      "纯俄语站，无中文与支付宝/微信",
-      "主要服务俄罗斯用户",
-      "自称数据未独立验证"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://cods.io/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Hablax",
-    "url": "https://www.hablax.com",
     "category": "game-topup",
     "desc": "游戏充值/礼品卡/500+运营商话费充值，App 50万+下载",
+    "down_days": 0,
+    "name": "Hablax",
+    "products": [],
+    "risks": [
+      "英文站为主",
+      "无支付宝/微信",
+      "退款政策未在首页确认"
+    ],
     "score": 45,
     "signals": [
       "HTTPS有效",
@@ -1706,40 +1744,40 @@ const SITES = [
       "在线聊天+邮件+24/7电话预约客服",
       "App Store评分4.8"
     ],
-    "risks": [
-      "英文站为主",
-      "无支付宝/微信",
-      "退款政策未在首页确认"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.hablax.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "ANTNUM 蚂蚁充值",
-    "url": "https://antnum.com",
     "category": "game-topup",
     "desc": "海外代充：抖音/Q币/苹果礼品卡/话费充值，24h客服",
+    "down_days": 0,
+    "name": "ANTNUM 蚂蚁充值",
+    "products": [],
+    "risks": [
+      "自称老牌未独立验证"
+    ],
     "score": 45,
     "signals": [
       "HTTPS有效",
       "支持多种支付",
       "24h客服"
     ],
-    "risks": [
-      "自称老牌未独立验证"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://antnum.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Gameflip",
-    "url": "https://gameflip.com/",
     "category": "game-topup",
     "desc": "游戏与礼品卡 C2C 交易市场，Gameflip Guarantee 买家保护",
+    "down_days": 0,
+    "name": "Gameflip",
+    "products": [],
+    "risks": [
+      "C2C卖家质量参差",
+      "支付方式未在首页确认",
+      "运营时长本次未独立核验"
+    ],
     "score": 40,
     "signals": [
       "HTTPS有效",
@@ -1747,21 +1785,20 @@ const SITES = [
       "Gameflip Guarantee 100%现金返还买家保护",
       "知名老牌C2C市场"
     ],
-    "risks": [
-      "C2C卖家质量参差",
-      "支付方式未在首页确认",
-      "运营时长本次未独立核验"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://gameflip.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "PatewayAI",
-    "url": "https://pateway.ai/?ch=1tsfr51",
     "category": "ai-account",
     "desc": "Claude/Codex 大模型 API 中转站，支付宝支付，最低$1起充",
+    "down_days": 0,
+    "name": "PatewayAI",
+    "products": [],
+    "risks": [
+      "API中转非官方直充",
+      "运营时长未核验"
+    ],
     "score": 40,
     "signals": [
       "HTTPS有效",
@@ -1770,102 +1807,101 @@ const SITES = [
       "GitHub项目README推荐",
       "注册赠体验额度"
     ],
-    "risks": [
-      "API中转非官方直充",
-      "运营时长未核验"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://pateway.ai/?ch=1tsfr51",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MMOPIXEL",
-    "url": "https://mmopixel.com",
     "category": "game-topup",
     "desc": "游戏币/礼品卡/游戏Key，24/7在线客服，自称100万+客户",
+    "down_days": 0,
+    "name": "MMOPIXEL",
+    "products": [],
+    "risks": [
+      "运营时长未核验",
+      "支付方式未在首页确认",
+      "自称数据未独立验证"
+    ],
     "score": 30,
     "signals": [
       "HTTPS有效",
       "24/7在线客服",
       "自称5K+好评"
     ],
-    "risks": [
-      "运营时长未核验",
-      "支付方式未在首页确认",
-      "自称数据未独立验证"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://mmopixel.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Jour Cards",
-    "url": "https://jour-cards.com",
     "category": "kami",
     "desc": "加密货币礼品卡商城（5000品牌），英文站",
-    "score": 30,
-    "signals": [
-      "HTTPS有效"
-    ],
+    "down_days": 0,
+    "name": "Jour Cards",
+    "products": [],
     "risks": [
       "运营时长未核验",
       "纯英文站"
     ],
-    "verified": "2026-11-01",
-    "products": [],
-    "status": "ok",
-    "down_days": 0
-  },
-  {
-    "name": "笔墨小铺 BmoPlus",
-    "url": "https://shop.bmoplus.com/",
-    "category": "ai-account",
-    "desc": "GPT/Claude Max/Gemini Pro/Grok 代充，TG客服对接",
     "score": 30,
     "signals": [
-      "HTTPS有效",
-      "Telegram客服",
-      "GitHub sub2api项目README推荐"
+      "HTTPS有效"
     ],
+    "status": "ok",
+    "url": "https://jour-cards.com",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "ai-account",
+    "desc": "GPT/Claude Max/Gemini Pro/Grok 代充，TG客服对接",
+    "down_days": 0,
+    "name": "笔墨小铺 BmoPlus",
+    "products": [],
     "risks": [
       "个人小店性质",
       "运营时长未知",
       "售后政策未明确",
       "支付方式未在首页明示"
     ],
-    "verified": "2026-11-01",
-    "products": [],
+    "score": 30,
+    "signals": [
+      "HTTPS有效",
+      "Telegram客服",
+      "GitHub sub2api项目README推荐"
+    ],
     "status": "ok",
-    "down_days": 0
+    "url": "https://shop.bmoplus.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AIGoCode",
-    "url": "https://aigocode.com/",
     "category": "ai-account",
     "desc": "AI开发者工作台/模型额度订阅，按量或订阅付费",
+    "down_days": 0,
+    "name": "AIGoCode",
+    "products": [],
+    "risks": [
+      "API中转/工作台非官方直充",
+      "运营时长未核验",
+      "自称数据未独立验证"
+    ],
     "score": 30,
     "signals": [
       "HTTPS有效",
       "1v1工程师客服",
       "自称10000+开发者"
     ],
-    "risks": [
-      "API中转/工作台非官方直充",
-      "运营时长未核验",
-      "自称数据未独立验证"
-    ],
-    "verified": "2026-11-01",
-    "products": [],
     "status": "ok",
-    "down_days": 0
+    "url": "https://aigocode.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Instant Gaming",
-    "url": "https://www.instant-gaming.com/",
     "category": "kami",
     "desc": "欧洲老牌游戏折扣直营商，批量采购压价，Trustpilot 70万+评价4.6分，支持加密货币支付。",
+    "down_days": 0,
+    "name": "Instant Gaming",
+    "products": [],
+    "risks": [
+      "非官方授权经销商（地区套利货源争议）"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -1875,19 +1911,20 @@ const SITES = [
       "Trustpilot 70万+评价4.6/5",
       "未激活密钥可申请退款"
     ],
-    "risks": [
-      "非官方授权经销商（地区套利货源争议）"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.instant-gaming.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Gamivo",
-    "url": "https://www.gamivo.com/",
     "category": "faka",
     "desc": "游戏CD Key第三方卖家集市，多卖家同品竞价，2017年成立，带返现计划。",
+    "down_days": 0,
+    "name": "Gamivo",
+    "products": [],
+    "risks": [
+      "第三方卖家模式，个别密钥可能被撤销",
+      "结账页有附加保险/订阅勾选，需注意"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -1897,20 +1934,19 @@ const SITES = [
       "allkeyshop等多家测评列为G2A可靠替代",
       "密钥未展示可退"
     ],
-    "risks": [
-      "第三方卖家模式，个别密钥可能被撤销",
-      "结账页有附加保险/订阅勾选，需注意"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.gamivo.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "DLGamer",
-    "url": "https://www.dlgamer.com/",
     "category": "kami",
     "desc": "法国官方授权数字游戏零售商，2004年成立，PC/主机游戏即时交付。",
+    "down_days": 0,
+    "name": "DLGamer",
+    "products": [],
+    "risks": [
+      "欧美站点，中文支持弱"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -1919,19 +1955,31 @@ const SITES = [
       "客服支持",
       "OzBargain/比价站等多家第三方收录"
     ],
-    "risks": [
-      "欧美站点，中文支持弱"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.dlgamer.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GVGMall",
-    "url": "https://www.gvgmall.com/",
     "category": "game-topup",
     "desc": "游戏币/装备/代练与CD Key综合卖场，自称12年运营、100万+注册用户。",
+    "down_days": 0,
+    "name": "GVGMall",
+    "products": [
+      {
+        "buy_url": "https://uk.gvgmall.com/pc-games-cdkey/google-ai-gemini-pro-18-months.html",
+        "currency": "GBP",
+        "name": "Google AI Gemini Pro",
+        "pid": "gemini-pro",
+        "price": 14.88,
+        "pverified": "2026-10-21",
+        "spec": "18个月激活",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "第三方独立口碑少，多为站方自述",
+      "部分商品为预售，发货时效波动"
+    ],
     "score": 50,
     "signals": [
       "HTTPS 有效",
@@ -1939,31 +1987,19 @@ const SITES = [
       "PayPal认证商家/PaymentWall合作",
       "7×24 在线客服"
     ],
-    "risks": [
-      "第三方独立口碑少，多为站方自述",
-      "部分商品为预售，发货时效波动"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gemini-pro",
-        "name": "Google AI Gemini Pro",
-        "spec": "18个月激活",
-        "price": 14.88,
-        "currency": "GBP",
-        "buy_url": "https://uk.gvgmall.com/pc-games-cdkey/google-ai-gemini-pro-18-months.html",
-        "stock": true,
-        "pverified": "2026-10-21"
-      }
-    ]
+    "url": "https://www.gvgmall.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Eldorado",
-    "url": "https://www.eldorado.gg/",
     "category": "game-topup",
     "desc": "立陶宛公司运营的游戏资产 P2P 市场，覆盖数百款游戏的账号/金币/道具/代练，托管交易+Trustpilot 28万条评价4.4分。",
+    "down_days": 0,
+    "name": "Eldorado",
+    "risks": [
+      "P2P 市场，卖家质量参差，第三方测评有买家保护纠纷案例",
+      "游戏账号交易本身存在被官方封号风险"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -1973,19 +2009,19 @@ const SITES = [
       "Trustpilot 28.4万条评价4.4分",
       "TradeShield 托管+纠纷仲裁"
     ],
-    "risks": [
-      "P2P 市场，卖家质量参差，第三方测评有买家保护纠纷案例",
-      "游戏账号交易本身存在被官方封号风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.eldorado.gg/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "BuySellVouchers",
-    "url": "https://buysellvouchers.com/",
     "category": "kami",
     "desc": "运营超10年的加密货币礼品卡 P2P 市场，支持70余种加密货币买卖 Apple/Steam/PSN 等礼品卡，资金托管+卖家评级。",
+    "down_days": 0,
+    "name": "BuySellVouchers",
+    "risks": [
+      "第三方检测站点结论不一（ScamAdviser/scam-detector 算法标记可疑，另两家给高分）",
+      "P2P 市场，需选择高信誉卖家"
+    ],
     "score": 50,
     "signals": [
       "HTTPS 有效",
@@ -1993,19 +2029,19 @@ const SITES = [
       "支持70余种加密货币+银行卡",
       "托管交易+24小时纠纷窗口"
     ],
-    "risks": [
-      "第三方检测站点结论不一（ScamAdviser/scam-detector 算法标记可疑，另两家给高分）",
-      "P2P 市场，需选择高信誉卖家"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://buysellvouchers.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "CNLGaming",
-    "url": "https://cnlgaming.com/",
     "category": "game-topup",
     "desc": "源自 Path of Exile 的游戏币/账号/代练自营商家，自称超100万订单、99.2%好评，同时在 G2G/Eldorado 以 CNL Team 名义经营。",
+    "down_days": 0,
+    "name": "CNLGaming",
+    "risks": [
+      "自营商家非平台，纠纷依赖商家自身解决",
+      "口碑数据（Trustpilot 1000+条）为官网自述，未独立核实"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -2013,116 +2049,112 @@ const SITES = [
       "经主流支付商收款",
       "live chat 实时客服"
     ],
-    "risks": [
-      "自营商家非平台，纠纷依赖商家自身解决",
-      "口碑数据（Trustpilot 1000+条）为官网自述，未独立核实"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://cnlgaming.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Startselect",
-    "url": "https://www.startselect.com/",
     "category": "kami",
     "desc": "欧洲数字礼品卡直营店，PSN/Xbox/Steam/任天堂礼品卡及 Netflix/Spotify 会员即时屏幕+邮件发货。",
+    "down_days": 0,
+    "name": "Startselect",
+    "risks": [
+      "运营年限等背景信息未公开核实"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
       "支持信用卡/Apple Pay/PayPal/Klarna",
       "客服团队每周7天在线（邮件/WhatsApp/社媒）"
     ],
-    "risks": [
-      "运营年限等背景信息未公开核实"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.startselect.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "DigitalLicense",
-    "url": "https://digitallicense.net/",
     "category": "ai-account",
     "desc": "软件密钥与 AI 订阅直营店，主营 ChatGPT Plus 独享账号、Gemini、Adobe 等，全程质保+24/7客服。",
+    "down_days": 0,
+    "name": "DigitalLicense",
+    "products": [
+      {
+        "buy_url": "https://digitallicense.net/product/chatgpt-plus-3-months",
+        "currency": "USD",
+        "name": "ChatGPT Plus 独享账号 3个月",
+        "pid": "gpt-plus",
+        "price": 23.99,
+        "pverified": "2026-11-02",
+        "spec": "独享/自动发货",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "2026年新站，运营年限短",
+      "第三方独立评价少"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
       "24/7 客服",
       "全程 replacement 质保"
     ],
-    "risks": [
-      "2026年新站，运营年限短",
-      "第三方独立评价少"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 独享账号 3个月",
-        "spec": "独享/自动发货",
-        "price": 23.99,
-        "currency": "USD",
-        "buy_url": "https://digitallicense.net/product/chatgpt-plus-3-months",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://digitallicense.net/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "泡泡手游代储",
-    "url": "https://ppgame.tw/",
     "category": "game-topup",
     "desc": "台湾手游代储值平台，覆盖百款热门手游官方储值，LINE 24小时客服，3~12分钟到账。",
+    "down_days": 0,
+    "name": "泡泡手游代储",
+    "risks": [
+      "代储需提供游戏账号密码，存在账号安全风险",
+      "具体价格需加LINE询客服，页面多为 NT$10 起引流价"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
       "24小时 LINE 真人客服"
     ],
-    "risks": [
-      "代储需提供游戏账号密码，存在账号安全风险",
-      "具体价格需加LINE询客服，页面多为 NT$10 起引流价"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://ppgame.tw/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Gamecardsdirect",
-    "url": "https://www.gamecardsdirect.com/",
     "category": "kami",
     "desc": "荷兰数字礼品卡网店，游戏卡/礼品卡邮件秒发，电话邮件在线客服。",
+    "down_days": 0,
+    "name": "Gamecardsdirect",
+    "risks": [
+      "荷兰小公司，第三方评价（Kiyoh）未核实分数",
+      "运营年限未知"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
       "电话/邮件/在线聊天客服"
     ],
-    "risks": [
-      "荷兰小公司，第三方评价（Kiyoh）未核实分数",
-      "运营年限未知"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.gamecardsdirect.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MaximusCards",
-    "url": "https://maximuscards.com/",
     "category": "kami",
     "desc": "老牌数字卡直营小站，iTunes/Xbox/PSN/任天堂点卡邮件即时发货，支持多种本地支付。",
+    "down_days": 0,
+    "name": "MaximusCards",
+    "risks": [
+      "网站信息极简，无公司/客服/退款政策说明",
+      "第三方评价难找"
+    ],
     "score": 20,
     "signals": [
       "HTTPS 有效",
       "支持多种本地化支付方式（iDEAL/SafetyPay/boleto等）"
     ],
-    "risks": [
-      "网站信息极简，无公司/客服/退款政策说明",
-      "第三方评价难找"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://maximuscards.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2136,7 +2168,7 @@ const SITES = [
         "name": "Windows 11 Pro Retail CD Key",
         "pid": "windows-key",
         "price": 5.22,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "Retail 25位激活码/邮件即时发货",
         "stock": true
       }
@@ -2156,7 +2188,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://royalcdkeys.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "faka",
@@ -2176,7 +2208,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://k4g.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2193,7 +2225,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://uu898.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2214,13 +2246,42 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://vcgamers.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
-    "name": "LDShop",
-    "url": "https://www.ldshop.gg/",
     "category": "game-topup",
     "desc": "LDPlayer旗下游戏代充站，原神UID直充折扣。",
+    "down_days": 18,
+    "name": "LDShop",
+    "products": [
+      {
+        "buy_url": "https://www.ldshop.gg/top-up/genshin-impact.html",
+        "currency": "USD",
+        "name": "原神 6480+1600 创世结晶",
+        "pid": "genshin-6480",
+        "price": 67.99,
+        "pverified": "2026-10-21",
+        "spec": "UID 直充",
+        "stock": null
+      },
+      {
+        "buy_url": "https://www.ldshop.gg/top-up/genshin-impact.html",
+        "currency": "USD",
+        "name": "原神 空月祝福（月卡）",
+        "pid": "welkin-moon",
+        "price": 1.0,
+        "pverified": "2026-10-21",
+        "spec": "UID 直充",
+        "stock": null
+      }
+    ],
+    "risks": [
+      "首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活",
+      "第三方代充非官方渠道，存在封号风险争议",
+      "交付后严格无退款政策",
+      "Trustpilot 个别联盟佣金与客服投诉",
+      "连续18天无法访问（VPS HTTP 403；2026-11-01 浏览器复核亦不可用）"
+    ],
     "score": 0,
     "signals": [
       "HTTPS 有效",
@@ -2229,44 +2290,20 @@ const SITES = [
       "24/7 在线客服按钮",
       "Trustpilot 4.1/5（公司自称LDPlayer旗下）"
     ],
-    "risks": [
-      "首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活",
-      "第三方代充非官方渠道，存在封号风险争议",
-      "交付后严格无退款政策",
-      "Trustpilot 个别联盟佣金与客服投诉",
-      "连续17天无法访问（VPS HTTP 403 + browser.open 不可用）"
-    ],
     "status": "down",
-    "verified": "2026-11-01",
-    "down_days": 17,
-    "products": [
-      {
-        "pid": "genshin-6480",
-        "name": "原神 6480+1600 创世结晶",
-        "spec": "UID 直充",
-        "price": 67.99,
-        "currency": "USD",
-        "buy_url": "https://www.ldshop.gg/top-up/genshin-impact.html",
-        "stock": null,
-        "pverified": "2026-10-21"
-      },
-      {
-        "pid": "welkin-moon",
-        "name": "原神 空月祝福（月卡）",
-        "spec": "UID 直充",
-        "price": 1.0,
-        "currency": "USD",
-        "buy_url": "https://www.ldshop.gg/top-up/genshin-impact.html",
-        "stock": null,
-        "pverified": "2026-10-21"
-      }
-    ]
+    "url": "https://www.ldshop.gg/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "ManaBuy",
-    "url": "https://manabuy.com/",
     "category": "game-topup",
     "desc": "香港公司运营的手游代充平台，原神UID直充。",
+    "down_days": 0,
+    "name": "ManaBuy",
+    "products": [],
+    "risks": [
+      "退款政策不明：直充交付后通常不可撤销",
+      "页面JSON-LD仅展示价格区间0.99–99.99 USD，未抓到分规格SKU价格，故不收录商品比价"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -2275,20 +2312,20 @@ const SITES = [
       "24/7 在线客服",
       "Trustpilot 4.2/5，ScamAdviser评为Very Likely Safe，香港公司FUTURE OUTLOOK TECHNOLOGY LIMITED"
     ],
-    "risks": [
-      "退款政策不明：直充交付后通常不可撤销",
-      "页面JSON-LD仅展示价格区间0.99–99.99 USD，未抓到分规格SKU价格，故不收录商品比价"
-    ],
     "status": "ok",
-    "verified": "2026-11-01",
-    "down_days": 0,
-    "products": []
+    "url": "https://manabuy.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "LootBar",
-    "url": "https://www.lootbar.com/",
     "category": "game-topup",
     "desc": "2022年创立的全球游戏代充平台，覆盖100+游戏。",
+    "down_days": 0,
+    "name": "LootBar",
+    "products": [],
+    "risks": [
+      "第三方代充可能违反部分游戏官方条款（Reddit封号争议，非诈骗举报）",
+      "个别chargeback延迟投诉"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -2298,20 +2335,51 @@ const SITES = [
       "Trustpilot 4.9/5（2.8万+评价）",
       "未发货/不可用承诺退款"
     ],
-    "risks": [
-      "第三方代充可能违反部分游戏官方条款（Reddit封号争议，非诈骗举报）",
-      "个别chargeback延迟投诉"
-    ],
     "status": "ok",
-    "verified": "2026-11-01",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.lootbar.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Codashop",
-    "url": "https://www.codashop.com/",
     "category": "game-topup",
     "desc": "新加坡Coda Payments旗下，游戏厂商官方合作代充。",
+    "down_days": 0,
+    "name": "Codashop",
+    "products": [
+      {
+        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
+        "currency": "MYR",
+        "name": "MLBB 钻石",
+        "pid": "mlbb-14-diamond",
+        "price": 1.09,
+        "pverified": "2026-11-02",
+        "spec": "14钻石 UID+ZoneID直充",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
+        "currency": "MYR",
+        "name": "MLBB 每周钻石通行证",
+        "pid": "mlbb-weekly-pass",
+        "price": 9.3,
+        "pverified": "2026-11-02",
+        "spec": "80钻石即时+每日20钻石×7天",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
+        "currency": "MYR",
+        "name": "MLBB 暮光通行证",
+        "pid": "mlbb-twilight-pass",
+        "price": 46.7,
+        "pverified": "2026-11-02",
+        "spec": "UID直充",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "无明确公开退款政策细则",
+      "价格按地区站点区分，此次采集为马来西亚站点MYR价格"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -2321,45 +2389,9 @@ const SITES = [
       "与Moonton/Garena/腾讯/动视暴雪等厂商官方合作，FT亚太高增长金融科技、WEF技术先锋",
       "扣费未到账可联系客服处理"
     ],
-    "risks": [
-      "无明确公开退款政策细则",
-      "价格按地区站点区分，此次采集为马来西亚站点MYR价格"
-    ],
     "status": "ok",
-    "verified": "2026-11-01",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "mlbb-14-diamond",
-        "name": "MLBB 钻石",
-        "spec": "14钻石 UID+ZoneID直充",
-        "price": 1.09,
-        "currency": "MYR",
-        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "mlbb-weekly-pass",
-        "name": "MLBB 每周钻石通行证",
-        "spec": "80钻石即时+每日20钻石×7天",
-        "price": 9.3,
-        "currency": "MYR",
-        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "mlbb-twilight-pass",
-        "name": "MLBB 暮光通行证",
-        "spec": "UID直充",
-        "price": 46.7,
-        "currency": "MYR",
-        "buy_url": "https://www.codashop.com/en-my/mobile-legends",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.codashop.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2378,7 +2410,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamersgate.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2392,7 +2424,7 @@ const SITES = [
         "name": "Last Epoch 游戏密钥",
         "pid": "last-epoch-key",
         "price": 7.62,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "Steam 激活（目录页起价）",
         "stock": true
       },
@@ -2402,7 +2434,7 @@ const SITES = [
         "name": "Sea of Thieves 远古金币 150",
         "pid": "sea-of-thieves-coins-150",
         "price": 16,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "PSN 充值码",
         "stock": true
       },
@@ -2430,7 +2462,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ggsel.net",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2470,7 +2502,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://2game.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2490,7 +2522,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.humblebundle.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2510,7 +2542,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.mtcgame.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -2530,7 +2562,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.oyunfor.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -2544,7 +2576,7 @@ const SITES = [
         "name": "Claude Pro 月充",
         "pid": "claude-pro",
         "price": 189,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "Claude Pro 月度套餐充值卡密",
         "stock": true
       }
@@ -2564,7 +2596,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://upclaude.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -2578,7 +2610,7 @@ const SITES = [
         "name": "GlobalGPT 订阅",
         "pid": "globalgpt-subscription",
         "price": 5.75,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "起步价，年付",
         "stock": true
       }
@@ -2595,7 +2627,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.glbgpt.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -2609,7 +2641,7 @@ const SITES = [
         "name": "1min.AI PRO",
         "pid": "1minai-pro",
         "price": 6.5,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "PRO 档，月付",
         "stock": true
       }
@@ -2627,7 +2659,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://1min.ai/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2649,7 +2681,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kaleoz.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2670,7 +2702,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keygold.gg/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2692,7 +2724,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://elitedias.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -2714,13 +2746,16 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gpdsgameshop.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
-    "name": "Driffle",
-    "url": "https://driffle.com/",
     "category": "kami",
     "desc": "2021年成立的数字游戏市集，认证卖家销售Steam游戏Key、礼品卡与游戏点卡，覆盖100多个国家本地支付。",
+    "down_days": 0,
+    "name": "Driffle",
+    "risks": [
+      "卖家制市集，个别密钥可能存在区域锁，购买前需核对版本"
+    ],
     "score": 75,
     "signals": [
       "2021年成立（美国特拉华/印度班加罗尔），获BEENEXT领投340万美元种子轮",
@@ -2728,18 +2763,30 @@ const SITES = [
       "24/7客服，未拆封密钥14天无理由退款",
       "Trustpilot真实买家评价，Entrepreneur/YourStory/Inc42等多家媒体报道"
     ],
-    "risks": [
-      "卖家制市集，个别密钥可能存在区域锁，购买前需核对版本"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://driffle.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "IndieGala",
-    "url": "https://www.indiegala.com/",
     "category": "kami",
     "desc": "意大利老牌游戏商店（2011年起），以低价Steam Key捆绑包、独立游戏促销和免费赠送活动见长。",
+    "down_days": 0,
+    "name": "IndieGala",
+    "products": [
+      {
+        "buy_url": "https://www.indiegala.com/",
+        "currency": "USD",
+        "name": "IndieGala 限时游戏捆绑包",
+        "pid": "game-bundle",
+        "price": 1.49,
+        "pverified": "2026-11-02",
+        "spec": "多款游戏Steam Key合集（如17 Key合集），价格随捆绑包浮动",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "数字商品退款政策相对严格，购买前建议确认区域版本"
+    ],
     "score": 75,
     "signals": [
       "2011年成立，意大利罗马公司，持续运营14年",
@@ -2747,30 +2794,51 @@ const SITES = [
       "支持信用卡、PayPal、加密货币支付",
       "Steam社区置顶客服FAQ，Discord客服渠道"
     ],
-    "risks": [
-      "数字商品退款政策相对严格，购买前建议确认区域版本"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-bundle",
-        "name": "IndieGala 限时游戏捆绑包",
-        "spec": "多款游戏Steam Key合集（如17 Key合集），价格随捆绑包浮动",
-        "price": 1.49,
-        "currency": "USD",
-        "buy_url": "https://www.indiegala.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.indiegala.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "ChongGrok",
-    "url": "https://chonggrok.com",
     "category": "ai-account",
     "desc": "面向中文用户的 AI 订阅代充站，只做官方会员代充（不卖成品号），覆盖 ChatGPT、Grok、Claude、Gemini、Perplexity。",
+    "down_days": 0,
+    "name": "ChongGrok",
+    "products": [
+      {
+        "buy_url": "https://chonggrok.com",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 代充",
+        "pid": "gpt-plus",
+        "price": 179,
+        "pverified": "2026-10-31",
+        "spec": "自有账号，按页面指引自助兑换",
+        "stock": true
+      },
+      {
+        "buy_url": "https://chonggrok.com",
+        "currency": "CNY",
+        "name": "Claude Pro 代充",
+        "pid": "claude-pro",
+        "price": 179,
+        "pverified": "2026-10-31",
+        "spec": "自有账号，人工开通",
+        "stock": true
+      },
+      {
+        "buy_url": "https://chonggrok.com",
+        "currency": "CNY",
+        "name": "Gemini Pro",
+        "pid": "gemini-pro",
+        "price": 69,
+        "pverified": "2026-10-31",
+        "spec": "家庭组/自有账号多档，会员权益质保一个月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营时长无公开证据",
+      "第三方代充非官方，账号风控风险需自担"
+    ],
     "score": 40,
     "signals": [
       "HTTPS",
@@ -2778,51 +2846,19 @@ const SITES = [
       "人工客服协助",
       "公开退款与售后规则，明确声明非官方服务"
     ],
-    "risks": [
-      "运营时长无公开证据",
-      "第三方代充非官方，账号风控风险需自担"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 代充",
-        "spec": "自有账号，按页面指引自助兑换",
-        "price": 179,
-        "currency": "CNY",
-        "buy_url": "https://chonggrok.com",
-        "stock": true,
-        "pverified": "2026-10-31"
-      },
-      {
-        "pid": "claude-pro",
-        "name": "Claude Pro 代充",
-        "spec": "自有账号，人工开通",
-        "price": 179,
-        "currency": "CNY",
-        "buy_url": "https://chonggrok.com",
-        "stock": true,
-        "pverified": "2026-10-31"
-      },
-      {
-        "pid": "gemini-pro",
-        "name": "Gemini Pro",
-        "spec": "家庭组/自有账号多档，会员权益质保一个月",
-        "price": 69,
-        "currency": "CNY",
-        "buy_url": "https://chonggrok.com",
-        "stock": true,
-        "pverified": "2026-10-31"
-      }
-    ]
+    "url": "https://chonggrok.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "明月Plus",
-    "url": "https://aicz123.com",
     "category": "ai-account",
     "desc": "国内 ChatGPT Plus/Pro 订阅充值平台（曾名明月GPT），美区 iOS 订阅通道一卡一充，全程无需提供账号密码。",
+    "down_days": 0,
+    "name": "明月Plus",
+    "risks": [
+      "双域名并行运营（mingyue188.com 已无法解析，现用 aicz123.com）",
+      "用户数等数字为平台自述未独立验证"
+    ],
     "score": 45,
     "signals": [
       "HTTPS",
@@ -2831,19 +2867,19 @@ const SITES = [
       "完整退款售后政策（充值失败全额退款、掉订阅按天退赔）",
       "V2EX/GitHub 第三方教程交叉提及"
     ],
-    "risks": [
-      "双域名并行运营（mingyue188.com 已无法解析，现用 aicz123.com）",
-      "用户数等数字为平台自述未独立验证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://aicz123.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Aifory Pro",
-    "url": "https://aifory.pro/",
     "category": "ai-account",
     "desc": "俄罗斯 AI 订阅代充服务商，以激活码形式自助开通 ChatGPT Plus，卢布支付，博客持续更新教程与价格。",
+    "down_days": 0,
+    "name": "Aifory Pro",
+    "risks": [
+      "纯俄语站点，仅支持卢布支付，对中文用户门槛高",
+      "第三方口碑与运营年限无公开证据"
+    ],
     "score": 30,
     "signals": [
       "HTTPS",
@@ -2851,50 +2887,62 @@ const SITES = [
       "邮箱/TG/电话客服联系方式齐全",
       "博客 2026-10 仍在更新，内容真实"
     ],
-    "risks": [
-      "纯俄语站点，仅支持卢布支付，对中文用户门槛高",
-      "第三方口碑与运营年限无公开证据"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://aifory.pro/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AiZolo",
-    "url": "https://aizolo.com",
     "category": "ai-account",
     "desc": "All-in-One AI 聚合订阅平台，单订阅多模型并排对比对话（GPT/Claude/Gemini/Grok 等），含免费档。",
+    "down_days": 0,
+    "name": "AiZolo",
+    "products": [
+      {
+        "buy_url": "https://aizolo.com",
+        "currency": "USD",
+        "name": "AiZolo Pro 全能 AI 订阅",
+        "pid": "all-in-one",
+        "price": 9.9,
+        "pverified": "2026-11-02",
+        "spec": "多模型并排对话，300 万 tokens/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "新站（自述活跃用户 1000+，运营年限无证据）",
+      "聚合器非官方直售，第三方口碑缺失"
+    ],
     "score": 30,
     "signals": [
       "HTTPS",
       "邮件客服+优先支持",
       "7 天未使用退款政策公开"
     ],
-    "risks": [
-      "新站（自述活跃用户 1000+，运营年限无证据）",
-      "聚合器非官方直售，第三方口碑缺失"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "all-in-one",
-        "name": "AiZolo Pro 全能 AI 订阅",
-        "spec": "多模型并排对话，300 万 tokens/月",
-        "price": 9.9,
-        "currency": "USD",
-        "buy_url": "https://aizolo.com",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://aizolo.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "U7BUY",
-    "url": "https://www.u7buy.com",
     "category": "game-topup",
     "desc": "游戏账号交易市场，主打 Steam 账号买卖（新号/单游戏/捆绑包/高等级号），卖家实名认证+买家托管担保。",
+    "down_days": 0,
+    "name": "U7BUY",
+    "products": [
+      {
+        "buy_url": "https://www.u7buy.com/steam/steam-accounts",
+        "currency": "USD",
+        "name": "Steam 游戏账号",
+        "pid": "game-account",
+        "price": 1.2,
+        "pverified": "2026-11-02",
+        "spec": "新号/单游戏/捆绑包多档，成品号 1.20 美元起",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "账号买卖为非官方授权的灰色地带",
+      "15 万+交易为平台自述"
+    ],
     "score": 40,
     "signals": [
       "HTTPS",
@@ -2902,31 +2950,41 @@ const SITES = [
       "买家托管担保+售后支持",
       "卖家实名认证与评分机制"
     ],
-    "risks": [
-      "账号买卖为非官方授权的灰色地带",
-      "15 万+交易为平台自述"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "Steam 游戏账号",
-        "spec": "新号/单游戏/捆绑包多档，成品号 1.20 美元起",
-        "price": 1.2,
-        "currency": "USD",
-        "buy_url": "https://www.u7buy.com/steam/steam-accounts",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.u7buy.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Gamers Outlet",
-    "url": "https://www.gamers-outlet.net/",
     "category": "kami",
     "desc": "2013 年创立的美国游戏/软件密钥零售商，Steam/Xbox/微软软件密钥即时邮件交付，支持 PayPal 等多支付方式。",
+    "down_days": 0,
+    "name": "Gamers Outlet",
+    "products": [
+      {
+        "buy_url": "https://www.gamers-outlet.net/en/buy-windows-11-pro-cd-key-oem-microsoft-global-1",
+        "currency": "USD",
+        "name": "Windows 11 Pro 终身密钥（全球版）",
+        "pid": "windows-key",
+        "price": 6.6,
+        "pverified": "2026-11-02",
+        "spec": "OEM, Global, 即时交付",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamers-outlet.net/en/phantom-blade-zero-standard-edition-pc-steam-key-global",
+        "currency": "USD",
+        "name": "Phantom Blade Zero 标准版 Steam 密钥",
+        "pid": "steam-key",
+        "price": 53.56,
+        "pverified": "2026-11-02",
+        "spec": "PC Steam Key, Global",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "未经授权的密钥渠道（keyshop 性质，货源非发行商直接授权）",
+      "部分商品为区域版本（如 Middle-East 版），购买前需确认区服"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -2935,41 +2993,21 @@ const SITES = [
       "24/7 英文客服，订单自动生成发票",
       "Trustpilot / GoCDKeys / CDKeyWatch 第三方徽章展示"
     ],
-    "risks": [
-      "未经授权的密钥渠道（keyshop 性质，货源非发行商直接授权）",
-      "部分商品为区域版本（如 Middle-East 版），购买前需确认区服"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "windows-key",
-        "name": "Windows 11 Pro 终身密钥（全球版）",
-        "spec": "OEM, Global, 即时交付",
-        "price": 6.6,
-        "currency": "USD",
-        "buy_url": "https://www.gamers-outlet.net/en/buy-windows-11-pro-cd-key-oem-microsoft-global-1",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "Phantom Blade Zero 标准版 Steam 密钥",
-        "spec": "PC Steam Key, Global",
-        "price": 53.56,
-        "currency": "USD",
-        "buy_url": "https://www.gamers-outlet.net/en/phantom-blade-zero-standard-edition-pc-steam-key-global",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.gamers-outlet.net/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "小羊 Plus",
-    "url": "https://xiaoyangplus.com/",
     "category": "ai-account",
     "desc": "国内 AI 会员自助代充站，主营 ChatGPT Plus/Pro、Claude Pro、Cursor 等代充，支持支付宝/微信支付，明确承诺充值失败当天全额退款。",
+    "down_days": 0,
+    "name": "小羊 Plus",
+    "risks": [
+      "运营年限未知，无可验证的公司主体信息",
+      "未展示 ICP 备案号",
+      "第三方口碑不足（仅一篇 V2EX 帖子提及）",
+      "代充行为本身存在 OpenAI 官方风控风险"
+    ],
     "score": 45,
     "signals": [
       "HTTPS 有效",
@@ -2978,21 +3016,20 @@ const SITES = [
       "自助充值流程，无需将账号密码交给客服",
       "站内 FAQ 与售后联系通道完善"
     ],
-    "risks": [
-      "运营年限未知，无可验证的公司主体信息",
-      "未展示 ICP 备案号",
-      "第三方口碑不足（仅一篇 V2EX 帖子提及）",
-      "代充行为本身存在 OpenAI 官方风控风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://xiaoyangplus.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Midasbuy",
-    "url": "https://www.midasbuy.com",
     "category": "game-topup",
     "desc": "腾讯旗下 PUBG Mobile 等手游官方充值中心，凭玩家 ID 直充到账、零封号风险",
+    "down_days": 0,
+    "name": "Midasbuy",
+    "products": [],
+    "risks": [
+      "官方直充按官方定价，通常无第三方代充折扣",
+      "首页 JS 单页渲染，未采集到具体商品价格"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 可访问（2026-10-19 browser.open 验证）",
@@ -3001,26 +3038,26 @@ const SITES = [
       "外部声誉检查无异常、无诈骗举报",
       "多国本地支付方式、客服与隐私政策齐全"
     ],
-    "risks": [
-      "官方直充按官方定价，通常无第三方代充折扣",
-      "首页 JS 单页渲染，未采集到具体商品价格"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.midasbuy.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AccountBot",
-    "url": "https://accountbot.org/",
     "category": "ai-account",
     "desc": "AI 账号小店，主营 ChatGPT Plus 1/3/6/12 个月订阅，$4.99/月起，含 Replacement Warranty。",
-    "score": 30,
-    "signals": [
-      "HTTPS 有效",
-      "ChatGPT Plus 1 个月仅 $4.99（官方 $20/月）",
-      "提供 Replacement Warranty",
-      "支持客服团队联系"
+    "down_days": 0,
+    "name": "AccountBot",
+    "products": [
+      {
+        "buy_url": "https://accountbot.org/product/chatgpt-plus/",
+        "currency": "USD",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 4.99,
+        "pverified": "2026-11-02",
+        "spec": "1 个月",
+        "stock": true
+      }
     ],
     "risks": [
       "运营时长未知",
@@ -3028,27 +3065,49 @@ const SITES = [
       "独立第三方网站，非官方授权（官网自述）",
       "低价账号存在被 OpenAI 封禁风险"
     ],
-    "verified": "2026-11-01",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "ChatGPT Plus 1 个月仅 $4.99（官方 $20/月）",
+      "提供 Replacement Warranty",
+      "支持客服团队联系"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "1 个月",
-        "price": 4.99,
-        "currency": "USD",
-        "buy_url": "https://accountbot.org/product/chatgpt-plus/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://accountbot.org/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Treabar",
-    "url": "https://treabar.com/",
     "category": "game-topup",
     "desc": "原神/多游戏 UID 直充站，原神 6480 结晶 $86（官方 $99.99），支持信用卡与东南亚电子钱包。",
+    "down_days": 0,
+    "name": "Treabar",
+    "products": [
+      {
+        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
+        "currency": "USD",
+        "name": "原神 6480+1600 创世结晶",
+        "pid": "genshin-6480",
+        "price": 86.0,
+        "pverified": "2026-11-02",
+        "spec": "UID 直充",
+        "stock": true
+      },
+      {
+        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
+        "currency": "USD",
+        "name": "原神 空月祝福（月卡）",
+        "pid": "welkin-moon",
+        "price": 4.39,
+        "pverified": "2026-11-02",
+        "spec": "UID 直充",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "自称持有互联网经营许可，未独立核实",
+      "第三方代充非官方渠道",
+      "2 年口碑为网站自述，无独立第三方测评"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -3057,42 +3116,32 @@ const SITES = [
       "主流信用卡与东南亚电子钱包",
       "24/7 在线客服"
     ],
-    "risks": [
-      "自称持有互联网经营许可，未独立核实",
-      "第三方代充非官方渠道",
-      "2 年口碑为网站自述，无独立第三方测评"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "genshin-6480",
-        "name": "原神 6480+1600 创世结晶",
-        "spec": "UID 直充",
-        "price": 86.0,
-        "currency": "USD",
-        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "welkin-moon",
-        "name": "原神 空月祝福（月卡）",
-        "spec": "UID 直充",
-        "price": 4.39,
-        "currency": "USD",
-        "buy_url": "https://treabar.com/en/gameZone/genshin-impact-top-up",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://treabar.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "EnjoyGM",
-    "url": "https://www.enjoygm.com/",
     "category": "game-topup",
     "desc": "原神/多游戏 UID 直充站，原神 6480+1600 结晶 $68.92（约 31% off），60+ 支付方式，24/7 客服。",
+    "down_days": 0,
+    "name": "EnjoyGM",
+    "products": [
+      {
+        "buy_url": "https://www.enjoygm.com/top-up/genshin-impact",
+        "currency": "USD",
+        "name": "原神 6480+1600 创世结晶",
+        "pid": "genshin-6480",
+        "price": 68.92,
+        "pverified": "2026-11-02",
+        "spec": "UID 直充",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "网站自称 4.98/5（12,726 条评价），无独立第三方测评",
+      "运营时长未知",
+      "第三方代充非官方渠道"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
@@ -3101,32 +3150,20 @@ const SITES = [
       "60+ 支付方式（含 PayPal/GCash/加密货币）",
       "24/7 客服（网站自称 2 分钟内响应）"
     ],
-    "risks": [
-      "网站自称 4.98/5（12,726 条评价），无独立第三方测评",
-      "运营时长未知",
-      "第三方代充非官方渠道"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "genshin-6480",
-        "name": "原神 6480+1600 创世结晶",
-        "spec": "UID 直充",
-        "price": 68.92,
-        "currency": "USD",
-        "buy_url": "https://www.enjoygm.com/top-up/genshin-impact",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.enjoygm.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Bitrefill",
-    "url": "https://www.bitrefill.com/",
     "category": "kami",
     "desc": "全球加密礼品卡商（2014 年成立），5000+ 礼品卡/eSIM/话费充值，用 BTC/Lightning/USDT 等加密货币支付，Trustpilot 4.6/5。",
+    "down_days": 0,
+    "name": "Bitrefill",
+    "products": [],
+    "risks": [
+      "仅支持加密货币支付",
+      "数字礼品卡售出后一般不退"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -3136,20 +3173,21 @@ const SITES = [
       "客服 Help Center",
       "Trustpilot 4.6/5"
     ],
-    "risks": [
-      "仅支持加密货币支付",
-      "数字礼品卡售出后一般不退"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.bitrefill.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Gameseal",
-    "url": "https://gameseal.com/",
     "category": "kami",
     "desc": "游戏 Key 与礼品卡直销商（非市场集市），8万+ 数字商品，结算价透明无隐藏费用。",
+    "down_days": 0,
+    "name": "Gameseal",
+    "products": [],
+    "risks": [
+      "密钥来源非官方授权渠道（灰市批发）",
+      "偶有黑键/区域锁/发货失败投诉",
+      "运营时长与公司主体信息不明"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -3159,21 +3197,32 @@ const SITES = [
       "自称15秒即时交付",
       "价格透明、无隐藏结算费（第三方测评）"
     ],
-    "risks": [
-      "密钥来源非官方授权渠道（灰市批发）",
-      "偶有黑键/区域锁/发货失败投诉",
-      "运营时长与公司主体信息不明"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://gameseal.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "158card",
-    "url": "https://www.158card.com/",
     "category": "game-topup",
     "desc": "海外华人游戏充值与数字点卡平台，自称2008年开站；Q币/抖音/Apple ID/原神扫码代付直充，支持 PayPal 付款。",
+    "down_days": 0,
+    "name": "158card",
+    "products": [
+      {
+        "buy_url": "https://www.158card.com/card/015/402.html",
+        "currency": "USD",
+        "name": "中国区 Apple ID 充值（人工直充）",
+        "pid": "apple-gift",
+        "price": 9.17,
+        "pverified": "2026-11-02",
+        "spec": "50元起，50/100/300/500/1000+元面额",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "成立年份为自称，未经独立核验",
+      "第三方代充非官方渠道，存在封号/充值追回风险",
+      "Apple ID 直充需提交账号密码（建议用临时密码）"
+    ],
     "score": 50,
     "signals": [
       "HTTPS 有效",
@@ -3182,32 +3231,20 @@ const SITES = [
       "7×24小时在线客服（QQ/电话/微信）",
       "5500+ 商品在售，超时赔付承诺"
     ],
-    "risks": [
-      "成立年份为自称，未经独立核验",
-      "第三方代充非官方渠道，存在封号/充值追回风险",
-      "Apple ID 直充需提交账号密码（建议用临时密码）"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "apple-gift",
-        "name": "中国区 Apple ID 充值（人工直充）",
-        "spec": "50元起，50/100/300/500/1000+元面额",
-        "price": 9.17,
-        "currency": "USD",
-        "buy_url": "https://www.158card.com/card/015/402.html",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.158card.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GameBoost",
-    "url": "https://gameboost.com/",
     "category": "game-topup",
     "desc": "综合游戏虚拟商品交易平台（克罗地亚公司，2018年运营至今）：游戏账号、代练、游戏货币、Top-Up充值、道具、礼品卡与游戏Key，覆盖原神/堡垒之夜/Valorant等。",
+    "down_days": 0,
+    "name": "GameBoost",
+    "products": [],
+    "risks": [
+      "第三方代充/代练为非官方渠道，存在封号风险",
+      "部分商品为玩家卖家C2C，服务质量参差"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -3217,25 +3254,36 @@ const SITES = [
       "Trustpilot 4.9/5（首页自称）",
       "自称72万+用户、210万+订单"
     ],
-    "risks": [
-      "第三方代充/代练为非官方渠道，存在封号风险",
-      "部分商品为玩家卖家C2C，服务质量参差"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://gameboost.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "KAMIKEY",
-    "url": "https://kamikey.com/",
     "category": "kami",
     "desc": "越南正版游戏 Key 商店，主打 Steam 官方激活码与 Steam 离线共享版，越南盾结算。",
-    "score": 35,
-    "signals": [
-      "HTTPS 有效",
-      "站内商品问答由管理员真实回复、有评分体系",
-      "多家越南游戏媒体将其列为正版 Steam Key 商店、Google 持续收录更新"
+    "down_days": 0,
+    "name": "KAMIKEY",
+    "products": [
+      {
+        "buy_url": "https://kamikey.com/products/helldivers-2-steam-key/",
+        "currency": "VND",
+        "name": "HELLDIVERS 2 Steam Key Global（标准版）",
+        "pid": "steam-key",
+        "price": 680000,
+        "pverified": "2026-11-02",
+        "spec": "Steam 全球激活码，永久入库",
+        "stock": false
+      },
+      {
+        "buy_url": "https://kamikey.com/products/helldivers-2-steam-key/",
+        "currency": "VND",
+        "name": "HELLDIVERS 2 Steam Key Global（Super Citizen 版）",
+        "pid": "steam-key",
+        "price": 950000,
+        "pverified": "2026-11-02",
+        "spec": "Steam 全球激活码，永久入库",
+        "stock": false
+      }
     ],
     "risks": [
       "2026年1月上线，运营不足1年",
@@ -3243,58 +3291,79 @@ const SITES = [
       "-96% 式夸张折扣展示",
       "越南语站点，中文用户门槛高"
     ],
-    "verified": "2026-11-01",
+    "score": 35,
+    "signals": [
+      "HTTPS 有效",
+      "站内商品问答由管理员真实回复、有评分体系",
+      "多家越南游戏媒体将其列为正版 Steam Key 商店、Google 持续收录更新"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "HELLDIVERS 2 Steam Key Global（标准版）",
-        "spec": "Steam 全球激活码，永久入库",
-        "price": 680000,
-        "currency": "VND",
-        "buy_url": "https://kamikey.com/products/helldivers-2-steam-key/",
-        "stock": false,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "HELLDIVERS 2 Steam Key Global（Super Citizen 版）",
-        "spec": "Steam 全球激活码，永久入库",
-        "price": 950000,
-        "currency": "VND",
-        "buy_url": "https://kamikey.com/products/helldivers-2-steam-key/",
-        "stock": false,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://kamikey.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "BuffBuff",
-    "url": "https://buffbuff.com/",
     "category": "game-topup",
     "desc": "面向全球的手游代充平台，覆盖原神/MLBB/PUBG 等 250+ 游戏，号称直充到 UID。",
+    "down_days": 0,
+    "name": "BuffBuff",
+    "products": [],
+    "risks": [
+      "2025年成立的新平台，运营不足1年",
+      "新闻稿为付费通稿性质",
+      "首页 JS 渲染，商品具体价格未实采"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
       "宣称 24/7/365 客服",
       "GlobeNewswire 新闻稿披露主体（香港 VGAMEPOP LIMITED）"
     ],
-    "risks": [
-      "2025年成立的新平台，运营不足1年",
-      "新闻稿为付费通稿性质",
-      "首页 JS 渲染，商品具体价格未实采"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://buffbuff.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "ClaudeMax",
-    "url": "https://claudemax.shop/",
     "category": "ai-account",
     "desc": "中文 AI 会员代充站：ChatGPT Plus/Pro、Claude Max、SuperGrok 代充与成品号，微信支付。",
+    "down_days": 0,
+    "name": "ClaudeMax",
+    "products": [
+      {
+        "buy_url": "https://claudemax.shop/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 代充",
+        "pid": "gpt-plus",
+        "price": 185,
+        "pverified": "2026-11-02",
+        "spec": "充到自己账号，30天，5–30分钟到账",
+        "stock": true
+      },
+      {
+        "buy_url": "https://claudemax.shop/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 成品号",
+        "pid": "gpt-plus",
+        "price": 199,
+        "pverified": "2026-11-02",
+        "spec": "已开通账号，人工发货30分钟–4小时",
+        "stock": true
+      },
+      {
+        "buy_url": "https://claudemax.shop/",
+        "currency": "CNY",
+        "name": "Claude Max 5x 代充",
+        "pid": "claude",
+        "price": 999,
+        "pverified": "2026-11-02",
+        "spec": "充到自己账号，每月 $100 API 额度",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "代充/成品号模式，账号合规风险",
+      "无第三方口碑",
+      "运营时长未知"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -3302,58 +3371,46 @@ const SITES = [
       "中文售后说明、支持企业对公转账与发票",
       "价格表按天更新、开通方式写明"
     ],
-    "risks": [
-      "代充/成品号模式，账号合规风险",
-      "无第三方口碑",
-      "运营时长未知"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 代充",
-        "spec": "充到自己账号，30天，5–30分钟到账",
-        "price": 185,
-        "currency": "CNY",
-        "buy_url": "https://claudemax.shop/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 成品号",
-        "spec": "已开通账号，人工发货30分钟–4小时",
-        "price": 199,
-        "currency": "CNY",
-        "buy_url": "https://claudemax.shop/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Max 5x 代充",
-        "spec": "充到自己账号，每月 $100 API 额度",
-        "price": 999,
-        "currency": "CNY",
-        "buy_url": "https://claudemax.shop/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://claudemax.shop/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "BabayShop",
-    "url": "https://babay.web.id/chatgpt-global",
     "category": "ai-account",
     "desc": "印尼 ChatGPT Plus 成品号小店，多渠道（印度/巴西/欧洲/ApplePay）低价套餐，WhatsApp 下单。",
-    "score": 40,
-    "signals": [
-      "HTTPS 有效",
-      "支持 PayPal/Binance/Wise 国际支付",
-      "WhatsApp 客服下单流程",
-      "质保条款与使用规则写明"
+    "down_days": 0,
+    "name": "BabayShop",
+    "products": [
+      {
+        "buy_url": "https://babay.web.id/chatgpt-global",
+        "currency": "USD",
+        "name": "ChatGPT Plus 1个月 私人号（印度渠道）",
+        "pid": "gpt-plus",
+        "price": 3.5,
+        "pverified": "2026-11-02",
+        "spec": "25–28天，24小时质保，含 Codex",
+        "stock": true
+      },
+      {
+        "buy_url": "https://babay.web.id/chatgpt-global",
+        "currency": "USD",
+        "name": "ChatGPT Plus 1个月（ApplePay VCC 渠道）",
+        "pid": "gpt-plus",
+        "price": 5.2,
+        "pverified": "2026-11-02",
+        "spec": "25–28天，10天质保，Gmail/iCloud 邮箱",
+        "stock": true
+      },
+      {
+        "buy_url": "https://babay.web.id/chatgpt-global",
+        "currency": "USD",
+        "name": "ChatGPT Plus 1个月 私人号（巴西渠道）",
+        "pid": "gpt-plus",
+        "price": 3.8,
+        "pverified": "2026-11-02",
+        "spec": "25–28天，1小时登录质保",
+        "stock": false
+      }
     ],
     "risks": [
       "$3.5/月的 Plus 明显低于官方成本，漏洞/拒付单风险高",
@@ -3361,47 +3418,59 @@ const SITES = [
       "多款套餐售罄",
       "成品号模式，账号非本人注册"
     ],
-    "verified": "2026-11-01",
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "支持 PayPal/Binance/Wise 国际支付",
+      "WhatsApp 客服下单流程",
+      "质保条款与使用规则写明"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 1个月 私人号（印度渠道）",
-        "spec": "25–28天，24小时质保，含 Codex",
-        "price": 3.5,
-        "currency": "USD",
-        "buy_url": "https://babay.web.id/chatgpt-global",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 1个月（ApplePay VCC 渠道）",
-        "spec": "25–28天，10天质保，Gmail/iCloud 邮箱",
-        "price": 5.2,
-        "currency": "USD",
-        "buy_url": "https://babay.web.id/chatgpt-global",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 1个月 私人号（巴西渠道）",
-        "spec": "25–28天，1小时登录质保",
-        "price": 3.8,
-        "currency": "USD",
-        "buy_url": "https://babay.web.id/chatgpt-global",
-        "stock": false,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://babay.web.id/chatgpt-global",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Infinity Digital Shop",
-    "url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
     "category": "ai-account",
     "desc": "孟加拉国数字商品店，主营 ChatGPT 共享/个人可续费账号，塔卡结算，全球即时发货。",
+    "down_days": 0,
+    "name": "Infinity Digital Shop",
+    "products": [
+      {
+        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
+        "currency": "BDT",
+        "name": "ChatGPT Go 个人可续费",
+        "pid": "gpt-go",
+        "price": 799,
+        "pverified": "2026-11-02",
+        "spec": "同一账号每月续费，30天质保",
+        "stock": true
+      },
+      {
+        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
+        "currency": "BDT",
+        "name": "ChatGPT Plus 个人可续费",
+        "pid": "gpt-plus",
+        "price": 2699,
+        "pverified": "2026-11-02",
+        "spec": "同一账号每月续费，聊天记录保留",
+        "stock": true
+      },
+      {
+        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
+        "currency": "BDT",
+        "name": "ChatGPT Plus 共享",
+        "pid": "gpt-plus",
+        "price": 220,
+        "pverified": "2026-11-02",
+        "spec": "1设备同时在线，聊天记录不保证",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "孟加拉国小站，无第三方口碑",
+      "\"No Ban Issue\" 宣传存疑",
+      "共享账号模式"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -3409,52 +3478,41 @@ const SITES = [
       "宣称 24/7 WhatsApp 客服",
       "30天质保承诺"
     ],
-    "risks": [
-      "孟加拉国小站，无第三方口碑",
-      "\"No Ban Issue\" 宣传存疑",
-      "共享账号模式"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-go",
-        "name": "ChatGPT Go 个人可续费",
-        "spec": "同一账号每月续费，30天质保",
-        "price": 799,
-        "currency": "BDT",
-        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 个人可续费",
-        "spec": "同一账号每月续费，聊天记录保留",
-        "price": 2699,
-        "currency": "BDT",
-        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 共享",
-        "spec": "1设备同时在线，聊天记录不保证",
-        "price": 220,
-        "currency": "BDT",
-        "buy_url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "瑶瑶 yaoyao.chat",
-    "url": "https://yaoyao.chat/",
     "category": "ai-account",
     "desc": "中文 AI 会员代充商城（300万粉丝博主运营）：ChatGPT Plus ¥129/月、Claude Pro ¥159/月，充到自己账号。",
+    "down_days": 0,
+    "name": "瑶瑶 yaoyao.chat",
+    "products": [
+      {
+        "buy_url": "https://yaoyao.chat/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 自动发卡密",
+        "pid": "gpt-plus",
+        "price": 129,
+        "pverified": "2026-11-02",
+        "spec": "充到自己账号，1–3分钟自助到账",
+        "stock": true
+      },
+      {
+        "buy_url": "https://yaoyao.chat/",
+        "currency": "CNY",
+        "name": "Claude Pro 代充",
+        "pid": "claude",
+        "price": 159,
+        "pverified": "2026-11-02",
+        "spec": "充到自己账号，人工开通",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "代充模式（OpenAI/Anthropic 不支持大陆直接付款）",
+      "个人 IP 运营，非公司主体"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -3464,41 +3522,50 @@ const SITES = [
       "300万粉丝背书、多家指南站引用、近30天301单自助开通数据公示",
       "订阅质保（中途掉订阅凭订单号处理）"
     ],
-    "risks": [
-      "代充模式（OpenAI/Anthropic 不支持大陆直接付款）",
-      "个人 IP 运营，非公司主体"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 自动发卡密",
-        "spec": "充到自己账号，1–3分钟自助到账",
-        "price": 129,
-        "currency": "CNY",
-        "buy_url": "https://yaoyao.chat/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 代充",
-        "spec": "充到自己账号，人工开通",
-        "price": 159,
-        "currency": "CNY",
-        "buy_url": "https://yaoyao.chat/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://yaoyao.chat/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "GameBillet",
-    "url": "https://www.gamebillet.com/",
     "category": "kami",
     "desc": "欧洲老牌 PC 游戏授权经销商，官方授权 Steam Key，首页常年全场折扣。",
+    "down_days": 0,
+    "name": "GameBillet",
+    "products": [
+      {
+        "buy_url": "https://www.gamebillet.com/",
+        "currency": "USD",
+        "name": "Dark Souls Remastered",
+        "pid": "steam-key",
+        "price": 27.99,
+        "pverified": "2026-11-02",
+        "spec": "Steam Key",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamebillet.com/",
+        "currency": "USD",
+        "name": "No Man's Sky",
+        "pid": "steam-key",
+        "price": 18.79,
+        "pverified": "2026-11-02",
+        "spec": "Steam Key，-60%",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.gamebillet.com/",
+        "currency": "USD",
+        "name": "Days Gone",
+        "pid": "steam-key",
+        "price": 19.99,
+        "pverified": "2026-11-02",
+        "spec": "Steam Key，-50%",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "欧洲小众授权商，知名度低于 GMG/Fanatical"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -3507,44 +3574,9 @@ const SITES = [
       "7天客服（页面自称）",
       "多家测评推荐"
     ],
-    "risks": [
-      "欧洲小众授权商，知名度低于 GMG/Fanatical"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Dark Souls Remastered",
-        "spec": "Steam Key",
-        "price": 27.99,
-        "currency": "USD",
-        "buy_url": "https://www.gamebillet.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "No Man's Sky",
-        "spec": "Steam Key，-60%",
-        "price": 18.79,
-        "currency": "USD",
-        "buy_url": "https://www.gamebillet.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "Days Gone",
-        "spec": "Steam Key，-50%",
-        "price": 19.99,
-        "currency": "USD",
-        "buy_url": "https://www.gamebillet.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.gamebillet.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -3558,7 +3590,7 @@ const SITES = [
         "name": "Claude Pro（共享）",
         "pid": "claude-pro",
         "price": 4.95,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天许可密钥",
         "stock": true
       },
@@ -3568,7 +3600,7 @@ const SITES = [
         "name": "Claude Max 5x（共享）",
         "pid": "claude-max",
         "price": 18.95,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天许可密钥",
         "stock": true
       },
@@ -3578,7 +3610,7 @@ const SITES = [
         "name": "Claude Max 20x（共享）",
         "pid": "claude-max",
         "price": 38.95,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天许可密钥",
         "stock": true
       }
@@ -3596,7 +3628,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cheapclaude.online/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3615,7 +3647,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keys-shop.in/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3635,7 +3667,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://electronicfirst.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -3656,7 +3688,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://arorashop.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -3679,7 +3711,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://joytify.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3701,7 +3733,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keysfan.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -3723,7 +3755,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://moogold.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -3758,7 +3790,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://follownic.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3778,7 +3810,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamesplanet.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3798,7 +3830,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.wingamestore.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -3830,7 +3862,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hstockplus.com",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -3862,7 +3894,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gptpro.uk/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -3876,7 +3908,7 @@ const SITES = [
         "name": "Weekly Diamond Pass",
         "pid": "mlbb-diamonds",
         "price": 118.18,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "一次性购买/周卡",
         "stock": true
       }
@@ -3894,7 +3926,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://nexone.ph",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
@@ -3926,7 +3958,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gamesdrop.io",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "kami",
@@ -3940,7 +3972,7 @@ const SITES = [
         "name": "Elden Ring（Steam Key Global）",
         "pid": "steam-key",
         "price": 25.32,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "标准版/全球区",
         "stock": true
       }
@@ -3959,7 +3991,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.digidang.com/en",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -3973,7 +4005,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 20,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "月付/自动激活",
         "stock": true
       }
@@ -3993,7 +4025,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://fastgptplus.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4007,7 +4039,7 @@ const SITES = [
         "name": "X账号 2013年注册老号",
         "pid": "x-account",
         "price": 4.0,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "Hotmail邮箱验证、邮箱含在内、含Token、部分资料填充",
         "stock": true
       },
@@ -4017,7 +4049,7 @@ const SITES = [
         "name": "X账号 2023年3月注册",
         "pid": "x-account",
         "price": 0.99,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "Hotmail/Outlook邮箱验证、邮箱含在内、带头像、多国IP注册",
         "stock": true
       }
@@ -4038,7 +4070,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accszone.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4052,7 +4084,7 @@ const SITES = [
         "name": "X账号 160k粉丝",
         "pid": "x-account",
         "price": 150000,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "160k粉丝、可议价",
         "stock": true
       }
@@ -4072,7 +4104,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://swapd.co/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4095,7 +4127,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://fameswap.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4118,7 +4150,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.middleman.net/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4141,7 +4173,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mexaccs.com/buy-twitter-accounts/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4164,7 +4196,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accsbulk.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4178,7 +4210,7 @@ const SITES = [
         "name": "X PVA新号 100个装",
         "pid": "x-account",
         "price": 75,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "100个装，合$0.75/个",
         "stock": true
       },
@@ -4188,7 +4220,7 @@ const SITES = [
         "name": "X老号PVA 10个装",
         "pid": "x-account",
         "price": 10,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "10个装，合$1.00/个",
         "stock": true
       },
@@ -4198,7 +4230,7 @@ const SITES = [
         "name": "X老号PVA 10个装（高档）",
         "pid": "x-account",
         "price": 35,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "10个装，合$3.50/个",
         "stock": true
       }
@@ -4216,7 +4248,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.accountprovide.com/x-pva-accounts",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4230,7 +4262,7 @@ const SITES = [
         "name": "X老号",
         "pid": "x-account",
         "price": 2,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "50个起购，套餐价$100",
         "stock": true
       }
@@ -4249,7 +4281,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://bulkaccounts.com/product/buy-aged-twitter-accounts",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4271,7 +4303,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buytwitter.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4323,7 +4355,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://funpay.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4337,7 +4369,7 @@ const SITES = [
         "name": "Claude Pro/Max",
         "pid": "claude",
         "price": 10,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "共享或独享，页面标价区间 $10–$147，具体套餐价选规格后显示",
         "stock": true
       }
@@ -4356,7 +4388,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.rankmarket.org/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4388,7 +4420,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cdkoffers.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4402,7 +4434,7 @@ const SITES = [
         "name": "Claude Pro 共享号 30天",
         "pid": "claude",
         "price": 11.99,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "含 Claude Code，全程保修",
         "stock": true
       },
@@ -4412,7 +4444,7 @@ const SITES = [
         "name": "Claude Max 5x 共享号 30天",
         "pid": "claude",
         "price": 39.99,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "含 Claude Code，全程保修",
         "stock": true
       },
@@ -4422,7 +4454,7 @@ const SITES = [
         "name": "Claude Max 20x 共享号 30天",
         "pid": "claude",
         "price": 109.99,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "含 Claude Code，全程保修",
         "stock": true
       }
@@ -4440,7 +4472,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://wasdlab.eu/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4462,7 +4494,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://escrozon.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4483,7 +4515,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://nosamai.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4506,7 +4538,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://zarinacc.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4520,7 +4552,7 @@ const SITES = [
         "name": "Gmail 老号（6个月）",
         "pid": "gmail",
         "price": 1,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "6个月老号",
         "stock": true
       },
@@ -4530,7 +4562,7 @@ const SITES = [
         "name": "Gmail 老号（1-2年）",
         "pid": "gmail",
         "price": 2,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "1-2年老号",
         "stock": true
       },
@@ -4540,7 +4572,7 @@ const SITES = [
         "name": "Gmail 老号（9-11年）",
         "pid": "gmail",
         "price": 5,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "9-11年老号（最受欢迎）",
         "stock": true
       }
@@ -4559,7 +4591,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://oldgmb.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4573,7 +4605,7 @@ const SITES = [
         "name": "Gmail 老号",
         "pid": "gmail",
         "price": 2,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "老号 PVA",
         "stock": true
       }
@@ -4591,7 +4623,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://getpvatop.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4612,7 +4644,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://getusasmm.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4632,7 +4664,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://usabuyservice.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4653,7 +4685,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buyvccusa.com/product/buy-gmail-accounts/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4674,7 +4706,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://usshopit.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4695,7 +4727,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://xomails.com/product/buy-gmail-accounts",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4715,7 +4747,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://digitalshopusa.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
@@ -4736,7 +4768,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://trustsmmbiz.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4750,7 +4782,7 @@ const SITES = [
         "name": "一次性短信接码",
         "pid": "sms-verify",
         "price": 0.008,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费",
         "stock": true
       }
@@ -4770,7 +4802,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://5sim.net/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4784,7 +4816,7 @@ const SITES = [
         "name": "一次性短信接码",
         "pid": "sms-verify",
         "price": 0.05,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费，20分钟有效",
         "stock": true
       }
@@ -4803,7 +4835,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://sms-man.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4817,7 +4849,7 @@ const SITES = [
         "name": "短信验证",
         "pid": "sms-verify",
         "price": 0.1,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费，美国非VoIP号",
         "stock": true
       },
@@ -4827,7 +4859,7 @@ const SITES = [
         "name": "短期租号",
         "pid": "sms-rent",
         "price": 1.4,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "1-14天租期，不限次收码",
         "stock": true
       }
@@ -4847,7 +4879,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.textverified.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4861,7 +4893,7 @@ const SITES = [
         "name": "按条收码",
         "pid": "sms-verify",
         "price": 0.09,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按条计费，美国非VoIP号",
         "stock": true
       },
@@ -4871,7 +4903,7 @@ const SITES = [
         "name": "日租号码",
         "pid": "sms-rent-day",
         "price": 1.0,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "24小时租期，不限次收码",
         "stock": true
       },
@@ -4881,7 +4913,7 @@ const SITES = [
         "name": "周租号码",
         "pid": "sms-rent-week",
         "price": 5.0,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "7天租期，不限次收码",
         "stock": true
       }
@@ -4900,7 +4932,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://rcvsms.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4952,7 +4984,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://sms-bus.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -4966,7 +4998,7 @@ const SITES = [
         "name": "WhatsApp短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.4386,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费",
         "stock": true
       },
@@ -4976,7 +5008,7 @@ const SITES = [
         "name": "Telegram短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.2472,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费",
         "stock": true
       },
@@ -4986,7 +5018,7 @@ const SITES = [
         "name": "Google短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.2112,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "按次计费",
         "stock": true
       }
@@ -5006,7 +5038,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://snsvirtual.com/en",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5028,7 +5060,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://longsms.net/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5050,7 +5082,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hero-sms.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5071,7 +5103,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tempsmss.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5093,7 +5125,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://7sim.net/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5113,7 +5145,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://receive-sms-online.info/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5133,7 +5165,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://yunjiema.top/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5154,7 +5186,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.supercloudsms.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5174,7 +5206,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.yunduanxin.xyz/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5194,7 +5226,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mianfeijiema.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5214,7 +5246,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.uoomsg.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5235,7 +5267,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://eomsg.com/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
     "category": "jiemao",
@@ -5255,63 +5287,68 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.qc86.shop/",
-    "verified": "2026-11-01"
+    "verified": "2026-11-02"
   },
   {
-    "name": "CDKDeals",
-    "url": "https://www.cdkdeals.com/",
     "category": "kami",
     "desc": "Steam CDKey 折扣店，站内 Steam 分类页在售且明码标价，含多款 Age of Empires 系列密钥。",
-    "score": 10,
-    "signals": [
-      "HTTPS 有效",
-      "Steam CDKey 分类页可打开且在售标价"
+    "down_days": 0,
+    "name": "CDKDeals",
+    "products": [
+      {
+        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
+        "currency": "USD",
+        "name": "Age of Empires III: Definitive Edition United States Civilization CD Key",
+        "pid": "steam-key",
+        "price": 4.49,
+        "pverified": "2026-11-02",
+        "spec": "Steam CD Key",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
+        "currency": "USD",
+        "name": "Age of Empires: Definitive Edition CD Key Global",
+        "pid": "steam-key",
+        "price": 4.38,
+        "pverified": "2026-11-02",
+        "spec": "Steam CD Key 全球版",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
+        "currency": "USD",
+        "name": "Age of Empires 4 Standard Edition Steam CD Key Global",
+        "pid": "steam-key",
+        "price": 42.09,
+        "pverified": "2026-11-02",
+        "spec": "Steam CD Key 全球版标准版",
+        "stock": true
+      }
     ],
     "risks": [
       "运营年限、支付方式、客服与退款政策本轮页面未核实",
       "灰市密钥存在发行商回收风险"
     ],
-    "verified": "2026-11-01",
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "Steam CDKey 分类页可打开且在售标价"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Age of Empires III: Definitive Edition United States Civilization CD Key",
-        "spec": "Steam CD Key",
-        "price": 4.49,
-        "currency": "USD",
-        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "Age of Empires: Definitive Edition CD Key Global",
-        "spec": "Steam CD Key 全球版",
-        "price": 4.38,
-        "currency": "USD",
-        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "Age of Empires 4 Standard Edition Steam CD Key Global",
-        "spec": "Steam CD Key 全球版标准版",
-        "price": 42.09,
-        "currency": "USD",
-        "buy_url": "https://www.cdkdeals.com/steam-cdkey",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.cdkdeals.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "iGVault（iGV）",
-    "url": "https://www.igv.com/",
     "category": "game-topup",
     "desc": "2006 年成立的玩家对玩家游戏商品集市，覆盖 WOW 金币、FIFA 金币、游戏账号等 400 余种商品，订单保障按 listing 设定。",
+    "down_days": 0,
+    "name": "iGVault（iGV）",
+    "products": [],
+    "risks": [
+      "账号交易违反游戏厂商条款，有封号风险",
+      "保障期限按 listing 而定、无统一终身保障"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -5319,20 +5356,21 @@ const SITES = [
       "24/7 客服",
       "第三方对比文章与多方提及"
     ],
-    "risks": [
-      "账号交易违反游戏厂商条款，有封号风险",
-      "保障期限按 listing 而定、无统一终身保障"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.igv.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "EpicNPC",
-    "url": "https://www.epicnpc.com/",
     "category": "game-topup",
     "desc": "2012 年起的游戏账号与虚拟物品论坛集市，约千款游戏可交易，官方中介服务收费 4.95 美元 + 6%。",
+    "down_days": 0,
+    "name": "EpicNPC",
+    "products": [],
+    "risks": [
+      "论坛而非托管集市，直接付给卖家风险高",
+      "付费中介不保账号找回与拒付",
+      "账号交易违反游戏厂商条款，有封号风险"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -5340,21 +5378,31 @@ const SITES = [
       "Trustpilot 约 11179 条评价 3.5/5",
       "官方中介服务"
     ],
-    "risks": [
-      "论坛而非托管集市，直接付给卖家风险高",
-      "付费中介不保账号找回与拒付",
-      "账号交易违反游戏厂商条款，有封号风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.epicnpc.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MmoGah",
-    "url": "https://www.mmogah.com/",
     "category": "game-topup",
     "desc": "2006 年成立的游戏币、账号与代练老牌商家，支持 PayPal 与信用卡，24/7 客服，承诺退款保证。",
+    "down_days": 0,
+    "name": "MmoGah",
+    "products": [
+      {
+        "buy_url": "https://www.mmogah.com/maplestory-n-neso",
+        "currency": "USD",
+        "name": "MapleStory N Neso",
+        "pid": "game-currency",
+        "price": 5.99,
+        "pverified": "2026-11-02",
+        "spec": "MapleStory N 游戏币",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "部分代充需登录游戏账号（Comfort Trade），有封号风险",
+      "游戏币交易违反游戏厂商条款"
+    ],
     "score": 75,
     "signals": [
       "HTTPS 有效",
@@ -5364,51 +5412,41 @@ const SITES = [
       "Sitejabber/Trustpilot 口碑",
       "退款保证"
     ],
-    "risks": [
-      "部分代充需登录游戏账号（Comfort Trade），有封号风险",
-      "游戏币交易违反游戏厂商条款"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-currency",
-        "name": "MapleStory N Neso",
-        "spec": "MapleStory N 游戏币",
-        "price": 5.99,
-        "currency": "USD",
-        "buy_url": "https://www.mmogah.com/maplestory-n-neso",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.mmogah.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MMOAuctions",
-    "url": "https://mmoauctions.com/",
     "category": "game-topup",
     "desc": "MMORPG 游戏商品集市，覆盖账号、金币、装备与代练，站内有 Scam Killer 卖家核查工具。",
-    "score": 10,
-    "signals": [
-      "HTTPS 有效",
-      "站内有 Scam Killer 卖家核查工具"
-    ],
+    "down_days": 0,
+    "name": "MMOAuctions",
+    "products": [],
     "risks": [
       "站内明确兜售 cheats，合规性存疑",
       "运营年限、支付与退款政策本轮未核实",
       "账号交易有封号风险"
     ],
-    "verified": "2026-11-01",
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "站内有 Scam Killer 卖家核查工具"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://mmoauctions.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "METAMMO",
-    "url": "https://metammo.com/",
     "category": "game-topup",
     "desc": "直营式游戏账号商店（非集市），卖家即平台自身，承诺终身找回保障：被原主找回可换号或全额退款，48 小时内处理已确认索赔。",
+    "down_days": 0,
+    "name": "METAMMO",
+    "products": [],
+    "risks": [
+      "无第三方托管，依赖商店自身信誉",
+      "账号交易违反游戏厂商条款，有封号风险",
+      "2026 年 10 月对比文章提及的新兴商店，公开口碑有待积累"
+    ],
     "score": 50,
     "signals": [
       "HTTPS 有效",
@@ -5416,105 +5454,126 @@ const SITES = [
       "Discord/邮件客服",
       "终身找回保障（换号或全额退款）"
     ],
-    "risks": [
-      "无第三方托管，依赖商店自身信誉",
-      "账号交易违反游戏厂商条款，有封号风险",
-      "2026 年 10 月对比文章提及的新兴商店，公开口碑有待积累"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://metammo.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AdShopKeys",
-    "url": "https://adshopkeys.com/",
     "category": "ai-account",
     "desc": "越南语 ChatGPT Plus 账号店，提供自有邮箱升级与共享账号两种形式，QR 支付，15-40 分钟交付。",
-    "score": 30,
-    "signals": [
-      "HTTPS 有效",
-      "支持 QR 本地支付",
-      "客服热线 0969 972 234"
+    "down_days": 0,
+    "name": "AdShopKeys",
+    "products": [
+      {
+        "buy_url": "https://adshopkeys.com/tai-khoan-chatgpt-plus/",
+        "currency": "VND",
+        "name": "ChatGPT Plus 账号",
+        "pid": "gpt-plus",
+        "price": 159000,
+        "pverified": "2026-11-02",
+        "spec": "价格区间 159000-379000 VND，含正版升级与共享两种形式",
+        "stock": true
+      }
     ],
     "risks": [
       "越南语站点，对中文用户不友好",
       "共享账号可互相看到聊天记录，勿用于敏感数据",
       "账号交易/共享违反 OpenAI 条款，有封号风险"
     ],
-    "verified": "2026-11-01",
-    "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 账号",
-        "spec": "价格区间 159000-379000 VND，含正版升级与共享两种形式",
-        "price": 159000,
-        "currency": "VND",
-        "buy_url": "https://adshopkeys.com/tai-khoan-chatgpt-plus/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
-  },
-  {
-    "name": "MMDGPT（ممد جی‌پی‌تی）",
-    "url": "https://mmdgpt.com/",
-    "category": "ai-account",
-    "desc": "波斯语 AI 订阅店，ChatGPT Plus、Claude Pro、SuperGrok 均可代充到自有邮箱，另有 6 人共享 Plus 方案。",
     "score": 30,
     "signals": [
       "HTTPS 有效",
-      "支持伊朗本地银行（Parsian）支付",
-      "客服电话 09025089935"
+      "支持 QR 本地支付",
+      "客服热线 0969 972 234"
+    ],
+    "status": "ok",
+    "url": "https://adshopkeys.com/",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "ai-account",
+    "desc": "波斯语 AI 订阅店，ChatGPT Plus、Claude Pro、SuperGrok 均可代充到自有邮箱，另有 6 人共享 Plus 方案。",
+    "down_days": 0,
+    "name": "MMDGPT（ممد جی‌پی‌تی）",
+    "products": [
+      {
+        "buy_url": "https://mmdgpt.com/",
+        "currency": "USD",
+        "name": "ChatGPT Plus（自有邮箱代充 1 个月）",
+        "pid": "gpt-plus",
+        "price": 20,
+        "pverified": "2026-11-02",
+        "spec": "1 个月，自有邮箱",
+        "stock": true
+      },
+      {
+        "buy_url": "https://mmdgpt.com/",
+        "currency": "USD",
+        "name": "ChatGPT Plus 共享 6 人（30 天）",
+        "pid": "gpt-plus",
+        "price": 2,
+        "pverified": "2026-11-02",
+        "spec": "30 天，6 人共享",
+        "stock": true
+      },
+      {
+        "buy_url": "https://mmdgpt.com/",
+        "currency": "USD",
+        "name": "Claude Pro（自有邮箱代充 1 个月）",
+        "pid": "claude",
+        "price": 20,
+        "pverified": "2026-11-02",
+        "spec": "1 个月，自有邮箱",
+        "stock": true
+      }
     ],
     "risks": [
       "波斯语站点、仅伊朗本地银行支付，对中文用户极不友好",
       "共享账号有隐私与封号风险",
       "账号代充违反平台条款"
     ],
-    "verified": "2026-11-01",
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持伊朗本地银行（Parsian）支付",
+      "客服电话 09025089935"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus（自有邮箱代充 1 个月）",
-        "spec": "1 个月，自有邮箱",
-        "price": 20,
-        "currency": "USD",
-        "buy_url": "https://mmdgpt.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 共享 6 人（30 天）",
-        "spec": "30 天，6 人共享",
-        "price": 2,
-        "currency": "USD",
-        "buy_url": "https://mmdgpt.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro（自有邮箱代充 1 个月）",
-        "spec": "1 个月，自有邮箱",
-        "price": 20,
-        "currency": "USD",
-        "buy_url": "https://mmdgpt.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://mmdgpt.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "盼之账号",
-    "url": "https://www.pzds.com/",
     "category": "game-topup",
     "desc": "国内游戏账号交易代售平台，覆盖 200+ 游戏、百万账号，中介担保、1 对 1 专属客服，支持找回包赔与无货赔付。",
+    "down_days": 0,
+    "name": "盼之账号",
+    "products": [
+      {
+        "buy_url": "https://www.pzds.com/",
+        "currency": "CNY",
+        "name": "鸣潮 80 级账号（官服手机）",
+        "pid": "game-account",
+        "price": 145,
+        "pverified": "2026-10-28",
+        "spec": "80级，26金角色，20金武器",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.pzds.com/",
+        "currency": "CNY",
+        "name": "逆水寒手游账号（逐中原/挑灯看剑）",
+        "pid": "game-account",
+        "price": 1400,
+        "pverified": "2026-10-28",
+        "spec": "12.16 素问，256套时装",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营年限、ICP 备案本轮未核实",
+      "账号交易违反游戏厂商条款，有封号风险",
+      "站内部分标价为展示价（如 ¥999999），实际以商品页为准"
+    ],
     "score": 45,
     "signals": [
       "HTTPS 有效",
@@ -5523,42 +5582,21 @@ const SITES = [
       "找回包赔、无货赔付等售后保障",
       "第三方导航与对比文章提及"
     ],
-    "risks": [
-      "运营年限、ICP 备案本轮未核实",
-      "账号交易违反游戏厂商条款，有封号风险",
-      "站内部分标价为展示价（如 ¥999999），实际以商品页为准"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "game-account",
-        "name": "鸣潮 80 级账号（官服手机）",
-        "spec": "80级，26金角色，20金武器",
-        "price": 145,
-        "currency": "CNY",
-        "buy_url": "https://www.pzds.com/",
-        "stock": true,
-        "pverified": "2026-10-28"
-      },
-      {
-        "pid": "game-account",
-        "name": "逆水寒手游账号（逐中原/挑灯看剑）",
-        "spec": "12.16 素问，256套时装",
-        "price": 1400,
-        "currency": "CNY",
-        "buy_url": "https://www.pzds.com/",
-        "stock": true,
-        "pverified": "2026-10-28"
-      }
-    ]
+    "url": "https://www.pzds.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Odealo",
-    "url": "https://odealo.com/",
     "category": "game-topup",
     "desc": "2017 年上线的玩家对玩家 MMO 集市，覆盖流放之路、暗黑、魔兽等游戏币与装备，中介担保、买不到全额退款。",
+    "down_days": 0,
+    "name": "Odealo",
+    "products": [],
+    "risks": [
+      "账号/游戏币交易违反游戏厂商条款，有封号风险",
+      "首页价格未标注币种，本轮未录入商品价格",
+      "客服渠道与支付方式本轮页面未核实"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -5567,21 +5605,32 @@ const SITES = [
       "SSL 与 Norton 安全标识",
       "第三方替代平台榜单提及"
     ],
-    "risks": [
-      "账号/游戏币交易违反游戏厂商条款，有封号风险",
-      "首页价格未标注币种，本轮未录入商品价格",
-      "客服渠道与支付方式本轮页面未核实"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://odealo.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Savekeys",
-    "url": "https://savekeys.net/",
     "category": "kami",
     "desc": "PC/PS/Xbox 游戏密钥比价店，717+ 商品，Stripe 与加密货币支付，24/7 客服，正品密钥质保 3 个月。",
+    "down_days": 0,
+    "name": "Savekeys",
+    "products": [
+      {
+        "buy_url": "https://savekeys.net/product/cyberpunk-2077",
+        "currency": "INR",
+        "name": "Cyberpunk 2077 PC Key",
+        "pid": "steam-key",
+        "price": 1219,
+        "pverified": "2026-11-02",
+        "spec": "PC 密钥，12 个卖家报价，最低价为 Epic Games 账号形式，另有 Steam 礼物/GOG 密钥",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "运营年限、第三方口碑本轮未核实",
+      "灰市密钥存在发行商回收风险",
+      "最低价形式为账号而非纯密钥，购买前需看清形式"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5590,111 +5639,97 @@ const SITES = [
       "正品密钥质保与 3 个月保修",
       "商品页明码标价且有库存"
     ],
-    "risks": [
-      "运营年限、第三方口碑本轮未核实",
-      "灰市密钥存在发行商回收风险",
-      "最低价形式为账号而非纯密钥，购买前需看清形式"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Cyberpunk 2077 PC Key",
-        "spec": "PC 密钥，12 个卖家报价，最低价为 Epic Games 账号形式，另有 Steam 礼物/GOG 密钥",
-        "price": 1219,
-        "currency": "INR",
-        "buy_url": "https://savekeys.net/product/cyberpunk-2077",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://savekeys.net/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "IGXC",
-    "url": "https://www.igxc.com/",
     "category": "kami",
     "desc": "游戏礼品卡与数字订阅码商店，站内设畅销卡片区，另有游戏资讯博客；本轮首页抓取仅见博客内容，商城商品页未核实。",
+    "down_days": 0,
+    "name": "IGXC",
+    "products": [],
+    "risks": [
+      "商城商品页与价格本轮未核实",
+      "运营年限、支付方式、客服与退款政策本轮未核实"
+    ],
     "score": 10,
     "signals": [
       "HTTPS 有效",
       "首页可打开，站名与礼品卡商店定位明确"
     ],
-    "risks": [
-      "商城商品页与价格本轮未核实",
-      "运营年限、支付方式、客服与退款政策本轮未核实"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.igxc.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Goldah",
-    "url": "https://www.goldah.com/",
     "category": "game-topup",
     "desc": "游戏币与装备老店，覆盖 FIFA 金币、暗黑 4/D2R、艾尔登法环符文、魔兽金币等，自称订单量 1 亿+、用户 50 万+。",
-    "score": 10,
-    "signals": [
-      "HTTPS 有效",
-      "首页可打开，商品分类明确（D4/D2R/艾尔登法环/WOW/POE）"
-    ],
+    "down_days": 0,
+    "name": "Goldah",
+    "products": [],
     "risks": [
       "运营年限、支付方式、客服与退款政策本轮页面未核实",
       "游戏币交易违反游戏厂商条款，有封号风险",
       "首页未见明码标价，未录入商品价格"
     ],
-    "verified": "2026-11-01",
-    "status": "ok",
-    "down_days": 0,
-    "products": []
-  },
-  {
-    "name": "AOEAH",
-    "url": "https://www.aoeah.com/",
-    "category": "game-topup",
-    "desc": "游戏币与装备商店，覆盖 POE2 通货、暗黑 4/D2R 装备、艾尔登法环符文、魔兽金币与 FC 金币；本轮首页抓取仅见资讯文章。",
     "score": 10,
     "signals": [
       "HTTPS 有效",
-      "首页可打开，站名与商店定位明确"
+      "首页可打开，商品分类明确（D4/D2R/艾尔登法环/WOW/POE）"
     ],
+    "status": "ok",
+    "url": "https://www.goldah.com/",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "game-topup",
+    "desc": "游戏币与装备商店，覆盖 POE2 通货、暗黑 4/D2R 装备、艾尔登法环符文、魔兽金币与 FC 金币；本轮首页抓取仅见资讯文章。",
+    "down_days": 0,
+    "name": "AOEAH",
+    "products": [],
     "risks": [
       "商城商品页与价格本轮未核实",
       "运营年限、支付方式、客服与退款政策本轮未核实",
       "游戏币交易违反游戏厂商条款，有封号风险"
     ],
-    "verified": "2026-11-01",
+    "score": 10,
+    "signals": [
+      "HTTPS 有效",
+      "首页可打开，站名与商店定位明确"
+    ],
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.aoeah.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "NitroBitz",
-    "url": "https://www.nitrobitz.com/",
     "category": "game-topup",
     "desc": "孟加拉数字商品店，Steam 钱包充值、游戏 Key 与点卡即时交付，口碑以站内用户评价为主。",
+    "down_days": 0,
+    "name": "NitroBitz",
+    "products": [],
+    "risks": [
+      "以孟加拉本地支付为主，国际买家支付不便",
+      "站内评价为主，无第三方测评佐证"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
       "运营超3年（2023年7月上线）",
       "WhatsApp 客服"
     ],
-    "risks": [
-      "以孟加拉本地支付为主，国际买家支付不便",
-      "站内评价为主，无第三方测评佐证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://www.nitrobitz.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Razer Gold",
-    "url": "https://gold.razer.com/",
     "category": "game-topup",
     "desc": "Razer 官方虚拟货币与游戏充值平台，覆盖 42000+ 游戏与娱乐内容，Discord/Nintendo/PlayStation/Xbox/Roblox 等礼品卡与直充。",
+    "down_days": 0,
+    "name": "Razer Gold",
+    "risks": [
+      "Razer Gold PIN 按条款不可退换、不可转让，地区钱包锁定"
+    ],
     "score": 65,
     "signals": [
       "HTTPS 有效",
@@ -5703,18 +5738,18 @@ const SITES = [
       "客服与帮助体系",
       "第三方攻略一致列为官方/可信渠道"
     ],
-    "risks": [
-      "Razer Gold PIN 按条款不可退换、不可转让，地区钱包锁定"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://gold.razer.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Baxity",
-    "url": "https://baxity.com/",
     "category": "kami",
     "desc": "数字礼品卡与游戏币商城，Steam/PSN/手游点券现货明码标价并标注缺货状态，支持多币种支付。",
+    "down_days": 0,
+    "name": "Baxity",
+    "risks": [
+      "首页口碑为站方自展示，未独立核对 Trustpilot 原站评分"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -5723,18 +5758,19 @@ const SITES = [
       "在线客服（评论称 1-5 分钟响应）",
       "Trustpilot Excellent、249 条评论（站内展示）"
     ],
-    "risks": [
-      "首页口碑为站方自展示，未独立核对 Trustpilot 原站评分"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://baxity.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "KAVIP",
-    "url": "https://www.kavip.com/",
     "category": "game-topup",
     "desc": "海外游戏与直播充值平台，含王者荣耀点券、PUBG Mobile UC、Q币、抖音抖币等 500+ 款应用内购商品。",
+    "down_days": 0,
+    "name": "KAVIP",
+    "risks": [
+      "销量数字为站方自报，未经第三方验证",
+      "运营年限无确切证据"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5742,19 +5778,18 @@ const SITES = [
       "自称 7×24 多语言在线客服",
       "500+ 款应用内购商品，首页展示各商品累计销量"
     ],
-    "risks": [
-      "销量数字为站方自报，未经第三方验证",
-      "运营年限无确切证据"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.kavip.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "FanCube",
-    "url": "https://www.fancube.org/",
     "category": "game-topup",
     "desc": "游戏充值平台，自称 3000+ 游戏充值，玩家 ID 直充无需登录，Fortnite V-Bucks、Roblox Robux、PS Plus 等明码标价。",
+    "down_days": 0,
+    "name": "FanCube",
+    "risks": [
+      "运营年限与买家保护条款仅为站方自述，无第三方口碑验证"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5763,18 +5798,18 @@ const SITES = [
       "买家保护自述",
       "站内会员页显示 MEMBER SINCE 2024，运营超1年"
     ],
-    "risks": [
-      "运营年限与买家保护条款仅为站方自述，无第三方口碑验证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.fancube.org/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "VGTopup",
-    "url": "https://vgtopup.com/",
     "category": "game-topup",
     "desc": "游戏与直播币充值平台，PUBG Mobile UC、Mobile Legends、Free Fire、原神、鸣潮等商品在售，支持多国支付。",
+    "down_days": 0,
+    "name": "VGTopup",
+    "risks": [
+      "全站商品统一标 -30% OFF、每商品评价数均为整齐的 20 条，疑似模板化展示，真实口碑未验证"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5782,18 +5817,31 @@ const SITES = [
       "自称多语言专业客服团队",
       "商品页展示销量"
     ],
-    "risks": [
-      "全站商品统一标 -30% OFF、每商品评价数均为整齐的 20 条，疑似模板化展示，真实口碑未验证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://vgtopup.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "MonkeyKGAi（AI Subscription Top-Up）",
-    "url": "https://shop.monkeykgai.com/",
     "category": "ai-account",
     "desc": "ChatGPT Go/Plus/Pro 代充小店，无需密码、一次性 session token 激活，Plus ¥125/月起，激活失败自动退码。",
+    "down_days": 0,
+    "name": "MonkeyKGAi（AI Subscription Top-Up）",
+    "products": [
+      {
+        "buy_url": "https://shop.monkeykgai.com/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus",
+        "pid": "gpt-plus",
+        "price": 125,
+        "pverified": "2026-10-30",
+        "spec": "自有账号升级·月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "新站，无运营年限与第三方口碑证据",
+      "代充类服务本身存在平台规则风险"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5802,31 +5850,19 @@ const SITES = [
       "激活失败自动退码、无法激活联系支持全额退款",
       "无需密码的一次性 session token 代充模式"
     ],
-    "risks": [
-      "新站，无运营年限与第三方口碑证据",
-      "代充类服务本身存在平台规则风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus",
-        "spec": "自有账号升级·月",
-        "price": 125,
-        "currency": "CNY",
-        "buy_url": "https://shop.monkeykgai.com/",
-        "stock": true,
-        "pverified": "2026-10-30"
-      }
-    ]
+    "url": "https://shop.monkeykgai.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "CDKeysales",
-    "url": "https://www.cdkeysales.com/",
     "category": "kami",
     "desc": "数字密钥商城，Windows/Office/Steam Key 与 AI 订阅码现货明码标价，含 Gemini Pro 18 个月 $22、ChatGPT Plus $25.84。",
+    "down_days": 0,
+    "name": "CDKeysales",
+    "risks": [
+      "Trustpilot 评分偏低且样本小，含未发货/客服响应慢的投诉",
+      "与 BOBKeys/Whokeys/URCDKey 疑似同一模板系（商品图与价格高度雷同）"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5834,19 +5870,20 @@ const SITES = [
       "站内 Live Chat 客服",
       "Trustpilot 3.1/5（仅 12 条，褒贬不一）"
     ],
-    "risks": [
-      "Trustpilot 评分偏低且样本小，含未发货/客服响应慢的投诉",
-      "与 BOBKeys/Whokeys/URCDKey 疑似同一模板系（商品图与价格高度雷同）"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.cdkeysales.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "会优权益",
-    "url": "https://www.huiuvip.cn/",
     "category": "kami",
     "desc": "国内会员权益折扣充值平台，腾讯/爱奇艺/B站/网易云/京东等会员分类现货在售，微信/支付宝与小程序下单。",
+    "down_days": 0,
+    "name": "会优权益",
+    "risks": [
+      "“官方接口/官方直充”仅为站方自称，未验证",
+      "首页混有 ¥0.21 分享码等超低价灰色商品",
+      "第三方口碑证据仅为一篇推广软文"
+    ],
     "score": 30,
     "signals": [
       "HTTPS 有效",
@@ -5854,20 +5891,41 @@ const SITES = [
       "微信客服、QQ 3523387191、售后群",
       "全品类会员权益现货在售"
     ],
-    "risks": [
-      "“官方接口/官方直充”仅为站方自称，未验证",
-      "首页混有 ¥0.21 分享码等超低价灰色商品",
-      "第三方口碑证据仅为一篇推广软文"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.huiuvip.cn/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "YUPLAY",
-    "url": "https://www.yuplay.com/",
     "category": "kami",
     "desc": "PC/Xbox 游戏 Key 授权零售商，首页现货标价真实，即时交付。",
+    "down_days": 0,
+    "name": "YUPLAY",
+    "products": [
+      {
+        "buy_url": "https://www.yuplay.com/",
+        "currency": "USD",
+        "name": "Phantom Blade Zero + Pre-Order Bonus",
+        "pid": "steam-key",
+        "price": 53.27,
+        "pverified": "2026-11-02",
+        "spec": "PC/Xbox Key/预购版",
+        "stock": true
+      },
+      {
+        "buy_url": "https://www.yuplay.com/",
+        "currency": "USD",
+        "name": "Hunting Simulator 3",
+        "pid": "steam-key",
+        "price": 24.49,
+        "pverified": "2026-11-02",
+        "spec": "PC/Xbox Key",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "个别订单触发人工风控复核（最长约 45 分钟等待）",
+      "Key 需注意激活区域"
+    ],
     "score": 55,
     "signals": [
       "HTTPS 有效",
@@ -5875,41 +5933,41 @@ const SITES = [
       "Trustpilot 大量正面评价",
       "客服邮箱 support@yuplay.com 与工单系统，退款案例有跟进"
     ],
-    "risks": [
-      "个别订单触发人工风控复核（最长约 45 分钟等待）",
-      "Key 需注意激活区域"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "steam-key",
-        "name": "Phantom Blade Zero + Pre-Order Bonus",
-        "spec": "PC/Xbox Key/预购版",
-        "price": 53.27,
-        "currency": "USD",
-        "buy_url": "https://www.yuplay.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "steam-key",
-        "name": "Hunting Simulator 3",
-        "spec": "PC/Xbox Key",
-        "price": 24.49,
-        "currency": "USD",
-        "buy_url": "https://www.yuplay.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://www.yuplay.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "UPGPTs",
-    "url": "https://upgpts.com/",
     "category": "ai-account",
     "desc": "ChatGPT/Claude/Grok 自有账号代充，海外企业卡直充、微信/支付宝付款、1 分钟自动交付。",
+    "down_days": 0,
+    "name": "UPGPTs",
+    "products": [
+      {
+        "buy_url": "https://upgpts.com/",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 代充（月起）",
+        "pid": "gpt-plus",
+        "price": 165,
+        "pverified": "2026-11-02",
+        "spec": "自有账号代充/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://upgpts.com/",
+        "currency": "CNY",
+        "name": "Claude Pro 代充（月起）",
+        "pid": "claude",
+        "price": 179,
+        "pverified": "2026-11-02",
+        "spec": "自有账号代充/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "第三方代充，账号合规风险与其它代充站相同（违反平台条款有封号风险）",
+      "“99.7% 安全率”为站方自称，无第三方佐证"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5917,41 +5975,20 @@ const SITES = [
       "在线客服咨询入口",
       "支付失败自动退款、封号按剩余天数比例补偿"
     ],
-    "risks": [
-      "第三方代充，账号合规风险与其它代充站相同（违反平台条款有封号风险）",
-      "“99.7% 安全率”为站方自称，无第三方佐证"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 代充（月起）",
-        "spec": "自有账号代充/月",
-        "price": 165,
-        "currency": "CNY",
-        "buy_url": "https://upgpts.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "claude",
-        "name": "Claude Pro 代充（月起）",
-        "spec": "自有账号代充/月",
-        "price": 179,
-        "currency": "CNY",
-        "buy_url": "https://upgpts.com/",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://upgpts.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "Pricedinmodels",
-    "url": "https://pricedinmodels.com/",
     "category": "ai-account",
     "desc": "港币付款的 ChatGPT/Claude 自有账号升级与成品号店，ChatGPT 升级 1–2 分钟邮件交付，30 天服务保障。",
+    "down_days": 0,
+    "name": "Pricedinmodels",
+    "products": [],
+    "risks": [
+      "首页商品卡为 Product title/$19.99 占位，商品页价格需下单前再核",
+      "成品号类商品同样有平台条款封号风险"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5959,20 +5996,51 @@ const SITES = [
       "WhatsApp 客服 5116 6816",
       "30 天服务保障、激活失败按售后条款处理、可开发票（自称香港注册公司）"
     ],
-    "risks": [
-      "首页商品卡为 Product title/$19.99 占位，商品页价格需下单前再核",
-      "成品号类商品同样有平台条款封号风险"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://pricedinmodels.com/",
+    "verified": "2026-11-02"
   },
   {
-    "name": "AI充值站",
-    "url": "https://ai-chongzhi.com",
     "category": "ai-account",
     "desc": "ChatGPT 自有账号直充站，Go/Plus/Pro 全档位，无需账号密码（提交会话资料），失败全额退款、30 天质保。",
+    "down_days": 0,
+    "name": "AI充值站",
+    "products": [
+      {
+        "buy_url": "https://ai-chongzhi.com",
+        "currency": "CNY",
+        "name": "ChatGPT Plus 充值",
+        "pid": "gpt-plus",
+        "price": 148,
+        "pverified": "2026-11-02",
+        "spec": "自有账号直充/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://ai-chongzhi.com",
+        "currency": "CNY",
+        "name": "ChatGPT Pro 100 充值",
+        "pid": "gpt-pro",
+        "price": 790,
+        "pverified": "2026-11-02",
+        "spec": "自有账号直充/月",
+        "stock": true
+      },
+      {
+        "buy_url": "https://ai-chongzhi.com",
+        "currency": "CNY",
+        "name": "ChatGPT Pro 200 充值",
+        "pid": "gpt-pro",
+        "price": 1390,
+        "pverified": "2026-11-02",
+        "spec": "自有账号直充/月",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "需向站点粘贴 ChatGPT 会话 JSON（含 accessToken），存在会话资料外泄风险",
+      "第三方代充，平台条款封号风险不在质保内"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -5980,51 +6048,20 @@ const SITES = [
       "微信人工客服（9:00–12:00、14:00–23:00）",
       "充值失败全额退款、30 天质保、可开发票（加 5%）"
     ],
-    "risks": [
-      "需向站点粘贴 ChatGPT 会话 JSON（含 accessToken），存在会话资料外泄风险",
-      "第三方代充，平台条款封号风险不在质保内"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": [
-      {
-        "pid": "gpt-plus",
-        "name": "ChatGPT Plus 充值",
-        "spec": "自有账号直充/月",
-        "price": 148,
-        "currency": "CNY",
-        "buy_url": "https://ai-chongzhi.com",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-pro",
-        "name": "ChatGPT Pro 100 充值",
-        "spec": "自有账号直充/月",
-        "price": 790,
-        "currency": "CNY",
-        "buy_url": "https://ai-chongzhi.com",
-        "stock": true,
-        "pverified": "2026-11-01"
-      },
-      {
-        "pid": "gpt-pro",
-        "name": "ChatGPT Pro 200 充值",
-        "spec": "自有账号直充/月",
-        "price": 1390,
-        "currency": "CNY",
-        "buy_url": "https://ai-chongzhi.com",
-        "stock": true,
-        "pverified": "2026-11-01"
-      }
-    ]
+    "url": "https://ai-chongzhi.com",
+    "verified": "2026-11-02"
   },
   {
-    "name": "TopupDrop",
-    "url": "https://topupdrop.com/",
     "category": "game-topup",
     "desc": "尼泊尔手游充值店，Free Fire、PUBG Mobile、MLBB 等钻石/点卡，玩家 ID 直充。",
+    "down_days": 0,
+    "name": "TopupDrop",
+    "products": [],
+    "risks": [
+      "仅限尼泊尔本地支付（eSewa/Khalti/FonePay），对国内用户基本不可用，属区域性收录",
+      "退款只退钱包余额、非自动，需人工审核"
+    ],
     "score": 40,
     "signals": [
       "HTTPS 有效",
@@ -6032,18 +6069,14 @@ const SITES = [
       "WhatsApp 24/7 客服",
       "无法交付时钱包退款（需审核）"
     ],
-    "risks": [
-      "仅限尼泊尔本地支付（eSewa/Khalti/FonePay），对国内用户基本不可用，属区域性收录",
-      "退款只退钱包余额、非自动，需人工审核"
-    ],
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0,
-    "products": []
+    "url": "https://topupdrop.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
     "desc": "ChatGPT Plus/Pro 会员代充与代开，支付宝付款，订单全程可追踪，不向客服索取账号密码或验证码，失败人工复核。",
+    "down_days": 0,
     "name": "KAI GPT代充",
     "products": [
       {
@@ -6052,7 +6085,7 @@ const SITES = [
         "name": "ChatGPT Plus 30 天代充",
         "pid": "gpt-plus",
         "price": 166,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天",
         "stock": true
       },
@@ -6062,7 +6095,7 @@ const SITES = [
         "name": "ChatGPT Pro100 30 天代充",
         "pid": "gpt-pro100",
         "price": 788,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天",
         "stock": true
       }
@@ -6079,14 +6112,14 @@ const SITES = [
       "确认无法交付按规则全额退款",
       "客户主动评分 3.9/5（仅 7 条样本）"
     ],
-    "url": "https://kaigpt.ai/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://kaigpt.ai/",
+    "verified": "2026-11-02"
   },
   {
     "category": "ai-account",
     "desc": "数字服务站，主营 GPT 正规充值/代充套餐，支持订单查询与客服沟通，V2EX 推广帖称可开企业发票、全程质保包售后。",
+    "down_days": 0,
     "name": "猫条AI",
     "products": [
       {
@@ -6095,7 +6128,7 @@ const SITES = [
         "name": "GPT Plus 正规充值月套餐",
         "pid": "gpt-plus",
         "price": 125,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "1 个月",
         "stock": true
       },
@@ -6105,7 +6138,7 @@ const SITES = [
         "name": "GPT Pro 5x 正规代充 30 天",
         "pid": "gpt-pro5x",
         "price": 680,
-        "pverified": "2026-11-01",
+        "pverified": "2026-11-02",
         "spec": "30 天",
         "stock": true
       }
@@ -6121,14 +6154,14 @@ const SITES = [
       "站方承诺全程质保、未开通成功售后",
       "可开正规企业发票（推广帖说法）"
     ],
-    "url": "https://www.gptcat.vip/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.gptcat.vip/",
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
     "desc": "游戏代练/游戏币/道具/账号综合平台，资金托管至买家确认完成，承诺 100% 退款保障，首页自称累计完成 232 万+订单。",
+    "down_days": 0,
     "name": "Overgear",
     "products": [],
     "risks": [
@@ -6142,14 +6175,14 @@ const SITES = [
       "100% 退款保障",
       "累计 232 万+订单、实名验证卖家"
     ],
-    "url": "https://overgear.com/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://overgear.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
     "desc": "2016 年成立的游戏账号/金币/代练市场，人工核验上架商品，卖家款项完单后才结算，Trustpilot 有数百条好评自述。",
+    "down_days": 0,
     "name": "AccountShark",
     "products": [],
     "risks": [
@@ -6163,14 +6196,14 @@ const SITES = [
       "买家保护：未交付退款、部分完成只付完成部分",
       "Trustpilot 与 EpicNPC/OwnedCore 口碑"
     ],
-    "url": "https://accountshark.net/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://accountshark.net/",
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
     "desc": "台湾公司化经营的游戏交易中介：账号/虚拟商品代购代售，确认无误后才拨款给卖家，服务费可依法开发票。",
+    "down_days": 0,
     "name": "ESCROWA",
     "products": [],
     "risks": [
@@ -6185,14 +6218,14 @@ const SITES = [
       "服务费可依法开发票",
       "自称累计上千笔成交"
     ],
-    "url": "https://escrowa.com.tw/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://escrowa.com.tw/",
+    "verified": "2026-11-02"
   },
   {
     "category": "faka",
     "desc": "土耳其大型数字商品集市：Steam/Xbox/EA CD Key、E-Pin 与游戏账号道具交易，付款走平台、交付有记录，纠纷可走客服申诉。",
+    "down_days": 0,
     "name": "İtemSatış",
     "products": [],
     "risks": [
@@ -6208,14 +6241,14 @@ const SITES = [
       "站内客服与申诉通道",
       "平台托管交付记录"
     ],
-    "url": "https://www.itemsatis.com/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.itemsatis.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
     "desc": "游戏币/道具/CDKey 综合卖家，支持 PayPal 与信用卡，自称 18.3 万客户、4.8/5 分（34136 条评价）。",
+    "down_days": 0,
     "name": "MMOexp",
     "products": [],
     "risks": [
@@ -6229,14 +6262,14 @@ const SITES = [
       "站内评价 4.8/5（34136 条）",
       "在线客服中心"
     ],
-    "url": "https://www.mmoexp.com/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.mmoexp.com/",
+    "verified": "2026-11-02"
   },
   {
     "category": "game-topup",
     "desc": "新上线的托管优先游戏账号集市：PayPal 结账、资金托管、按卖家信任等级延迟放款，纠纷由管理员仲裁、可全额或部分退款。",
+    "down_days": 0,
     "name": "ggmarket",
     "products": [],
     "risks": [
@@ -6249,9 +6282,48 @@ const SITES = [
       "PayPal 结账",
       "资金托管 + 纠纷仲裁退款机制"
     ],
-    "url": "https://www.playggmarket.com/",
-    "verified": "2026-11-01",
     "status": "ok",
-    "down_days": 0
+    "url": "https://www.playggmarket.com/",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "game-topup",
+    "desc": "国内游戏账号交易平台，提供账号选购、担保中介、鉴定估值、极速回收与账号转移服务。",
+    "down_days": 0,
+    "name": "氪金兽",
+    "risks": [
+      "账号买卖违反游戏厂商服务条款，存在封号与原号主找回风险"
+    ],
+    "score": 55,
+    "signals": [
+      "HTTPS 有效",
+      "运营超3年（2021年备案）",
+      "ICP备案",
+      "支持主流支付"
+    ],
+    "status": "ok",
+    "url": "https://www.kejinshou.com/",
+    "verified": "2026-11-02"
+  },
+  {
+    "category": "kami",
+    "desc": "欧盟 MiCA 持牌加密支付服务商（2014年起运营），旗下礼品卡商店可用加密货币或银行卡购买 Steam 等礼品卡，邮件秒发。",
+    "down_days": 0,
+    "name": "CoinGate",
+    "risks": [
+      "礼品卡由关联实体销售，售出后一般不退",
+      "加密支付受币价波动影响"
+    ],
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "运营超3年（2014年成立）",
+      "支持信用卡/加密货币支付",
+      "客服支持",
+      "欧盟 MiCA 持牌、累计处理超700万笔支付"
+    ],
+    "status": "ok",
+    "url": "https://coingate.com/",
+    "verified": "2026-11-02"
   }
 ];

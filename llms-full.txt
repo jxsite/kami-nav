@@ -1,6 +1,6 @@
 # 卡密导航 · 完整收录数据
 
-> 更新于 2026-11-02，共 215 个站点。官网 https://jxsite.github.io/kami-nav/
+> 更新于 2026-11-03，共 217 个站点。官网 https://jxsite.github.io/kami-nav/
 > 评分 0-100：HTTPS、运营时长、ICP 备案、主流支付、客服、第三方口碑、退款售后；排序不构成购买推荐，交易风险自负。
 
 ## 🃏 发卡平台
@@ -52,7 +52,7 @@
 - **DLGamer**（可靠度 65分）https://www.dlgamer.com/ — 法国官方授权数字游戏零售商，2004年成立，PC/主机游戏即时交付。
   - 风险：欧美站点，中文支持弱
 - **RoyalCDKeys**（可靠度 65分）https://royalcdkeys.com/ — 香港直营 key 店（Shopify 自营），主打 Windows/Office 激活码与游戏订阅，低加价模式，付款后自动邮件发货；TrustPilot 累计数千条评价。
-  - Windows 11 Pro Retail CD Key：USD 5.22（Retail 25位激活码/邮件即时发货） → https://royalcdkeys.com/products/windows-11-pro-retail-cd-key
+  - Windows 11 Pro Retail CD Key：USD 5.24（Retail 25位激活码/邮件即时发货） → https://royalcdkeys.com/products/windows-11-pro-retail-cd-key
   - 风险：灰市属性：key 为区域折扣转售，存在被撤销风险; 运营成立年份未独立核验
 - **Gamers Outlet**（可靠度 65分）https://www.gamers-outlet.net/ — 2013 年创立的美国游戏/软件密钥零售商，Steam/Xbox/微软软件密钥即时邮件交付，支持 PayPal 等多支付方式。
   - Windows 11 Pro 终身密钥（全球版）：USD 6.6（OEM, Global, 即时交付） → https://www.gamers-outlet.net/en/buy-windows-11-pro-cd-key-oem-microsoft-global-1
@@ -76,7 +76,7 @@
 - **CODS.IO**（可靠度 55分）https://cods.io/ — Steam/PSN/Xbox/Apple/Netflix 礼品卡与游戏币，即时邮件发货
   - 风险：纯俄语站，无中文与支付宝/微信; 主要服务俄罗斯用户; 自称数据未独立验证
 - **GGSel**（可靠度 55分）https://ggsel.net — 数字商品交易市场（俄语区用户为主），卖家入驻制，平台提供交易保护与纠纷处理，Steam 充值、礼品卡、游戏密钥、AI 订阅均有售，支持 PayPal 与加密货币。
-  - Last Epoch 游戏密钥：USD 7.62（Steam 激活（目录页起价）） → https://ggsel.net/en/catalog/last-epoch-keys
+  - Last Epoch 游戏密钥：USD 7.04（Steam 激活（目录页起价）） → https://ggsel.net/en/catalog/last-epoch-keys
   - Sea of Thieves 远古金币 150：USD 16（PSN 充值码） → https://ggsel.net/en/catalog/sea-of-thieves-dlc-ps
   - 风险：第三方独立口碑较少，站内评论为主; 俄语界面为主，英语目录页可用
 - **MTCGAME**（可靠度 55分）https://www.mtcgame.com — 土耳其数字游戏商店，游戏礼品卡/直充/充值卡全球即时邮件发货，700+ 本地支付方式，支持支付宝与微信支付。
@@ -90,8 +90,8 @@
 - **Baxity**（可靠度 55分）https://baxity.com/ — 数字礼品卡与游戏币商城，Steam/PSN/手游点券现货明码标价并标注缺货状态，支持多币种支付。
   - 风险：首页口碑为站方自展示，未独立核对 Trustpilot 原站评分
 - **YUPLAY**（可靠度 55分）https://www.yuplay.com/ — PC/Xbox 游戏 Key 授权零售商，首页现货标价真实，即时交付。
-  - Steam 游戏 Key：USD 53.27（PC/Xbox Key/预购版） → https://www.yuplay.com/
-  - Steam 游戏 Key：USD 24.49（PC/Xbox Key） → https://www.yuplay.com/
+  - Steam 游戏 Key：USD 53.48（PC/Xbox Key/预购版） → https://www.yuplay.com/
+  - Steam 游戏 Key：USD 24.59（PC/Xbox Key） → https://www.yuplay.com/
   - 风险：个别订单触发人工风控复核（最长约 45 分钟等待）; Key 需注意激活区域
 - **BuySellVouchers**（可靠度 50分）https://buysellvouchers.com/ — 运营超10年的加密货币礼品卡 P2P 市场，支持70余种加密货币买卖 Apple/Steam/PSN 等礼品卡，资金托管+卖家评级。
   - 风险：第三方检测站点结论不一（ScamAdviser/scam-detector 算法标记可疑，另两家给高分）; P2P 市场，需选择高信誉卖家
@@ -495,6 +495,10 @@
   - 风险：账号/游戏币交易违反游戏厂商条款，有封号风险; 首页价格未标注币种，本轮未录入商品价格; 客服渠道与支付方式本轮页面未核实
 - **氪金兽**（可靠度 55分）https://www.kejinshou.com/ — 国内游戏账号交易平台，提供账号选购、担保中介、鉴定估值、极速回收与账号转移服务。
   - 风险：账号买卖违反游戏厂商服务条款，存在封号与原号主找回风险
+- **IGGM**（可靠度 55分）https://www.iggm.com/ — 全球多语言多币种游戏服务市场，覆盖账号、金币、代练、充值与礼品卡。
+  - 风险：P2P 市场卖家质量参差; 游戏账号交易存在被官方封号风险
+- **螃蟹账号**（可靠度 55分）https://www.pxb7.com — 国内游戏账号交易代售平台，提供买号、卖号、担保中介、回收估值服务。
+  - 风险：账号买卖违反游戏厂商服务条款，存在封号与原号主找回风险; 原域名 pangxie.com 本轮解析失败，现用域名经搜索核验为 pxb7.com
 - **GVGMall**（可靠度 50分）https://www.gvgmall.com/ — 游戏币/装备/代练与CD Key综合卖场，自称12年运营、100万+注册用户。
   - Google AI Gemini Pro：GBP 14.88（18个月激活） → https://uk.gvgmall.com/pc-games-cdkey/google-ai-gemini-pro-18-months.html
   - 风险：第三方独立口碑少，多为站方自述; 部分商品为预售，发货时效波动
@@ -580,4 +584,4 @@
 - **LDShop**（可靠度 0分）https://www.ldshop.gg/ — LDPlayer旗下游戏代充站，原神UID直充折扣。
   - 原神 6480+1600 创世结晶：USD 67.99（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
   - 原神 空月祝福（月卡）：USD 1.0（UID 直充） → https://www.ldshop.gg/top-up/genshin-impact.html
-  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续18天无法访问（VPS HTTP 403；2026-11-01 浏览器复核亦不可用）
+  - 风险：首页文本抓取偶发失败（疑反爬），商品页可正常打开、站点确存活; 第三方代充非官方渠道，存在封号风险争议; 交付后严格无退款政策; Trustpilot 个别联盟佣金与客服投诉; 连续19天无法访问（VPS HTTP 403）

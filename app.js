@@ -28,7 +28,7 @@ const PRODUCTS = {
 "sms-rent-week": { name: "接码周租", icon: "📱"}
 };
 /* 跨币种比价折算（约算，仅用于排序） */
-const RATE = { "CNY": 1, "USD": 7.2, "EUR": 7.8, "JPY": 0.048, "MYR": 1.55, "SGD": 5.35 };
+const RATE = { "CNY": 1, "USD": 7.2, "EUR": 7.8, "JPY": 0.048, "MYR": 1.55, "SGD": 5.35, "INR": 0.082, "PKR": 0.026 };
 const SITE_URL = "https://jxsite.github.io/kami-nav/";
 const REPO = "https://github.com/jxsite/kami-nav";
 let activeCat = "all", query = "";

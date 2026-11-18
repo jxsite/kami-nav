@@ -2,7 +2,7 @@
    name: 网站名, url: 首页地址, category: faka|kami|ai-account|game-topup,
    desc: 一句话简介, score: 可靠度0-100, signals: 加分依据[], risks: 风险点[],
    verified: 验证日期, status: ok|down, down_days: 连续无法访问天数 */
-const UPDATED_AT = "2026-11-17";
+const UPDATED_AT = "2026-11-18";
 const SITES = [
   {
     "category": "kami",
@@ -36,7 +36,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://greenmangaming.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -54,7 +54,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://seagm.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -68,7 +68,7 @@ const SITES = [
         "name": "iTunes Gift Card JPY 15,000 (JP)",
         "pid": "apple-gift",
         "price": 16302.09,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "15000日元/日区",
         "stock": false
       }
@@ -84,7 +84,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://offgamers.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -118,7 +118,7 @@ const SITES = [
         "name": "Spotify Premium Subscription Card Individual 12 Months",
         "pid": "spotify",
         "price": 29.17,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "个人版12个月",
         "stock": true
       }
@@ -136,7 +136,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.g2a.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -168,7 +168,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kinguin.net",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -181,8 +181,8 @@ const SITES = [
         "currency": "USD",
         "name": "Elden Ring (PC) Steam Key NORTH AMERICA",
         "pid": "steam-key",
-        "price": 54.66,
-        "pverified": "2026-11-17",
+        "price": 54.39,
+        "pverified": "2026-11-18",
         "spec": "标准版/北美区",
         "stock": true
       }
@@ -200,7 +200,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.eneba.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -213,8 +213,8 @@ const SITES = [
         "currency": "USD",
         "name": "Elden Ring（Steam Key）",
         "pid": "steam-key",
-        "price": 55.38,
-        "pverified": "2026-11-16",
+        "price": 53.11,
+        "pverified": "2026-11-18",
         "spec": "标准版/欧区",
         "stock": true
       }
@@ -233,7 +233,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mmoga.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -247,7 +247,7 @@ const SITES = [
         "name": "Elden Ring（Steam PC Key）",
         "pid": "steam-key",
         "price": 184.86,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "标准版",
         "stock": false
       }
@@ -266,7 +266,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hrkgame.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -280,7 +280,7 @@ const SITES = [
         "name": "游戏账号（C2C议价）",
         "pid": "game-account",
         "price": null,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "",
         "stock": true
       }
@@ -302,7 +302,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://jiaoyimao.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -398,7 +398,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accountboy.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -412,7 +412,7 @@ const SITES = [
         "name": "GPT-6 ChatGPT",
         "pid": "gpt-plus",
         "price": 4.83,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "合租/月",
         "stock": true
       },
@@ -422,7 +422,7 @@ const SITES = [
         "name": "Spotify",
         "pid": "spotify",
         "price": 3.17,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "合租/月",
         "stock": true
       },
@@ -442,7 +442,7 @@ const SITES = [
         "name": "Midjourney Standard",
         "pid": "midjourney",
         "price": 9.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "共享/1个月（4.9分卖家款$13）",
         "stock": true
       }
@@ -462,7 +462,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamsgo.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -476,7 +476,7 @@ const SITES = [
         "name": "游戏账号（C2C议价）",
         "pid": "game-account",
         "price": null,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "",
         "stock": true
       }
@@ -496,7 +496,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://5173.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -510,7 +510,7 @@ const SITES = [
         "name": "游戏账号（C2C议价）",
         "pid": "game-account",
         "price": null,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "",
         "stock": true
       }
@@ -530,7 +530,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://g2g.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -544,7 +544,7 @@ const SITES = [
         "name": "游戏账号（C2C议价）",
         "pid": "game-account",
         "price": null,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "",
         "stock": true
       }
@@ -563,7 +563,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.playerauctions.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -577,7 +577,7 @@ const SITES = [
         "name": "游戏账号（C2C议价）",
         "pid": "game-account",
         "price": null,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "",
         "stock": true
       }
@@ -596,7 +596,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://dd373.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -610,7 +610,7 @@ const SITES = [
         "name": "Plus",
         "pid": "gpt-plus",
         "price": 128,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "订单直充/30天（30天质保）",
         "stock": true
       },
@@ -620,7 +620,7 @@ const SITES = [
         "name": "Claude Pro 月卡｜iOS 充值卡",
         "pid": "claude",
         "price": 199,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "iOS充值卡/月",
         "stock": true
       }
@@ -641,7 +641,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tangguo.app/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -655,7 +655,7 @@ const SITES = [
         "name": "ChatGPT Plus/Pro",
         "pid": "gpt-plus",
         "price": 138,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "人工代充起/月",
         "stock": true
       },
@@ -685,7 +685,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.huiai.shop/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -706,7 +706,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://shop.pockyt.io/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -760,7 +760,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://sukai.ai/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -782,7 +782,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://55ai.net/",
-    "verified": "2026-11-17",
+    "verified": "2026-11-18",
     "products": [
       {
         "buy_url": "https://55ai.net/",
@@ -836,7 +836,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.fanatical.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -859,7 +859,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cdkeys.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -881,7 +881,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://bittopup.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -902,7 +902,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://nf.video",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -925,7 +925,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.z2u.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -947,7 +947,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://groupbuyseo.org",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -969,7 +969,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://aishop.homes/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -990,7 +990,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ka-cn.vip",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1011,7 +1011,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cardmvp.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1032,7 +1032,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://universalbus.cn",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1120,7 +1120,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://willam.ka8.ai/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1143,7 +1143,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://shop.moct.cloud",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -1164,7 +1164,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://dmakk.top",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1185,7 +1185,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://feifeivip.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1219,7 +1219,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://getgpt.pro",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1233,7 +1233,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 169,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "账号续费·1个月",
         "stock": true
       },
@@ -1243,7 +1243,7 @@ const SITES = [
         "name": "Claude Pro 充值",
         "pid": "claude",
         "price": 189,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "账号续费·1个月",
         "stock": false
       }
@@ -1263,7 +1263,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://payai.plus",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1298,7 +1298,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://plusgo.pro",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1343,7 +1343,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://goplus.pro",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1356,8 +1356,8 @@ const SITES = [
         "currency": "CNY",
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
-        "price": 184,
-        "pverified": "2026-11-17",
+        "price": 189,
+        "pverified": "2026-11-18",
         "spec": "自有账号充值·官方订阅同等权益",
         "stock": true
       }
@@ -1378,7 +1378,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://payforchat.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1392,7 +1392,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 165,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "165元起·按阶梯时长定价",
         "stock": true
       },
@@ -1402,7 +1402,7 @@ const SITES = [
         "name": "Claude Pro",
         "pid": "claude",
         "price": 299,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "185元起·按阶梯时长定价",
         "stock": true
       }
@@ -1422,7 +1422,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://xingqiaosub.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1443,7 +1443,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://digitalchose.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1464,7 +1464,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://openshop.com.hk",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -1484,7 +1484,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tg999.top",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1504,7 +1504,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://xiyanchuhai.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1518,7 +1518,7 @@ const SITES = [
         "name": "ChatGPT Plus 月卡｜菲区官方正规卡充",
         "pid": "gpt-plus",
         "price": 125,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "月卡·菲区官方正规卡充",
         "stock": true
       },
@@ -1528,7 +1528,7 @@ const SITES = [
         "name": "ChatGPT Plus 月卡｜iOS 官方正规充值",
         "pid": "gpt-plus",
         "price": 150,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "月卡·iOS官方正规充值",
         "stock": true
       },
@@ -1538,7 +1538,7 @@ const SITES = [
         "name": "Claude Pro 月卡｜IOS官方正规充值",
         "pid": "claude",
         "price": 159,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "月卡·IOS官方正规充值",
         "stock": false
       }
@@ -1557,7 +1557,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ai-airdrop.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1578,7 +1578,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://oldgmailbuy.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1601,7 +1601,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://store.ai-headshot.net",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1623,7 +1623,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://littlemagic8.github.io/gptplus/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1645,7 +1645,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.topuplive.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1667,7 +1667,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tgcz.cc",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1702,7 +1702,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gptibo.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1716,7 +1716,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 135,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "月付·135元/月·人工充值",
         "stock": true
       }
@@ -1735,7 +1735,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://12gpt.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -1758,7 +1758,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cods.io/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1780,7 +1780,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.hablax.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1799,7 +1799,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://antnum.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1821,7 +1821,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gameflip.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1843,7 +1843,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pateway.ai/?ch=1tsfr51",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -1864,7 +1864,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mmopixel.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -1882,7 +1882,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://jour-cards.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1904,7 +1904,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://shop.bmoplus.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -1925,7 +1925,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://aigocode.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -1947,7 +1947,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.instant-gaming.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -1970,7 +1970,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamivo.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -1991,7 +1991,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.dlgamer.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2023,7 +2023,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gvgmall.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2045,7 +2045,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.eldorado.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2065,7 +2065,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buysellvouchers.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2085,7 +2085,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cnlgaming.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2103,7 +2103,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.startselect.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2117,7 +2117,7 @@ const SITES = [
         "name": "ChatGPT Plus 独享账号 3个月",
         "pid": "gpt-plus",
         "price": 23.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "独享/自动发货",
         "stock": true
       }
@@ -2134,7 +2134,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://digitallicense.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2152,7 +2152,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ppgame.tw/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2170,7 +2170,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamecardsdirect.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2188,7 +2188,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://maximuscards.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2201,8 +2201,8 @@ const SITES = [
         "currency": "USD",
         "name": "Windows 11 Pro Retail CD Key",
         "pid": "windows-key",
-        "price": 5.16,
-        "pverified": "2026-11-17",
+        "price": 5.15,
+        "pverified": "2026-11-18",
         "spec": "Retail 25位激活码/邮件即时发货",
         "stock": true
       }
@@ -2222,7 +2222,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://royalcdkeys.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -2242,16 +2242,16 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://k4g.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
     "desc": "老牌游戏交易平台（2008 年起），游戏账号、装备、金币、点卡与代练担保交易，首创求购交易模式。",
-    "down_days": 11,
+    "down_days": 12,
     "name": "UU898（悠悠游戏服务网）",
     "risks": [
       "公开页面信息有限，客服/退款/第三方口碑未独立核验",
-      "连续11天无法访问（VPS 超时）"
+      "连续12天无法访问（VPS 超时）"
     ],
     "score": 0,
     "signals": [
@@ -2260,7 +2260,7 @@ const SITES = [
     ],
     "status": "down",
     "url": "https://uu898.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2281,12 +2281,12 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://vcgamers.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
     "desc": "LDPlayer旗下游戏代充站，原神UID直充折扣。",
-    "down_days": 32,
+    "down_days": 33,
     "name": "LDShop",
     "products": [
       {
@@ -2315,7 +2315,7 @@ const SITES = [
       "第三方代充非官方渠道，存在封号风险争议",
       "交付后严格无退款政策",
       "Trustpilot 个别联盟佣金与客服投诉",
-      "连续32天无法访问（VPS 403）"
+      "连续33天无法访问（VPS 403）"
     ],
     "score": 0,
     "signals": [
@@ -2327,7 +2327,7 @@ const SITES = [
     ],
     "status": "down",
     "url": "https://www.ldshop.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2349,7 +2349,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://manabuy.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2372,7 +2372,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.lootbar.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2386,7 +2386,7 @@ const SITES = [
         "name": "MLBB 钻石",
         "pid": "mlbb-14-diamond",
         "price": 1.09,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "14钻石 UID+ZoneID直充",
         "stock": true
       },
@@ -2396,7 +2396,7 @@ const SITES = [
         "name": "MLBB 每周钻石通行证",
         "pid": "mlbb-weekly-pass",
         "price": 9.3,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "80钻石即时+每日20钻石×7天",
         "stock": true
       },
@@ -2406,7 +2406,7 @@ const SITES = [
         "name": "MLBB 暮光通行证",
         "pid": "mlbb-twilight-pass",
         "price": 46.7,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "UID直充",
         "stock": true
       }
@@ -2426,7 +2426,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.codashop.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2445,7 +2445,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamersgate.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2458,8 +2458,8 @@ const SITES = [
         "currency": "USD",
         "name": "Last Epoch 游戏密钥",
         "pid": "last-epoch-key",
-        "price": 7.64,
-        "pverified": "2026-11-17",
+        "price": 7.65,
+        "pverified": "2026-11-18",
         "spec": "Steam 激活（目录页起价）",
         "stock": true
       },
@@ -2469,7 +2469,7 @@ const SITES = [
         "name": "Sea of Thieves 远古金币 150",
         "pid": "sea-of-thieves-coins-150",
         "price": 16,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "PSN 充值码",
         "stock": true
       },
@@ -2497,7 +2497,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ggsel.net",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2537,7 +2537,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://2game.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2557,7 +2557,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.humblebundle.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2577,7 +2577,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.mtcgame.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2597,7 +2597,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.oyunfor.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2611,7 +2611,7 @@ const SITES = [
         "name": "Claude Pro 月充",
         "pid": "claude-pro",
         "price": 189,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Claude Pro 月度套餐充值卡密",
         "stock": true
       }
@@ -2631,7 +2631,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://upclaude.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2645,7 +2645,7 @@ const SITES = [
         "name": "GlobalGPT 订阅",
         "pid": "globalgpt-subscription",
         "price": 5.75,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "起步价，年付",
         "stock": true
       }
@@ -2662,7 +2662,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.glbgpt.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2676,7 +2676,7 @@ const SITES = [
         "name": "1min.AI PRO",
         "pid": "1minai-pro",
         "price": 6.5,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "PRO 档，月付",
         "stock": true
       }
@@ -2694,7 +2694,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://1min.ai/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2716,7 +2716,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kaleoz.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2737,7 +2737,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keygold.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2759,7 +2759,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://elitedias.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2781,7 +2781,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gpdsgameshop.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2800,7 +2800,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://driffle.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -2831,7 +2831,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.indiegala.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2883,7 +2883,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://chonggrok.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2904,7 +2904,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://aicz123.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2924,7 +2924,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://aifory.pro/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -2938,7 +2938,7 @@ const SITES = [
         "name": "AiZolo Pro 全能 AI 订阅",
         "pid": "all-in-one",
         "price": 9.9,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "多模型并排对话，300 万 tokens/月",
         "stock": true
       }
@@ -2955,7 +2955,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://aizolo.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -2969,7 +2969,7 @@ const SITES = [
         "name": "Steam 游戏账号",
         "pid": "game-account",
         "price": 1.2,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "新号/单游戏/捆绑包多档，成品号 1.20 美元起",
         "stock": true
       }
@@ -2987,7 +2987,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.u7buy.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3001,7 +3001,7 @@ const SITES = [
         "name": "Windows 11 Pro 终身密钥（全球版）",
         "pid": "windows-key",
         "price": 6.6,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "OEM, Global, 即时交付",
         "stock": true
       },
@@ -3011,7 +3011,7 @@ const SITES = [
         "name": "Phantom Blade Zero 标准版 Steam 密钥",
         "pid": "steam-key",
         "price": 53.56,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "PC Steam Key, Global",
         "stock": true
       }
@@ -3030,7 +3030,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamers-outlet.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3053,7 +3053,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://xiaoyangplus.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3075,7 +3075,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.midasbuy.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3089,7 +3089,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 4.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1 个月",
         "stock": true
       }
@@ -3109,7 +3109,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accountbot.org/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3123,7 +3123,7 @@ const SITES = [
         "name": "原神 6480+1600 创世结晶",
         "pid": "genshin-6480",
         "price": 86.0,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "UID 直充",
         "stock": true
       },
@@ -3133,7 +3133,7 @@ const SITES = [
         "name": "原神 空月祝福（月卡）",
         "pid": "welkin-moon",
         "price": 4.39,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "UID 直充",
         "stock": true
       }
@@ -3153,7 +3153,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://treabar.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3167,7 +3167,7 @@ const SITES = [
         "name": "原神 6480+1600 创世结晶",
         "pid": "genshin-6480",
         "price": 68.92,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "UID 直充",
         "stock": true
       }
@@ -3187,7 +3187,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.enjoygm.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3210,7 +3210,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.bitrefill.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3234,7 +3234,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gameseal.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3247,8 +3247,8 @@ const SITES = [
         "currency": "USD",
         "name": "中国区 Apple ID 充值（人工直充）",
         "pid": "apple-gift",
-        "price": 9.14,
-        "pverified": "2026-11-17",
+        "price": 9.15,
+        "pverified": "2026-11-18",
         "spec": "50元起，50/100/300/500/1000+元面额",
         "stock": true
       }
@@ -3268,7 +3268,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.158card.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3291,7 +3291,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gameboost.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3305,7 +3305,7 @@ const SITES = [
         "name": "HELLDIVERS 2 Steam Key Global（标准版）",
         "pid": "steam-key",
         "price": 680000,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam 全球激活码，永久入库",
         "stock": true
       },
@@ -3315,7 +3315,7 @@ const SITES = [
         "name": "HELLDIVERS 2 Steam Key Global（Super Citizen 版）",
         "pid": "steam-key",
         "price": 950000,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "Steam 全球激活码，永久入库",
         "stock": true
       }
@@ -3334,7 +3334,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://kamikey.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3355,7 +3355,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buffbuff.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3408,7 +3408,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://claudemax.shop/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3422,7 +3422,7 @@ const SITES = [
         "name": "ChatGPT Plus 1个月 私人号（印度渠道）",
         "pid": "gpt-plus",
         "price": 3.5,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "25–28天，24小时质保，含 Codex",
         "stock": true
       },
@@ -3432,7 +3432,7 @@ const SITES = [
         "name": "ChatGPT Plus 1个月（ApplePay VCC 渠道）",
         "pid": "gpt-plus",
         "price": 5.2,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "25–28天，10天质保，Gmail/iCloud 邮箱",
         "stock": true
       },
@@ -3442,7 +3442,7 @@ const SITES = [
         "name": "ChatGPT Plus 1个月 私人号（巴西渠道）",
         "pid": "gpt-plus",
         "price": 3.8,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "25–28天，1小时登录质保",
         "stock": false
       }
@@ -3462,7 +3462,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://babay.web.id/chatgpt-global",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3476,7 +3476,7 @@ const SITES = [
         "name": "ChatGPT Go 个人可续费",
         "pid": "gpt-go",
         "price": 799,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "同一账号每月续费，30天质保",
         "stock": true
       },
@@ -3486,7 +3486,7 @@ const SITES = [
         "name": "ChatGPT Plus 个人可续费",
         "pid": "gpt-plus",
         "price": 2699,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "同一账号每月续费，聊天记录保留",
         "stock": true
       },
@@ -3515,7 +3515,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://infinitydigitalshop.com/product/chatgpt-plus/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3529,7 +3529,7 @@ const SITES = [
         "name": "ChatGPT Plus 自动发卡密",
         "pid": "gpt-plus",
         "price": 129,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "充到自己账号，1–3分钟自助到账",
         "stock": true
       },
@@ -3539,7 +3539,7 @@ const SITES = [
         "name": "Claude Pro 代充",
         "pid": "claude",
         "price": 159,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "充到自己账号，人工开通",
         "stock": true
       }
@@ -3559,7 +3559,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://yaoyao.chat/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3573,7 +3573,7 @@ const SITES = [
         "name": "Dark Souls Remastered",
         "pid": "steam-key",
         "price": 27.79,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam Key",
         "stock": true
       },
@@ -3583,7 +3583,7 @@ const SITES = [
         "name": "No Man's Sky",
         "pid": "steam-key",
         "price": 18.79,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam Key，-60%",
         "stock": true
       },
@@ -3593,7 +3593,7 @@ const SITES = [
         "name": "Days Gone",
         "pid": "steam-key",
         "price": 19.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam Key，-50%",
         "stock": true
       }
@@ -3611,7 +3611,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamebillet.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3625,7 +3625,7 @@ const SITES = [
         "name": "Claude Pro（共享）",
         "pid": "claude-pro",
         "price": 4.95,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天许可密钥",
         "stock": true
       },
@@ -3635,7 +3635,7 @@ const SITES = [
         "name": "Claude Max 5x（共享）",
         "pid": "claude-max",
         "price": 18.95,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天许可密钥",
         "stock": true
       },
@@ -3645,7 +3645,7 @@ const SITES = [
         "name": "Claude Max 20x（共享）",
         "pid": "claude-max",
         "price": 38.95,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天许可密钥",
         "stock": true
       }
@@ -3663,7 +3663,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cheapclaude.online/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3682,7 +3682,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keys-shop.in/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3702,7 +3702,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://electronicfirst.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3723,7 +3723,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://arorashop.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3746,7 +3746,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://joytify.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3768,7 +3768,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://keysfan.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3790,7 +3790,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://moogold.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3804,7 +3804,7 @@ const SITES = [
         "name": "ChatGPT Plus 共享账号",
         "pid": "gpt-plus",
         "price": 3.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "共享账号 / 自动 OTP / 3-7 人分组 / 1-12 个月",
         "stock": true
       }
@@ -3825,7 +3825,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://follownic.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3845,7 +3845,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gamesplanet.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -3865,7 +3865,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.wingamestore.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3897,7 +3897,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hstockplus.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -3929,7 +3929,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gptpro.uk/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3943,7 +3943,7 @@ const SITES = [
         "name": "Weekly Diamond Pass",
         "pid": "mlbb-diamonds",
         "price": 119.69,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "一次性购买/周卡",
         "stock": true
       }
@@ -3961,7 +3961,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://nexone.ph",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -3993,7 +3993,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gamesdrop.io",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -4007,7 +4007,7 @@ const SITES = [
         "name": "Elden Ring（Steam Key Global）",
         "pid": "steam-key",
         "price": 25.32,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "标准版/全球区",
         "stock": true
       }
@@ -4026,7 +4026,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.digidang.com/en",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4040,7 +4040,7 @@ const SITES = [
         "name": "ChatGPT Plus",
         "pid": "gpt-plus",
         "price": 198,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "月付/自动激活",
         "stock": true
       }
@@ -4060,7 +4060,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://fastgptplus.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4074,7 +4074,7 @@ const SITES = [
         "name": "X账号 2013年注册老号",
         "pid": "x-account",
         "price": 4.0,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Hotmail邮箱验证、邮箱含在内、含Token、部分资料填充",
         "stock": true
       },
@@ -4084,7 +4084,7 @@ const SITES = [
         "name": "X账号 2023年3月注册",
         "pid": "x-account",
         "price": 0.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Hotmail/Outlook邮箱验证、邮箱含在内、带头像、多国IP注册",
         "stock": false
       }
@@ -4105,7 +4105,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accszone.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4139,7 +4139,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://swapd.co/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4162,7 +4162,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://fameswap.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4185,7 +4185,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.middleman.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4208,7 +4208,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mexaccs.com/buy-twitter-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4231,7 +4231,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accsbulk.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4283,7 +4283,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.accountprovide.com/x-pva-accounts",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4316,7 +4316,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://bulkaccounts.com/product/buy-aged-twitter-accounts",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4338,7 +4338,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buytwitter.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4390,7 +4390,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://funpay.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4423,7 +4423,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.rankmarket.org/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4455,7 +4455,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cdkoffers.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4507,7 +4507,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://wasdlab.eu/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4529,7 +4529,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://escrozon.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4550,7 +4550,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://nosamai.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4573,7 +4573,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://zarinacc.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4587,7 +4587,7 @@ const SITES = [
         "name": "Gmail 老号（6个月）",
         "pid": "gmail",
         "price": 1,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "6个月老号",
         "stock": true
       },
@@ -4597,7 +4597,7 @@ const SITES = [
         "name": "Gmail 老号（1-2年）",
         "pid": "gmail",
         "price": 2,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1-2年老号",
         "stock": true
       },
@@ -4607,7 +4607,7 @@ const SITES = [
         "name": "Gmail 老号（9-11年）",
         "pid": "gmail",
         "price": 5,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "9-11年老号（最受欢迎）",
         "stock": true
       }
@@ -4626,7 +4626,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://oldgmb.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4640,7 +4640,7 @@ const SITES = [
         "name": "Gmail 老号",
         "pid": "gmail",
         "price": 2,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "老号 PVA",
         "stock": true
       }
@@ -4658,7 +4658,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://getpvatop.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4679,7 +4679,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://getusasmm.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4699,7 +4699,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://usabuyservice.com/product/buy-old-gmail-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4720,7 +4720,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://buyvccusa.com/product/buy-gmail-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4741,7 +4741,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://usshopit.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4762,7 +4762,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://xomails.com/product/buy-gmail-accounts",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4782,7 +4782,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://digitalshopusa.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -4804,7 +4804,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://trustsmmbiz.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -4818,7 +4818,7 @@ const SITES = [
         "name": "一次性短信接码",
         "pid": "sms-verify",
         "price": 0.008,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "按次计费",
         "stock": true
       }
@@ -4838,7 +4838,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://5sim.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -4852,7 +4852,7 @@ const SITES = [
         "name": "一次性短信接码",
         "pid": "sms-verify",
         "price": 0.05,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "按次计费，20分钟有效",
         "stock": true
       }
@@ -4871,7 +4871,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://sms-man.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -4885,7 +4885,7 @@ const SITES = [
         "name": "短信验证",
         "pid": "sms-verify",
         "price": 0.1,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "按次计费，美国非VoIP号",
         "stock": true
       },
@@ -4895,7 +4895,7 @@ const SITES = [
         "name": "短期租号",
         "pid": "sms-rent",
         "price": 1.4,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1-14天租期，不限次收码",
         "stock": true
       }
@@ -4915,7 +4915,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.textverified.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -4929,7 +4929,7 @@ const SITES = [
         "name": "按条收码",
         "pid": "sms-verify",
         "price": 0.09,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "按条计费，美国非VoIP号",
         "stock": true
       },
@@ -4939,7 +4939,7 @@ const SITES = [
         "name": "日租号码",
         "pid": "sms-rent-day",
         "price": 1.0,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "24小时租期，不限次收码",
         "stock": true
       },
@@ -4949,7 +4949,7 @@ const SITES = [
         "name": "周租号码",
         "pid": "sms-rent-week",
         "price": 5.0,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "7天租期，不限次收码",
         "stock": true
       }
@@ -4968,7 +4968,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://rcvsms.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5020,7 +5020,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://sms-bus.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5034,7 +5034,7 @@ const SITES = [
         "name": "WhatsApp短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.4386,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "按次计费",
         "stock": true
       },
@@ -5044,7 +5044,7 @@ const SITES = [
         "name": "Telegram短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.2472,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "按次计费",
         "stock": true
       },
@@ -5054,7 +5054,7 @@ const SITES = [
         "name": "Google短信接码（美国）",
         "pid": "sms-verify",
         "price": 0.2112,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "按次计费",
         "stock": true
       }
@@ -5074,7 +5074,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://snsvirtual.com/en",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5096,7 +5096,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://longsms.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5118,7 +5118,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hero-sms.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5139,7 +5139,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tempsmss.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5161,7 +5161,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://7sim.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5181,7 +5181,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://receive-sms-online.info/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5201,7 +5201,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://yunjiema.top/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5222,7 +5222,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.supercloudsms.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5242,7 +5242,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.yunduanxin.xyz/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5262,7 +5262,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mianfeijiema.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5282,7 +5282,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.uoomsg.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5303,7 +5303,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://eomsg.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -5323,7 +5323,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.qc86.shop/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5337,7 +5337,7 @@ const SITES = [
         "name": "Age of Empires III: Definitive Edition United States Civilization CD Key",
         "pid": "steam-key",
         "price": 4.49,
-        "pverified": "2026-11-16",
+        "pverified": "2026-11-18",
         "spec": "Steam CD Key",
         "stock": true
       },
@@ -5347,7 +5347,7 @@ const SITES = [
         "name": "Age of Empires: Definitive Edition CD Key Global",
         "pid": "steam-key",
         "price": 4.38,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam CD Key 全球版",
         "stock": true
       },
@@ -5357,7 +5357,7 @@ const SITES = [
         "name": "Age of Empires 4 Standard Edition Steam CD Key Global",
         "pid": "steam-key",
         "price": 42.09,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Steam CD Key 全球版标准版",
         "stock": true
       }
@@ -5373,7 +5373,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cdkdeals.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5394,7 +5394,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.igv.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5416,7 +5416,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.epicnpc.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5430,7 +5430,7 @@ const SITES = [
         "name": "MapleStory N Neso",
         "pid": "game-currency",
         "price": 5.99,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "MapleStory N 游戏币",
         "stock": true
       }
@@ -5450,7 +5450,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.mmogah.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5470,7 +5470,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mmoauctions.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5492,7 +5492,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://metammo.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -5506,7 +5506,7 @@ const SITES = [
         "name": "ChatGPT Plus 账号",
         "pid": "gpt-plus",
         "price": 159000,
-        "pverified": "2026-11-03",
+        "pverified": "2026-11-18",
         "spec": "价格区间 159000-379000 VND，含正版升级与共享两种形式",
         "stock": true
       }
@@ -5524,7 +5524,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://adshopkeys.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -5538,7 +5538,7 @@ const SITES = [
         "name": "ChatGPT Plus（自有邮箱代充 1 个月）",
         "pid": "gpt-plus",
         "price": 20,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1 个月，自有邮箱",
         "stock": true
       },
@@ -5548,7 +5548,7 @@ const SITES = [
         "name": "ChatGPT Plus 共享 6 人（30 天）",
         "pid": "gpt-plus",
         "price": 2,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天，6 人共享",
         "stock": true
       },
@@ -5558,7 +5558,7 @@ const SITES = [
         "name": "Claude Pro（自有邮箱代充 1 个月）",
         "pid": "claude",
         "price": 20,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1 个月，自有邮箱",
         "stock": true
       }
@@ -5576,7 +5576,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mmdgpt.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5620,7 +5620,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.pzds.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5643,7 +5643,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://odealo.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5656,8 +5656,8 @@ const SITES = [
         "currency": "INR",
         "name": "Cyberpunk 2077 PC Key",
         "pid": "steam-key",
-        "price": 1139,
-        "pverified": "2026-11-17",
+        "price": 1179,
+        "pverified": "2026-11-18",
         "spec": "PC 密钥，12 个卖家报价，最低价为 Epic Games 账号形式，另有 Steam 礼物/GOG 密钥",
         "stock": true
       }
@@ -5677,7 +5677,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://savekeys.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5696,7 +5696,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.igxc.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5716,7 +5716,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.goldah.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5736,7 +5736,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.aoeah.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5756,7 +5756,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.nitrobitz.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5776,7 +5776,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gold.razer.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5796,7 +5796,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://baxity.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5816,7 +5816,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kavip.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5836,7 +5836,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.fancube.org/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -5855,7 +5855,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://vgtopup.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -5888,7 +5888,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://shop.monkeykgai.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5908,7 +5908,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cdkeysales.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5929,7 +5929,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.huiuvip.cn/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -5971,7 +5971,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.yuplay.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -5985,7 +5985,7 @@ const SITES = [
         "name": "ChatGPT Plus 代充（月起）",
         "pid": "gpt-plus",
         "price": 165,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "自有账号代充/月",
         "stock": true
       },
@@ -5995,7 +5995,7 @@ const SITES = [
         "name": "Claude Pro 代充（月起）",
         "pid": "claude",
         "price": 179,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "自有账号代充/月",
         "stock": true
       }
@@ -6013,7 +6013,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://upgpts.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6034,7 +6034,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pricedinmodels.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6048,7 +6048,7 @@ const SITES = [
         "name": "ChatGPT Plus 充值",
         "pid": "gpt-plus",
         "price": 148,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "自有账号直充/月",
         "stock": true
       },
@@ -6058,7 +6058,7 @@ const SITES = [
         "name": "ChatGPT Pro 100 充值",
         "pid": "gpt-pro",
         "price": 790,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "自有账号直充/月",
         "stock": true
       },
@@ -6068,7 +6068,7 @@ const SITES = [
         "name": "ChatGPT Pro 200 充值",
         "pid": "gpt-pro",
         "price": 1390,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "自有账号直充/月",
         "stock": true
       }
@@ -6086,7 +6086,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ai-chongzhi.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6107,7 +6107,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://topupdrop.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6121,7 +6121,7 @@ const SITES = [
         "name": "ChatGPT Plus 30 天代充",
         "pid": "gpt-plus",
         "price": 166,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天",
         "stock": true
       },
@@ -6131,7 +6131,7 @@ const SITES = [
         "name": "ChatGPT Pro100 30 天代充",
         "pid": "gpt-pro100",
         "price": 788,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "30 天",
         "stock": true
       }
@@ -6150,7 +6150,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://kaigpt.ai/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6192,7 +6192,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.gptcat.vip/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6213,7 +6213,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://overgear.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6234,7 +6234,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accountshark.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6256,7 +6256,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://escrowa.com.tw/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -6279,7 +6279,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.itemsatis.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6300,7 +6300,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.mmoexp.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6320,7 +6320,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.playggmarket.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6339,7 +6339,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kejinshou.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6360,7 +6360,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://coingate.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6379,7 +6379,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.iggm.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6398,7 +6398,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.pxb7.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6421,7 +6421,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://playhub.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6442,7 +6442,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.igamebuy.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6463,7 +6463,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://1topup.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6477,7 +6477,7 @@ const SITES = [
         "name": "ChatGPT Plus 充值一个月",
         "pid": "gpt-plus",
         "price": 139,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "卡密自助充值",
         "stock": true
       },
@@ -6507,7 +6507,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.agenai.cc/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6521,7 +6521,7 @@ const SITES = [
         "name": "ChatGPT Plus 月卡",
         "pid": "gpt-plus",
         "price": 160,
-        "pverified": "2026-11-12",
+        "pverified": "2026-11-18",
         "spec": "国内支付宝微信充值",
         "stock": true
       },
@@ -6562,7 +6562,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://payforgpt.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6585,7 +6585,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.payprm.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -6606,7 +6606,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://juicysms.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6629,7 +6629,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gamesinstock.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -6650,7 +6650,7 @@ const SITES = [
     "url": "https://www.kayifaka.com/",
     "status": "ok",
     "down_days": 0,
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6671,7 +6671,7 @@ const SITES = [
     "url": "https://gamermarkt.com/",
     "status": "ok",
     "down_days": 0,
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6692,7 +6692,7 @@ const SITES = [
     "url": "https://www.accountshop.net/",
     "status": "ok",
     "down_days": 0,
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6707,7 +6707,7 @@ const SITES = [
         "price": 0.14,
         "spec": "65 Credits，1个月，全程质保，礼品卡",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://ashop-games.com/en/catalog/kling-ai",
@@ -6733,7 +6733,7 @@ const SITES = [
     "url": "https://ashop-games.com/",
     "status": "ok",
     "down_days": 0,
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -6754,7 +6754,7 @@ const SITES = [
     "url": "https://tiger-sms.com/",
     "status": "ok",
     "down_days": 0,
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6770,7 +6770,7 @@ const SITES = [
         "currency": "INR",
         "buy_url": "https://groupaitools.com/",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "pid": "claude",
@@ -6780,7 +6780,7 @@ const SITES = [
         "currency": "INR",
         "buy_url": "https://groupaitools.com/",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "pid": "gpt-plus",
@@ -6790,7 +6790,7 @@ const SITES = [
         "currency": "INR",
         "buy_url": "https://groupaitools.com/",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -6807,7 +6807,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://groupaitools.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -6823,7 +6823,7 @@ const SITES = [
         "currency": "USD",
         "buy_url": "https://i10x.ai/",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -6839,7 +6839,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://i10x.ai/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6853,7 +6853,7 @@ const SITES = [
         "name": "Steam 账号（自动生成）",
         "pid": "game-account",
         "price": 0.05,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "起/个",
         "stock": true
       }
@@ -6872,7 +6872,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ezaltz.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6893,7 +6893,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://accountwarehouse.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6914,7 +6914,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://wmcentre.net/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6946,7 +6946,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://skycoach.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -6968,7 +6968,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://zeusx.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -6984,17 +6984,17 @@ const SITES = [
         "price": 9.54,
         "spec": "Rockstar Launcher GLOBAL",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://gamerall.com/",
         "currency": "EUR",
         "name": "赛博朋克2077 终极版 GOG 全球 Key",
         "pid": "steam-key",
-        "price": 31.33,
+        "price": 31.43,
         "spec": "GOG.com GLOBAL",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7011,7 +7011,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gamerall.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7034,7 +7034,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cardcash.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7050,7 +7050,7 @@ const SITES = [
         "price": 27,
         "spec": "新账号，30分钟–3小时交付",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://ai-subscription.io/",
@@ -7060,7 +7060,7 @@ const SITES = [
         "price": 27,
         "spec": "新账号，30分钟–3小时交付",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7077,7 +7077,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ai-subscription.io",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7093,7 +7093,7 @@ const SITES = [
         "price": 230,
         "spec": "7人共享，限1台设备",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7110,7 +7110,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://subscheap.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7141,7 +7141,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://hub.stakzey.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7162,7 +7162,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://whizi.io",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7193,7 +7193,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://bulkpvashop.com/buy-twitter-accounts/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -7213,7 +7213,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.numbervirtual.com/en",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -7234,7 +7234,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://smsotps.com",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -7254,7 +7254,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pikasim.com/receive-sms-online-without-sim",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "jiemao",
@@ -7275,7 +7275,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://receive-sms.io",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7288,20 +7288,20 @@ const SITES = [
         "currency": "USD",
         "name": "Among Us EU Steam Altergift",
         "pid": "steam-key",
-        "price": 3.58,
+        "price": 3.57,
         "spec": "EU PC Steam Altergift",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://g4keys.com/shop/",
         "currency": "USD",
         "name": "ARK: Survival Evolved EU Steam Altergift",
         "pid": "steam-key",
-        "price": 12.74,
+        "price": 12.7,
         "spec": "EU PC Steam Altergift",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7315,7 +7315,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://g4keys.com/shop/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7333,7 +7333,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gamecrate.tech",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7365,7 +7365,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mrkeyshop.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7381,7 +7381,7 @@ const SITES = [
         "price": 9.97,
         "spec": "特价/原价 $199",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7396,7 +7396,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://stacksocial.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7412,7 +7412,7 @@ const SITES = [
         "price": 25.84,
         "spec": "订阅激活",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://www.vip-cdkdeals.com/",
@@ -7438,7 +7438,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.vip-cdkdeals.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7469,7 +7469,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://zemith.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -7485,7 +7485,7 @@ const SITES = [
         "price": 4.04,
         "spec": "UID 直充",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7499,7 +7499,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.wishgm.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7515,7 +7515,7 @@ const SITES = [
         "price": 79,
         "spec": "成品号/含2FA/30天质保",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://cheng-zi-ai.com/en/products/claude-pro-ios",
@@ -7525,7 +7525,7 @@ const SITES = [
         "price": 159,
         "spec": "iOS直充/免密/30天质保",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://cheng-zi-ai.com/en/products/gemini-pro-18m",
@@ -7535,7 +7535,7 @@ const SITES = [
         "price": 45,
         "spec": "18个月/老Gmail成品号/质保首登",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       }
     ],
     "risks": [
@@ -7551,7 +7551,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://cheng-zi-ai.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -7571,7 +7571,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.powerpay.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7592,7 +7592,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.recharge.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7616,7 +7616,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.api-dog.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7641,7 +7641,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://key4games.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7664,7 +7664,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.cjs-cdkeys.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7683,7 +7683,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pandanio.com/us/en/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7716,7 +7716,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://bewild.ai",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7736,7 +7736,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://crab-ai.net",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -7780,7 +7780,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://gametrade.jp/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7824,7 +7824,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.getplus.ai/en",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7857,7 +7857,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.chong-zhen.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -7910,7 +7910,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.voidu.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7926,7 +7926,7 @@ const SITES = [
         "price": 148.8,
         "spec": "充本人账号，自动发卡密自助激活",
         "stock": true,
-        "pverified": "2026-11-17"
+        "pverified": "2026-11-18"
       },
       {
         "buy_url": "https://www.aixiamo.com/",
@@ -7963,7 +7963,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.aixiamo.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -7986,7 +7986,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://tgxaccount.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8019,7 +8019,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://zhanghao66.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -8041,7 +8041,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kamify.store/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "faka",
@@ -8063,7 +8063,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://shopfa.st/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8085,7 +8085,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pvaproseller.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8099,7 +8099,7 @@ const SITES = [
         "name": "Apple Gift Card 美区 $10",
         "pid": "apple-gift",
         "price": 78,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "美区 Apple ID 礼品卡 $10，自动秒发卡密",
         "stock": true
       }
@@ -8117,7 +8117,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.xiaotoukui.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8139,7 +8139,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.youlon.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8162,7 +8162,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://armadaboost.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8194,7 +8194,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://blazing.games/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8214,7 +8214,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://coosub.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8228,7 +8228,7 @@ const SITES = [
         "name": "Netflix 4K (Private Screen)",
         "pid": "netflix",
         "price": 1.61,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1 个月，私人屏，月付价（页面另标 $26.00，总价口径未明）",
         "stock": true
       },
@@ -8238,7 +8238,7 @@ const SITES = [
         "name": "Spotify Premium (Individual)",
         "pid": "spotify",
         "price": 1.07,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "1 个月，个人版，月付价（页面另标 $13.00，总价口径未明）",
         "stock": true
       }
@@ -8256,7 +8256,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.subsvault.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8278,7 +8278,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://livetvservice.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8301,7 +8301,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://kardz.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8315,7 +8315,7 @@ const SITES = [
         "name": "ChatGPT Plus（共享）",
         "pid": "gpt-plus",
         "price": 700,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Plus 共享账号 1 个月（博客口径有效期 25 天）",
         "stock": true
       },
@@ -8325,7 +8325,7 @@ const SITES = [
         "name": "Claude Pro（私人账号）",
         "pid": "claude",
         "price": 5300,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Claude Pro 私人账号 1 个月（博客口径有效期 25 天）",
         "stock": true
       }
@@ -8345,7 +8345,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.getcheaptools.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8367,7 +8367,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.94lives.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8388,7 +8388,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.tangchaoka.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8412,7 +8412,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.rpgstash.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8434,7 +8434,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.kebuting.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8448,7 +8448,7 @@ const SITES = [
         "name": "Netflix Shared 1 个月",
         "pid": "netflix",
         "price": 69,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Netflix 共享账号 1 个月，1 台设备",
         "stock": true
       },
@@ -8458,7 +8458,7 @@ const SITES = [
         "name": "ChatGPT Plus Shared 1 个月",
         "pid": "gpt-plus",
         "price": 199,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "ChatGPT Plus 共享账号 1 个月",
         "stock": true
       },
@@ -8468,7 +8468,7 @@ const SITES = [
         "name": "Spotify Premium 6 个月",
         "pid": "spotify",
         "price": 699,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Spotify Premium 个人账号升级 6 个月",
         "stock": true
       }
@@ -8487,7 +8487,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://phaccountpremium.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8501,7 +8501,7 @@ const SITES = [
         "name": "Spotify Premium Individual 12 个月",
         "pid": "spotify",
         "price": 30,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "个人账号升级 12 个月，非共享",
         "stock": true
       },
@@ -8511,7 +8511,7 @@ const SITES = [
         "name": "Netflix 4K UHD 12 个月",
         "pid": "netflix",
         "price": 50,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "Netflix 4K 一个 profile 一年，卖家设置 profile 名与 PIN",
         "stock": true
       }
@@ -8532,7 +8532,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://mykingstore.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8546,7 +8546,7 @@ const SITES = [
         "name": "ChatGPT Plus（共享）",
         "pid": "gpt-plus",
         "price": 1199,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "共享账号 1 个月（4 人共享，25 天换号质保）",
         "stock": true
       }
@@ -8566,7 +8566,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://www.sasifysolutions.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8580,7 +8580,7 @@ const SITES = [
         "name": "ChatGPT Plus 1个月",
         "pid": "gpt-plus",
         "price": 23.9,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "代充到自己账号（Session 方式，不要密码）",
         "stock": true
       },
@@ -8590,7 +8590,7 @@ const SITES = [
         "name": "ChatGPT Go 1个月",
         "pid": "gpt-go",
         "price": 8.9,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "代充到自己账号",
         "stock": true
       },
@@ -8600,7 +8600,7 @@ const SITES = [
         "name": "ChatGPT Pro 100 1个月",
         "pid": "gpt-pro100",
         "price": 124.9,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "代充到自己账号",
         "stock": true
       }
@@ -8620,7 +8620,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://pay2gpt.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8643,7 +8643,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://ggpay.gg/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8666,7 +8666,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://starsei.ru/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "kami",
@@ -8688,7 +8688,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://dundle.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "game-topup",
@@ -8721,7 +8721,7 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://topupcheap.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
   },
   {
     "category": "ai-account",
@@ -8755,7 +8755,7 @@ const SITES = [
         "name": "Google AI Pro 18个月",
         "pid": "gemini",
         "price": 999,
-        "pverified": "2026-11-17",
+        "pverified": "2026-11-18",
         "spec": "18个月套餐",
         "stock": true
       }
@@ -8775,6 +8775,199 @@ const SITES = [
     ],
     "status": "ok",
     "url": "https://uniquedigitalhub.com/",
-    "verified": "2026-11-17"
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "ai-account",
+    "desc": "法国老牌订阅合租平台（2019年成立），连接订阅持有者与合租用户，覆盖流媒体、音乐、游戏与AI订阅。",
+    "down_days": 0,
+    "name": "Spliiit",
+    "products": [],
+    "risks": [
+      "2026年5月法国法院判决要求停止分享Netflix/Disney+/Apple订阅",
+      "共享账号违反原平台服务条款，有被封停风险"
+    ],
+    "score": 65,
+    "signals": [
+      "HTTPS 有效",
+      "运营超3年（2019年成立）",
+      "支持主流信用卡/借记卡",
+      "客服与争议支持",
+      "法国老牌合租平台、1000+在售订阅"
+    ],
+    "status": "ok",
+    "url": "https://spliiit.com/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "ai-account",
+    "desc": "越南AI账号与数字工具商城，主营ChatGPT Plus、Claude、Gemini、Canva与YouTube Premium账号，VietQR支付、邮件交付。",
+    "down_days": 0,
+    "name": "DarkMagic",
+    "products": [
+      {
+        "buy_url": "https://dark-magic.lionet.vn/en/chatgpt",
+        "currency": "VND",
+        "name": "ChatGPT Plus 1个月",
+        "pid": "gpt-plus",
+        "price": 200000,
+        "pverified": "2026-11-18",
+        "spec": "1个月（BHF 全程质保）",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "仅支持越南本地银行转账VietQR支付",
+      "运营年限不明",
+      "无第三方口碑"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "商品页明确标注质保期",
+      "订单可凭邮箱查询与工单售后"
+    ],
+    "status": "ok",
+    "url": "https://dark-magic.lionet.vn/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "ai-account",
+    "desc": "中文AI账号服务商，主营ChatGPT Plus代充、Claude、Gemini、MidJourney与Cursor等账号，支付宝/微信/USDT支付，人工交付。",
+    "down_days": 0,
+    "name": "买号管家",
+    "products": [
+      {
+        "buy_url": "https://maihaoguanjia.com/buy/52",
+        "currency": "CNY",
+        "name": "ChatGPT Plus自动化充值服务",
+        "pid": "gpt-plus",
+        "price": 170,
+        "pverified": "2026-11-18",
+        "spec": "代充1个月（价格见分类页列表，商品页未单独显示）",
+        "stock": true
+      },
+      {
+        "buy_url": "https://maihaoguanjia.com/buy/39",
+        "currency": "CNY",
+        "name": "MidJourney 30美元套餐代充",
+        "pid": "midjourney",
+        "price": 210,
+        "pverified": "2026-11-18",
+        "spec": "代充1个月（价格见分类页列表，商品页未单独显示）",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "全部商品人工处理、无自动发货",
+      "运营年限不明",
+      "无第三方口碑",
+      "代充服务违反OpenAI条款、有封号风险"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "支持支付宝/微信/USDT（TRC20）",
+      "Telegram/邮件客服",
+      "商品页标注质保、封号包换"
+    ],
+    "status": "ok",
+    "url": "https://maihaoguanjia.com/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "ai-account",
+    "desc": "拉美P2P数字账号市集，主营流媒体、音乐、AI账号与游戏充值，Binance Pay（USDT）支付，卖家评分与销量公开。",
+    "down_days": 0,
+    "name": "Gudfy",
+    "products": [
+      {
+        "buy_url": "https://gudfy.com/cuentas/chatgpt-plus",
+        "currency": "USD",
+        "name": "ChatGPT Plus 1个月",
+        "pid": "gpt-plus",
+        "price": 2.8,
+        "pverified": "2026-11-18",
+        "spec": "共享账号1个月（站内最低价，自动交付）",
+        "stock": true
+      }
+    ],
+    "risks": [
+      "平台不托管资金、不保证退款",
+      "共享账号违反原平台条款",
+      "主要面向拉美市场"
+    ],
+    "score": 45,
+    "signals": [
+      "HTTPS 有效",
+      "支持Binance Pay/USDT及拉美本地转账",
+      "争议处理流程",
+      "站内4.8分/4799条评价，头部卖家90天数百单"
+    ],
+    "status": "ok",
+    "url": "https://gudfy.com/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "game-topup",
+    "desc": "全球手游与游戏代充平台，支持原神、崩铁、绝区零等UID直充，宣称18秒到账、多币种支付。",
+    "down_days": 0,
+    "name": "Buffhub",
+    "products": [],
+    "risks": [
+      "运营年限不明",
+      "无独立第三方口碑"
+    ],
+    "score": 40,
+    "signals": [
+      "HTTPS 有效",
+      "支持多币种主流支付",
+      "24/7客服",
+      "全额退款保证"
+    ],
+    "status": "ok",
+    "url": "https://buffhub.com/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "kami",
+    "desc": "游戏激活码商城，主营PC、PlayStation、Xbox与Switch游戏key，银行卡支付、邮件秒发，24/7客服。",
+    "down_days": 0,
+    "name": "JoltKeys",
+    "products": [],
+    "risks": [
+      "新站、运营年限不明",
+      "无第三方口碑",
+      "退款政策未在首页明示"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "支持信用卡/借记卡支付",
+      "24/7客服"
+    ],
+    "status": "ok",
+    "url": "https://joltkeys.com/",
+    "verified": "2026-11-18"
+  },
+  {
+    "category": "kami",
+    "desc": "折扣游戏key商城，主营Steam/Origin/Uplay游戏key与PSN礼品卡，站内折扣最高约87%（首页仅见折扣百分比、无具体价格）。",
+    "down_days": 0,
+    "name": "SuperCDK",
+    "products": [],
+    "risks": [
+      "支付方式与退款政策未在首页核实",
+      "灰色市场密钥来源"
+    ],
+    "score": 30,
+    "signals": [
+      "HTTPS 有效",
+      "运营超3年（2021年论坛帖已提及）",
+      "商品覆盖Steam/Origin/PSN礼品卡"
+    ],
+    "status": "ok",
+    "url": "https://supercdk.com/",
+    "verified": "2026-11-18"
   }
 ];

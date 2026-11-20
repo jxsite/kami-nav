@@ -3012,7 +3012,7 @@ const SITES = [
         "price": 53.56,
         "pverified": "2026-11-21",
         "spec": "PC Steam Key, Global",
-        "stock": false
+        "stock": true
       }
     ],
     "risks": [

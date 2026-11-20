@@ -608,8 +608,6 @@
   - 接码日租：USD 1.0（24小时租期，不限次收码） → https://rcvsms.com/
   - 接码周租：USD 5.0（7天租期，不限次收码） → https://rcvsms.com/
   - 风险：运营时长未公开; 自称99%成功率未经第三方验证
-- **NumberVirtual**（可靠度 40分）https://www.numbervirtual.com/en — 45 国虚拟号码接码平台，70 个服务，聚合多供应商比价，未收到短信自动退款，无订阅按次付费。
-  - 风险：运营时间与第三方口碑未知
 - **SMSOTPS**（可靠度 40分）https://smsotps.com — 临时虚拟号码接码平台，支持加密货币支付与开发者 REST API，未收到码自动退款。
   - 风险：仅收加密货币; 运营时间与第三方口碑未知
 - **PikaSim**（可靠度 40分）https://pikasim.com/receive-sms-online-without-sim — 隐私接码与旅行 eSIM 站：190+ 国家真实手机号接码，未收到短信自动退款；接码为子页面业务，首页主营旅行 eSIM。
@@ -626,6 +624,8 @@
   - 风险：最低充值$20; 运营时长未公开; 客服仅限已充值用户
 - **JuicySMS**（可靠度 30分）https://juicysms.com/ — 在线短信验证与私人第二号码平台，覆盖美国、英国、荷兰、菲律宾等号码，按成功送达计费（from €0.50），复用号码后续短信可省 50%。
   - 风险：运营时长未核验; 首页未列单个服务具体价格; 无 ICP 备案
+- **NumberVirtual**（可靠度 30分）https://www.numbervirtual.com/en — 45 国虚拟号码接码平台，70 个服务，聚合多供应商比价，未收到短信自动退款，无订阅按次付费。
+  - 风险：运营时间与第三方口碑未知; 连续1天无法访问（VPS 超时；实时浏览器 ERR_TIMED_OUT，两次重载均超时）
 - **Receive-SMS.io**（可靠度 30分）https://receive-sms.io — 免费公开临时号码接码站，40+ 国家，无需注册，号码每月更新。
   - 风险：号码公开共享，短信人人可见; 多为 VoIP 号，部分平台拒收; 无客服与售后
 - **LongSMS**（可靠度 25分）https://longsms.net/ — 接码平台：100+国家虚拟号收码，支持最长360天长期租赁，中文界面。
@@ -800,9 +800,6 @@
 - **小头盔**（可靠度 40分）https://www.xiaotoukui.com/ — 海外华人充值平台：国服游戏点券、Apple 礼品卡、直播短视频与视频会员直充，支持 PayPal 与国际信用卡，付款后系统自动发卡密
   - Apple 礼品卡：¥78（美区 Apple ID 礼品卡 $10，自动秒发卡密） → https://www.xiaotoukui.com/buy/73
   - 风险：运营时长未核实（站内资讯最早 2026-11-11），第三方口碑未核实; 兑换码一经兑换不退不换
-- **Blazing Games**（可靠度 40分）https://blazing.games/ — 马来西亚游戏充值与礼品卡平台：Steam Wallet、Razer Gold、Garena Shell、PSN、Apple Gift Card 等，支持 Touch 'n Go、GrabPay 等本地支付
-  - Steam 游戏 Key：MYR 23.5（Steam 钱包码（马币），即时发货） → https://blazing.games/en/cards/Steam-Wallet-Code-MY
-  - 风险：第三方口碑未核实（商品页仅 1 条站内评价）; 退款售后政策本轮未核实
 - **Kardz**（可靠度 40分）https://kardz.com/ — 游戏充值与礼品卡平台：原神、星铁、鸣潮等数百款游戏自助直充（仅需 UID，无需密码），支持 Visa、Apple Pay、Google Pay、Binance、GrabPay 等支付，App Store 评分约 4.6
   - 风险：第三方口碑为站内自述文章，未独立核实; 运营时长未核实; 首页商品目录为 JS 加载，本轮未采到具体商品价格
 - **唐朝卡**（可靠度 40分）https://www.tangchaoka.com/ — 海外华人游戏点卡老站：微信游戏代购、抖音钻石、京东礼品卡、淘宝代购等，PayPal 与国际信用卡付款，自称 2011 年起运营
@@ -851,6 +848,9 @@
 - **WISHGM**（可靠度 30分）https://www.wishgm.com/ — 海外游戏充值平台，PUBG、王者荣耀等 UID/直充，24/7 客服，未送达可全额退款。
   - PUBG Mobile 300+25 UC：USD 4.04（UID 直充） → https://www.wishgm.com/
   - 风险：部分代充需提供游戏账号密码，存在账号安全风险; 运营年份与支付方式未在首页公示
+- **Blazing Games**（可靠度 30分）https://blazing.games/ — 马来西亚游戏充值与礼品卡平台：Steam Wallet、Razer Gold、Garena Shell、PSN、Apple Gift Card 等，支持 Touch 'n Go、GrabPay 等本地支付
+  - Steam 游戏 Key：MYR 23.5（Steam 钱包码（马币），即时发货） → https://blazing.games/en/cards/Steam-Wallet-Code-MY
+  - 风险：第三方口碑未核实（商品页仅 1 条站内评价）; 退款售后政策本轮未核实; 连续1天无法访问（VPS 超时；Cloudflare 524 源站超时，两次重载均 524）
 - **TopupCheap**（可靠度 30分）https://topupcheap.com/ — 全球游戏充值与礼品卡商城，支持USDT/PayPal，UID直充数分钟到账
   - Steam 游戏 Key：USD 0.41（Steam Gift Card 自动发货，起价） → https://topupcheap.com/product/steam-gift-card
   - 风险：39,607+订单量为站方自述，未第三方核实; 运营年限未核实，未计分; 主打加密货币支付，国内用户支付不便

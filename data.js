@@ -7197,20 +7197,21 @@ const SITES = [
   {
     "category": "jiemao",
     "desc": "45 国虚拟号码接码平台，70 个服务，聚合多供应商比价，未收到短信自动退款，无订阅按次付费。",
-    "down_days": 0,
+    "down_days": 1,
     "name": "NumberVirtual",
     "products": [],
     "risks": [
-      "运营时间与第三方口碑未知"
+      "运营时间与第三方口碑未知",
+      "连续1天无法访问（VPS 超时；实时浏览器 ERR_TIMED_OUT，两次重载均超时）"
     ],
-    "score": 40,
+    "score": 30,
     "signals": [
       "45 国号码、70 个服务",
       "未收到短信自动退款",
       "多供应商聚合按价格/库存/送达率选号",
       "12 种语言后台"
     ],
-    "status": "ok",
+    "status": "down",
     "url": "https://www.numbervirtual.com/en",
     "verified": "2026-11-20"
   },
@@ -8187,7 +8188,7 @@ const SITES = [
   {
     "category": "game-topup",
     "desc": "马来西亚游戏充值与礼品卡平台：Steam Wallet、Razer Gold、Garena Shell、PSN、Apple Gift Card 等，支持 Touch 'n Go、GrabPay 等本地支付",
-    "down_days": 0,
+    "down_days": 1,
     "name": "Blazing Games",
     "products": [
       {
@@ -8203,16 +8204,17 @@ const SITES = [
     ],
     "risks": [
       "第三方口碑未核实（商品页仅 1 条站内评价）",
-      "退款售后政策本轮未核实"
+      "退款售后政策本轮未核实",
+      "连续1天无法访问（VPS 超时；Cloudflare 524 源站超时，两次重载均 524）"
     ],
-    "score": 40,
+    "score": 30,
     "signals": [
       "HTTPS",
       "运营超 1 年（商品页发布于 2024-04）",
       "Touch 'n Go/GrabPay/FPX 等主流本地支付",
       "客服每日 8:30–2:00"
     ],
-    "status": "ok",
+    "status": "down",
     "url": "https://blazing.games/",
     "verified": "2026-11-20"
   },

@@ -466,6 +466,9 @@
   - ChatGPT Plus 代充：¥150（月卡，30天质保） → https://imgprd.com/product/chatgpt-plus/
   - ChatGPT Pro 100 卡密充值（智利区）：¥841（月卡，10x 额度） → https://imgprd.com/product/chatgpt-pro-10x/
   - Claude 代充：¥168（月卡，首登质保） → https://imgprd.com/product/claude-pro-gift/
+  - Google AI Pro（Gemini Advanced）月卡：¥145（月卡） → https://imgprd.com/product/gemini-pro/
+  - 谷歌邮箱：¥18（美区成品号） → https://imgprd.com/product/gmail-%e8%b0%b7%e6%ad%8c%e9%82%ae%e7%ae%b1%e7%be%8e%e5%8c%ba%e6%88%90%e5%93%81%e5%8f%b7/
+  - Midjourney：¥248（人工代充/月，30天质保） → https://imgprd.com/product/midjourney-%e6%a0%87%e5%87%86%e7%89%88%e6%9c%88%e5%8d%a1%e4%bb%a3%e5%85%85%ef%bc%88%e4%ba%ba%e5%b7%a5%c2%b730%e5%88%86%e9%92%9f%e5%88%b0%e8%b4%a6%c2%b730%e5%a4%a9%e8%b4%a8%e4%bf%9d%ef%bc%89/
   - 风险：运营时间不明，第三方口碑暂无; 代充/成品号违反 OpenAI 与 Anthropic 平台条款，有封号风险; 在线支付加收 4% 手续费
 - **SUKAI（速开AI）**（可靠度 35分）https://sukai.ai/ — ChatGPT/Claude成品账号购买与套餐代充平台，支持菲区/美区/日区多区域选择，订单进度可查。
   - 风险：新站，运营时间短; 仅支持USDT/钱包余额支付; 代充需提交账号资料; 推广含邀请返佣
@@ -636,6 +639,8 @@
 - **小小AI**（可靠度 20分）https://xiaoxiao-ai.com/ — AI 会员代订阅与工具安装服务商：ChatGPT Plus/Pro 代订阅（旗下 xiaoxiao.pro）及 Codex、Claude Code 等 AI 工具安装与定制，企业微信客服一对一办理。
   - ChatGPT Plus 代充：¥145（月卡，人工办理） → https://xiaoxiao.pro/
   - ChatGPT Pro 100 代订阅：¥799（月卡，高频开发与研究） → https://xiaoxiao.pro/
+  - ChatGPT Pro 200 代订阅：¥1389（月卡，人工办理） → https://xiaoxiao.pro/
+  - ChatGPT Pro 500 代订阅：¥3639（月卡，人工办理） → https://xiaoxiao.pro/
   - 风险：无自助下单，套餐与办理方式须人工确认; 运营时间不明，第三方口碑暂无; 代订阅违反平台条款，有封号风险
 - **环球巴士**（可靠度 10分）https://universalbus.cn — 流媒体账号合租平台（"奈飞站"：Netflix/Spotify/YouTube/Disney+ 等），宣称自动化交付、售后无忧。
   - 风险：成立年份不明; 无第三方独立口碑; 无 ICP 备案公示; 账号合租模式违反流媒体官方 ToS，存在封号风险; V2EX 用户反馈其"借个号"业务体验差（账号可用性/退款条款/客服响应慢）

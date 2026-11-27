@@ -10565,6 +10565,36 @@ const SITES = [
         "pverified": "2026-11-28",
         "spec": "月卡，首登质保",
         "stock": true
+      },
+      {
+        "buy_url": "https://imgprd.com/product/gemini-pro/",
+        "currency": "CNY",
+        "name": "Google AI Pro（Gemini Advanced）月卡",
+        "pid": "gemini-pro",
+        "price": 145,
+        "spec": "月卡",
+        "stock": true,
+        "pverified": "2026-11-28"
+      },
+      {
+        "buy_url": "https://imgprd.com/product/gmail-%e8%b0%b7%e6%ad%8c%e9%82%ae%e7%ae%b1%e7%be%8e%e5%8c%ba%e6%88%90%e5%93%81%e5%8f%b7/",
+        "currency": "CNY",
+        "name": "Gmail 谷歌邮箱美区成品号",
+        "pid": "gmail",
+        "price": 18,
+        "spec": "美区成品号",
+        "stock": true,
+        "pverified": "2026-11-28"
+      },
+      {
+        "buy_url": "https://imgprd.com/product/midjourney-%e6%a0%87%e5%87%86%e7%89%88%e6%9c%88%e5%8d%a1%e4%bb%a3%e5%85%85%ef%bc%88%e4%ba%ba%e5%b7%a5%c2%b730%e5%88%86%e9%92%9f%e5%88%b0%e8%b4%a6%c2%b730%e5%a4%a9%e8%b4%a8%e4%bf%9d%ef%bc%89/",
+        "currency": "CNY",
+        "name": "Midjourney 标准版月卡代充",
+        "pid": "midjourney",
+        "price": 248,
+        "spec": "人工代充/月，30天质保",
+        "stock": true,
+        "pverified": "2026-11-28"
       }
     ],
     "risks": [
@@ -10610,6 +10640,26 @@ const SITES = [
         "pverified": "2026-11-28",
         "spec": "月卡，高频开发与研究",
         "stock": true
+      },
+      {
+        "buy_url": "https://xiaoxiao.pro/",
+        "currency": "CNY",
+        "name": "ChatGPT Pro 200 代订阅",
+        "pid": "gpt-pro",
+        "price": 1389,
+        "spec": "月卡，人工办理",
+        "stock": true,
+        "pverified": "2026-11-28"
+      },
+      {
+        "buy_url": "https://xiaoxiao.pro/",
+        "currency": "CNY",
+        "name": "ChatGPT Pro 500 代订阅",
+        "pid": "gpt-pro",
+        "price": 3639,
+        "spec": "月卡，人工办理",
+        "stock": true,
+        "pverified": "2026-11-28"
       }
     ],
     "risks": [
